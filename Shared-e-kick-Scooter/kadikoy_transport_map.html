@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5a9ee4312ae7c44634dea3cc6e08861e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5a9ee4312ae7c44634dea3cc6e08861e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5a9ee4312ae7c44634dea3cc6e08861e = L.map(
+                "map_5a9ee4312ae7c44634dea3cc6e08861e",
+                {
+                    center: [40.9912355, 29.0245385],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_489f0591ebe89d4e7523b868e6deea8a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_489f0591ebe89d4e7523b868e6deea8a.addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var circle_5902a438fcf210fc665a0c6d3d122cc8 = L.circle(
+                [40.9912355, 29.0245385],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.1, "radius": 5000, "stroke": true, "weight": 3}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+        var popup_2052f95d9f291399eb141a245368d691 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eee8faefb93ff6df434ae6df57593f2f = $(`<div id="html_eee8faefb93ff6df434ae6df57593f2f" style="width: 100.0%; height: 100.0%;">Search Area (5km radius)</div>`)[0];
+                popup_2052f95d9f291399eb141a245368d691.setContent(html_eee8faefb93ff6df434ae6df57593f2f);
+            
+        
+
+        circle_5902a438fcf210fc665a0c6d3d122cc8.bindPopup(popup_2052f95d9f291399eb141a245368d691)
+        ;
+
+        
+    
+    
+            var marker_96b06a3e6ae03aeeaa0f966969c383ab = L.marker(
+                [41.0305314, 28.9842356],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_2b7ebe42ad7f31fbf3e97a0107fc3767 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_96b06a3e6ae03aeeaa0f966969c383ab.setIcon(icon_2b7ebe42ad7f31fbf3e97a0107fc3767);
+        
+    
+        var popup_0053a2cc9d114350596aa951187a0bf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_523c4e97712787ee2be98b24567027be = $(`<div id="html_523c4e97712787ee2be98b24567027be" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: Cihangir Taksi<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_0053a2cc9d114350596aa951187a0bf8.setContent(html_523c4e97712787ee2be98b24567027be);
+            
+        
+
+        marker_96b06a3e6ae03aeeaa0f966969c383ab.bindPopup(popup_0053a2cc9d114350596aa951187a0bf8)
+        ;
+
+        
+    
+    
+            marker_96b06a3e6ae03aeeaa0f966969c383ab.bindTooltip(
+                `<div>
+                     Cihangir Taksi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_edf251f5a8e2361fcd887a7f61394305 = L.marker(
+                [41.0113047, 29.0109004],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_38abae0a53fa785b321c74cb23792545 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_edf251f5a8e2361fcd887a7f61394305.setIcon(icon_38abae0a53fa785b321c74cb23792545);
+        
+    
+        var popup_5152e30b60ef818026faba06dea56196 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77f955995ecebdf4075c38635c5d6b33 = $(`<div id="html_77f955995ecebdf4075c38635c5d6b33" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_5152e30b60ef818026faba06dea56196.setContent(html_77f955995ecebdf4075c38635c5d6b33);
+            
+        
+
+        marker_edf251f5a8e2361fcd887a7f61394305.bindPopup(popup_5152e30b60ef818026faba06dea56196)
+        ;
+
+        
+    
+    
+            marker_edf251f5a8e2361fcd887a7f61394305.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_407e0110a006175ace8cdf595a1f3ca6 = L.marker(
+                [41.0132234, 29.017048],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_7c5e57be886d7882919ab55fbc956d90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_407e0110a006175ace8cdf595a1f3ca6.setIcon(icon_7c5e57be886d7882919ab55fbc956d90);
+        
+    
+        var popup_4db9397472dfed29f8ba74a11cec0cb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0499b83f830b88c65ed369ede892515c = $(`<div id="html_0499b83f830b88c65ed369ede892515c" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: Çiçekçi<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_4db9397472dfed29f8ba74a11cec0cb5.setContent(html_0499b83f830b88c65ed369ede892515c);
+            
+        
+
+        marker_407e0110a006175ace8cdf595a1f3ca6.bindPopup(popup_4db9397472dfed29f8ba74a11cec0cb5)
+        ;
+
+        
+    
+    
+            marker_407e0110a006175ace8cdf595a1f3ca6.bindTooltip(
+                `<div>
+                     Çiçekçi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a32af904bb79be3467cb178b72996e02 = L.marker(
+                [41.0120851, 29.0369929],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_1092c269a73fc516a26a7dca1dfcc650 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a32af904bb79be3467cb178b72996e02.setIcon(icon_1092c269a73fc516a26a7dca1dfcc650);
+        
+    
+        var popup_3c60cf0c64cc92151fc4a522e2c5218a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36d24f009a4995e1a46ffa4ab1ddc493 = $(`<div id="html_36d24f009a4995e1a46ffa4ab1ddc493" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_3c60cf0c64cc92151fc4a522e2c5218a.setContent(html_36d24f009a4995e1a46ffa4ab1ddc493);
+            
+        
+
+        marker_a32af904bb79be3467cb178b72996e02.bindPopup(popup_3c60cf0c64cc92151fc4a522e2c5218a)
+        ;
+
+        
+    
+    
+            marker_a32af904bb79be3467cb178b72996e02.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0852cfc39ed1e4c1fae89db7b99a437f = L.marker(
+                [40.9718147, 29.0530829],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_78669d4c173ac92037c1ae61cea79ce8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0852cfc39ed1e4c1fae89db7b99a437f.setIcon(icon_78669d4c173ac92037c1ae61cea79ce8);
+        
+    
+        var popup_2169ee3a11b5ff060cb52e4383e7cdbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c78bd6ae6d5c25967c1b5c8540d08e5b = $(`<div id="html_c78bd6ae6d5c25967c1b5c8540d08e5b" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: 18 Mart Taksi<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_2169ee3a11b5ff060cb52e4383e7cdbf.setContent(html_c78bd6ae6d5c25967c1b5c8540d08e5b);
+            
+        
+
+        marker_0852cfc39ed1e4c1fae89db7b99a437f.bindPopup(popup_2169ee3a11b5ff060cb52e4383e7cdbf)
+        ;
+
+        
+    
+    
+            marker_0852cfc39ed1e4c1fae89db7b99a437f.bindTooltip(
+                `<div>
+                     18 Mart Taksi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f3b85f03c1104dbd2955cae45b927a8 = L.marker(
+                [40.9875579, 29.0608323],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_3a10ffe7cbe118d07412b52fb85c42c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0f3b85f03c1104dbd2955cae45b927a8.setIcon(icon_3a10ffe7cbe118d07412b52fb85c42c5);
+        
+    
+        var popup_fe95d6250ae8cd14b659bd7d8815e164 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4a730fcf18b61ee7f1de525e5d922c2 = $(`<div id="html_f4a730fcf18b61ee7f1de525e5d922c2" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_fe95d6250ae8cd14b659bd7d8815e164.setContent(html_f4a730fcf18b61ee7f1de525e5d922c2);
+            
+        
+
+        marker_0f3b85f03c1104dbd2955cae45b927a8.bindPopup(popup_fe95d6250ae8cd14b659bd7d8815e164)
+        ;
+
+        
+    
+    
+            marker_0f3b85f03c1104dbd2955cae45b927a8.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba0571411cf2f288dc6306640570ae55 = L.marker(
+                [40.9752228, 29.0406422],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_3fc755292d52b4abfe8399a0afa43bf1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ba0571411cf2f288dc6306640570ae55.setIcon(icon_3fc755292d52b4abfe8399a0afa43bf1);
+        
+    
+        var popup_248ecbe4cc45b70733f4719029b6948d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac845e163e21a4b62966923130eaca0c = $(`<div id="html_ac845e163e21a4b62966923130eaca0c" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: Okultur Taksi<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_248ecbe4cc45b70733f4719029b6948d.setContent(html_ac845e163e21a4b62966923130eaca0c);
+            
+        
+
+        marker_ba0571411cf2f288dc6306640570ae55.bindPopup(popup_248ecbe4cc45b70733f4719029b6948d)
+        ;
+
+        
+    
+    
+            marker_ba0571411cf2f288dc6306640570ae55.bindTooltip(
+                `<div>
+                     Okultur Taksi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2477fd076d138e2fd18f1406821453b6 = L.marker(
+                [41.0310868, 28.9866257],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_fa8e99359135300d80985619e121b568 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2477fd076d138e2fd18f1406821453b6.setIcon(icon_fa8e99359135300d80985619e121b568);
+        
+    
+        var popup_7fb2a8c7a24de652ad12cf284bd2afa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_422ef02c2703ed3d9c345a91262dbf14 = $(`<div id="html_422ef02c2703ed3d9c345a91262dbf14" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_7fb2a8c7a24de652ad12cf284bd2afa0.setContent(html_422ef02c2703ed3d9c345a91262dbf14);
+            
+        
+
+        marker_2477fd076d138e2fd18f1406821453b6.bindPopup(popup_7fb2a8c7a24de652ad12cf284bd2afa0)
+        ;
+
+        
+    
+    
+            marker_2477fd076d138e2fd18f1406821453b6.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a59fb238a978aa452fd95ef71dcdd3b = L.marker(
+                [41.022233, 29.0634604],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_39f4be5600f57ca84d0fd99a7ec18ccc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4a59fb238a978aa452fd95ef71dcdd3b.setIcon(icon_39f4be5600f57ca84d0fd99a7ec18ccc);
+        
+    
+        var popup_72d6b35f194c7001c08b1c7c2dfbf704 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd9b6738e3fc33792d4358dc18e37e92 = $(`<div id="html_bd9b6738e3fc33792d4358dc18e37e92" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: Çamlıca Taksi<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_72d6b35f194c7001c08b1c7c2dfbf704.setContent(html_bd9b6738e3fc33792d4358dc18e37e92);
+            
+        
+
+        marker_4a59fb238a978aa452fd95ef71dcdd3b.bindPopup(popup_72d6b35f194c7001c08b1c7c2dfbf704)
+        ;
+
+        
+    
+    
+            marker_4a59fb238a978aa452fd95ef71dcdd3b.bindTooltip(
+                `<div>
+                     Çamlıca Taksi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da9249072d5c37aa988bf39873b64801 = L.marker(
+                [41.0217917, 29.0168192],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_a6e22af1d47ff7ac459ed1f850c0bdae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_da9249072d5c37aa988bf39873b64801.setIcon(icon_a6e22af1d47ff7ac459ed1f850c0bdae);
+        
+    
+        var popup_b4022ddf698588cfe5048d49821cfe35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_220d83bf349b0cea543c01fc6c1fae7c = $(`<div id="html_220d83bf349b0cea543c01fc6c1fae7c" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_b4022ddf698588cfe5048d49821cfe35.setContent(html_220d83bf349b0cea543c01fc6c1fae7c);
+            
+        
+
+        marker_da9249072d5c37aa988bf39873b64801.bindPopup(popup_b4022ddf698588cfe5048d49821cfe35)
+        ;
+
+        
+    
+    
+            marker_da9249072d5c37aa988bf39873b64801.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c2bed250a4e34af51af5a3ed1e54861 = L.marker(
+                [41.027359, 29.0155964],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_d2b3ed191568d4d46dfd768ee1ccd48a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6c2bed250a4e34af51af5a3ed1e54861.setIcon(icon_d2b3ed191568d4d46dfd768ee1ccd48a);
+        
+    
+        var popup_c3c542e310cb6d3abaeea1b143e72142 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69539f97b6c82b5b986bc51ccceb63ba = $(`<div id="html_69539f97b6c82b5b986bc51ccceb63ba" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_c3c542e310cb6d3abaeea1b143e72142.setContent(html_69539f97b6c82b5b986bc51ccceb63ba);
+            
+        
+
+        marker_6c2bed250a4e34af51af5a3ed1e54861.bindPopup(popup_c3c542e310cb6d3abaeea1b143e72142)
+        ;
+
+        
+    
+    
+            marker_6c2bed250a4e34af51af5a3ed1e54861.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e52b294680d3661a8ae15616160f04a = L.marker(
+                [41.0167749, 29.0379484],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_9228b00963bf989132c312691e643359 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2e52b294680d3661a8ae15616160f04a.setIcon(icon_9228b00963bf989132c312691e643359);
+        
+    
+        var popup_9faf77ca488a773ab5871d787d1c6b8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18ce4dc048f433a8f4cbee3deda1da4b = $(`<div id="html_18ce4dc048f433a8f4cbee3deda1da4b" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: Capital Telsiz Taksi<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_9faf77ca488a773ab5871d787d1c6b8e.setContent(html_18ce4dc048f433a8f4cbee3deda1da4b);
+            
+        
+
+        marker_2e52b294680d3661a8ae15616160f04a.bindPopup(popup_9faf77ca488a773ab5871d787d1c6b8e)
+        ;
+
+        
+    
+    
+            marker_2e52b294680d3661a8ae15616160f04a.bindTooltip(
+                `<div>
+                     Capital Telsiz Taksi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4eb6e9baa058622f7d7f19ccdcf71980 = L.marker(
+                [41.0288953, 29.0302658],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_5c840e3c1ac62ae9a66f3db8914158be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4eb6e9baa058622f7d7f19ccdcf71980.setIcon(icon_5c840e3c1ac62ae9a66f3db8914158be);
+        
+    
+        var popup_ba321bfb84f732a4852c20c251d05106 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5985d62698d601babffd5f14c3d430aa = $(`<div id="html_5985d62698d601babffd5f14c3d430aa" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: Fıstıkağacı Taksi Durağı<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_ba321bfb84f732a4852c20c251d05106.setContent(html_5985d62698d601babffd5f14c3d430aa);
+            
+        
+
+        marker_4eb6e9baa058622f7d7f19ccdcf71980.bindPopup(popup_ba321bfb84f732a4852c20c251d05106)
+        ;
+
+        
+    
+    
+            marker_4eb6e9baa058622f7d7f19ccdcf71980.bindTooltip(
+                `<div>
+                     Fıstıkağacı Taksi Durağı
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_912f488b005fdefa8e91be0474c9a8a4 = L.marker(
+                [41.0292989, 29.0388596],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_b2c057b5725a6b7b85da9f61f8403614 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_912f488b005fdefa8e91be0474c9a8a4.setIcon(icon_b2c057b5725a6b7b85da9f61f8403614);
+        
+    
+        var popup_57c8b0521256fa54f0a2c969cd081141 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e17d14a4c7804dc0d79087cccd3f2eed = $(`<div id="html_e17d14a4c7804dc0d79087cccd3f2eed" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: Birlik Taksi Durağı<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_57c8b0521256fa54f0a2c969cd081141.setContent(html_e17d14a4c7804dc0d79087cccd3f2eed);
+            
+        
+
+        marker_912f488b005fdefa8e91be0474c9a8a4.bindPopup(popup_57c8b0521256fa54f0a2c969cd081141)
+        ;
+
+        
+    
+    
+            marker_912f488b005fdefa8e91be0474c9a8a4.bindTooltip(
+                `<div>
+                     Birlik Taksi Durağı
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8db94b1aae27961e6bc59870ede9bfb5 = L.marker(
+                [40.991022, 29.0218395],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_b826727c51524b8c4ec045f33f7b5286 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8db94b1aae27961e6bc59870ede9bfb5.setIcon(icon_b826727c51524b8c4ec045f33f7b5286);
+        
+    
+        var popup_28cc1188c22a40fe47a68ca90e777f15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78d874e3a26493fad4f8201888abfeb9 = $(`<div id="html_78d874e3a26493fad4f8201888abfeb9" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_28cc1188c22a40fe47a68ca90e777f15.setContent(html_78d874e3a26493fad4f8201888abfeb9);
+            
+        
+
+        marker_8db94b1aae27961e6bc59870ede9bfb5.bindPopup(popup_28cc1188c22a40fe47a68ca90e777f15)
+        ;
+
+        
+    
+    
+            marker_8db94b1aae27961e6bc59870ede9bfb5.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0f81fcaefb5b5f4333cddcdf7958412 = L.marker(
+                [40.9924189, 29.0248516],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_55108a48542937d501c8f5bf09ad7e17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c0f81fcaefb5b5f4333cddcdf7958412.setIcon(icon_55108a48542937d501c8f5bf09ad7e17);
+        
+    
+        var popup_a8fea7d4d0e429b3587fab4c9385a9f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1929c8d133096f264b56be282da7054f = $(`<div id="html_1929c8d133096f264b56be282da7054f" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_a8fea7d4d0e429b3587fab4c9385a9f1.setContent(html_1929c8d133096f264b56be282da7054f);
+            
+        
+
+        marker_c0f81fcaefb5b5f4333cddcdf7958412.bindPopup(popup_a8fea7d4d0e429b3587fab4c9385a9f1)
+        ;
+
+        
+    
+    
+            marker_c0f81fcaefb5b5f4333cddcdf7958412.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec6d0229050d51f5d36cc782073e9037 = L.marker(
+                [40.999974, 29.0328366],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_0af1696da4f039707f649eace6aad8ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ec6d0229050d51f5d36cc782073e9037.setIcon(icon_0af1696da4f039707f649eace6aad8ea);
+        
+    
+        var popup_47e8c33b1c5d64e522128af8c96909a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad570678dc3b36201d3dbeee1cff5cd1 = $(`<div id="html_ad570678dc3b36201d3dbeee1cff5cd1" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_47e8c33b1c5d64e522128af8c96909a0.setContent(html_ad570678dc3b36201d3dbeee1cff5cd1);
+            
+        
+
+        marker_ec6d0229050d51f5d36cc782073e9037.bindPopup(popup_47e8c33b1c5d64e522128af8c96909a0)
+        ;
+
+        
+    
+    
+            marker_ec6d0229050d51f5d36cc782073e9037.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_067c3542628dadb36896ec7aa45825ea = L.marker(
+                [40.9807575, 29.0237299],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_4813b2ed57d591afa64ecb2226994d88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_067c3542628dadb36896ec7aa45825ea.setIcon(icon_4813b2ed57d591afa64ecb2226994d88);
+        
+    
+        var popup_c0cf4541b7bc9dcf7cda0b7c33ff8953 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0bcd0170229b48148fdfc5b004dd1d0 = $(`<div id="html_b0bcd0170229b48148fdfc5b004dd1d0" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: Moda Taksi<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_c0cf4541b7bc9dcf7cda0b7c33ff8953.setContent(html_b0bcd0170229b48148fdfc5b004dd1d0);
+            
+        
+
+        marker_067c3542628dadb36896ec7aa45825ea.bindPopup(popup_c0cf4541b7bc9dcf7cda0b7c33ff8953)
+        ;
+
+        
+    
+    
+            marker_067c3542628dadb36896ec7aa45825ea.bindTooltip(
+                `<div>
+                     Moda Taksi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89302085db30caed93a1ebaa49b9777e = L.marker(
+                [40.9840338, 29.0245772],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_e93d52c0866f141f1dab44a63da4271d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_89302085db30caed93a1ebaa49b9777e.setIcon(icon_e93d52c0866f141f1dab44a63da4271d);
+        
+    
+        var popup_1e8b418ae51070134f38b455e9b84eba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c86903cd993ec4fb9c2b072fe7d192d = $(`<div id="html_8c86903cd993ec4fb9c2b072fe7d192d" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: Cem Taksi<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_1e8b418ae51070134f38b455e9b84eba.setContent(html_8c86903cd993ec4fb9c2b072fe7d192d);
+            
+        
+
+        marker_89302085db30caed93a1ebaa49b9777e.bindPopup(popup_1e8b418ae51070134f38b455e9b84eba)
+        ;
+
+        
+    
+    
+            marker_89302085db30caed93a1ebaa49b9777e.bindTooltip(
+                `<div>
+                     Cem Taksi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51982ea36c1802aae69c83af3d3ff213 = L.marker(
+                [41.0006979, 29.0479182],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_76cbab66482b7bc780f06181d14dc325 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_51982ea36c1802aae69c83af3d3ff213.setIcon(icon_76cbab66482b7bc780f06181d14dc325);
+        
+    
+        var popup_f79279fcecfa9ae562dfeb05a68c5064 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a68ee56f075c41b238b20cf58def4d78 = $(`<div id="html_a68ee56f075c41b238b20cf58def4d78" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_f79279fcecfa9ae562dfeb05a68c5064.setContent(html_a68ee56f075c41b238b20cf58def4d78);
+            
+        
+
+        marker_51982ea36c1802aae69c83af3d3ff213.bindPopup(popup_f79279fcecfa9ae562dfeb05a68c5064)
+        ;
+
+        
+    
+    
+            marker_51982ea36c1802aae69c83af3d3ff213.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a680656d8b851ff92f41d84905e537b3 = L.marker(
+                [40.978503, 29.0476405],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_ed80609ff7e44c5c0cead498af974c06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a680656d8b851ff92f41d84905e537b3.setIcon(icon_ed80609ff7e44c5c0cead498af974c06);
+        
+    
+        var popup_1a3e13d3a675441f711472cd290b7c8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d09de8c3eef0e1cbcee458f5cbf4eb2b = $(`<div id="html_d09de8c3eef0e1cbcee458f5cbf4eb2b" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_1a3e13d3a675441f711472cd290b7c8d.setContent(html_d09de8c3eef0e1cbcee458f5cbf4eb2b);
+            
+        
+
+        marker_a680656d8b851ff92f41d84905e537b3.bindPopup(popup_1a3e13d3a675441f711472cd290b7c8d)
+        ;
+
+        
+    
+    
+            marker_a680656d8b851ff92f41d84905e537b3.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da889e43465511fe35cf85ce3ddf9ac8 = L.marker(
+                [40.9746406, 29.0570504],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_9feb869063f09fa3d7c601575922168c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_da889e43465511fe35cf85ce3ddf9ac8.setIcon(icon_9feb869063f09fa3d7c601575922168c);
+        
+    
+        var popup_a57ce319da6a838d1d64a3c34bf9986c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27a947d4555b0efec248153768463462 = $(`<div id="html_27a947d4555b0efec248153768463462" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: Barış Taksi<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_a57ce319da6a838d1d64a3c34bf9986c.setContent(html_27a947d4555b0efec248153768463462);
+            
+        
+
+        marker_da889e43465511fe35cf85ce3ddf9ac8.bindPopup(popup_a57ce319da6a838d1d64a3c34bf9986c)
+        ;
+
+        
+    
+    
+            marker_da889e43465511fe35cf85ce3ddf9ac8.bindTooltip(
+                `<div>
+                     Barış Taksi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e467610caf98521be7ed9c12da321613 = L.marker(
+                [40.9824481, 29.0449835],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_ad60ee92ef7012106b121694b570fadb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e467610caf98521be7ed9c12da321613.setIcon(icon_ad60ee92ef7012106b121694b570fadb);
+        
+    
+        var popup_254413fd4e5bdf43201af0211a0cd6ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a487f6e4e930a4aa7d13102c716e1897 = $(`<div id="html_a487f6e4e930a4aa7d13102c716e1897" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_254413fd4e5bdf43201af0211a0cd6ab.setContent(html_a487f6e4e930a4aa7d13102c716e1897);
+            
+        
+
+        marker_e467610caf98521be7ed9c12da321613.bindPopup(popup_254413fd4e5bdf43201af0211a0cd6ab)
+        ;
+
+        
+    
+    
+            marker_e467610caf98521be7ed9c12da321613.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfff1da6b619d71f41bb2635392e7ea1 = L.marker(
+                [41.0126445, 29.0569493],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_3b9120a3898e9463fa25794d0efe3e56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cfff1da6b619d71f41bb2635392e7ea1.setIcon(icon_3b9120a3898e9463fa25794d0efe3e56);
+        
+    
+        var popup_9c6f48b0996061acb1f64df7dcc0a9dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9453137edfbe048b7740fec0b738528 = $(`<div id="html_a9453137edfbe048b7740fec0b738528" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_9c6f48b0996061acb1f64df7dcc0a9dd.setContent(html_a9453137edfbe048b7740fec0b738528);
+            
+        
+
+        marker_cfff1da6b619d71f41bb2635392e7ea1.bindPopup(popup_9c6f48b0996061acb1f64df7dcc0a9dd)
+        ;
+
+        
+    
+    
+            marker_cfff1da6b619d71f41bb2635392e7ea1.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a6c1e7d8acd69873c1f63d93bcb38ba = L.marker(
+                [40.9924245, 29.03779],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_7fe7bd021bafdd011769a506212f33e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1a6c1e7d8acd69873c1f63d93bcb38ba.setIcon(icon_7fe7bd021bafdd011769a506212f33e4);
+        
+    
+        var popup_00a0ef5ef8e326410e26344ee23600a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_885d2fd2678cedb795fd740321ca0ad2 = $(`<div id="html_885d2fd2678cedb795fd740321ca0ad2" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_00a0ef5ef8e326410e26344ee23600a6.setContent(html_885d2fd2678cedb795fd740321ca0ad2);
+            
+        
+
+        marker_1a6c1e7d8acd69873c1f63d93bcb38ba.bindPopup(popup_00a0ef5ef8e326410e26344ee23600a6)
+        ;
+
+        
+    
+    
+            marker_1a6c1e7d8acd69873c1f63d93bcb38ba.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_245016b5310b4438cfc3988325e8234e = L.marker(
+                [41.0175137, 29.0139785],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_8dadae6a83a2847316aea9656768737c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_245016b5310b4438cfc3988325e8234e.setIcon(icon_8dadae6a83a2847316aea9656768737c);
+        
+    
+        var popup_3aa356095b8024325c7b2fe07e38320d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fe5e823c3f51a75129ab3042288ecb4 = $(`<div id="html_3fe5e823c3f51a75129ab3042288ecb4" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: Salacak Taksi<br>Type: taxi<br>Operator: Salacak Taksi</div>`)[0];
+                popup_3aa356095b8024325c7b2fe07e38320d.setContent(html_3fe5e823c3f51a75129ab3042288ecb4);
+            
+        
+
+        marker_245016b5310b4438cfc3988325e8234e.bindPopup(popup_3aa356095b8024325c7b2fe07e38320d)
+        ;
+
+        
+    
+    
+            marker_245016b5310b4438cfc3988325e8234e.bindTooltip(
+                `<div>
+                     Salacak Taksi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70cd44c9e1bff3af65fc6ed71fe74084 = L.marker(
+                [40.9894452, 29.0210783],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_8b052b9da9ece78efc96057eab617899 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_70cd44c9e1bff3af65fc6ed71fe74084.setIcon(icon_8b052b9da9ece78efc96057eab617899);
+        
+    
+        var popup_67915695ed424e81143df510173c6528 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd143f494733d94102b7ac2a0c0d4795 = $(`<div id="html_dd143f494733d94102b7ac2a0c0d4795" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_67915695ed424e81143df510173c6528.setContent(html_dd143f494733d94102b7ac2a0c0d4795);
+            
+        
+
+        marker_70cd44c9e1bff3af65fc6ed71fe74084.bindPopup(popup_67915695ed424e81143df510173c6528)
+        ;
+
+        
+    
+    
+            marker_70cd44c9e1bff3af65fc6ed71fe74084.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9abc34ff2abb985147b0097ec6d12573 = L.marker(
+                [40.9906987, 29.0232352],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_35bca0a8c9b2ca0bdf8aa7b1a11dae53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9abc34ff2abb985147b0097ec6d12573.setIcon(icon_35bca0a8c9b2ca0bdf8aa7b1a11dae53);
+        
+    
+        var popup_6c4b423961f43835ef061d5ff8f9b54a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d24708cc663f14cf13751545850acd9b = $(`<div id="html_d24708cc663f14cf13751545850acd9b" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_6c4b423961f43835ef061d5ff8f9b54a.setContent(html_d24708cc663f14cf13751545850acd9b);
+            
+        
+
+        marker_9abc34ff2abb985147b0097ec6d12573.bindPopup(popup_6c4b423961f43835ef061d5ff8f9b54a)
+        ;
+
+        
+    
+    
+            marker_9abc34ff2abb985147b0097ec6d12573.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06598c220124cea628c14f763999c7b3 = L.marker(
+                [40.9790984, 29.0603282],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_fefd85aa8dbeb5f0b629130f1c6ec58d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_06598c220124cea628c14f763999c7b3.setIcon(icon_fefd85aa8dbeb5f0b629130f1c6ec58d);
+        
+    
+        var popup_cb34b1abddf5a362543fad86ec6f9483 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f3250c5d8b934f493e34418e6c429a3 = $(`<div id="html_7f3250c5d8b934f493e34418e6c429a3" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: Hizmet Taksi<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_cb34b1abddf5a362543fad86ec6f9483.setContent(html_7f3250c5d8b934f493e34418e6c429a3);
+            
+        
+
+        marker_06598c220124cea628c14f763999c7b3.bindPopup(popup_cb34b1abddf5a362543fad86ec6f9483)
+        ;
+
+        
+    
+    
+            marker_06598c220124cea628c14f763999c7b3.bindTooltip(
+                `<div>
+                     Hizmet Taksi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93729afe5284a68fd4f711a63dd1dcfa = L.marker(
+                [40.9853132, 29.0593186],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_02cdc18c9019ce7b3cc3edaadd064f46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_93729afe5284a68fd4f711a63dd1dcfa.setIcon(icon_02cdc18c9019ce7b3cc3edaadd064f46);
+        
+    
+        var popup_97a8151b635fdff321e67c27e9046ac4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_565a6d6584677205fab274024d7d8847 = $(`<div id="html_565a6d6584677205fab274024d7d8847" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: Karadeniz Telsiz Taksi<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_97a8151b635fdff321e67c27e9046ac4.setContent(html_565a6d6584677205fab274024d7d8847);
+            
+        
+
+        marker_93729afe5284a68fd4f711a63dd1dcfa.bindPopup(popup_97a8151b635fdff321e67c27e9046ac4)
+        ;
+
+        
+    
+    
+            marker_93729afe5284a68fd4f711a63dd1dcfa.bindTooltip(
+                `<div>
+                     Karadeniz Telsiz Taksi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f79063c34531da971f96595bfadaad59 = L.marker(
+                [41.0194116, 29.0131215],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_e09c1624659146f74fea0192f11d50d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f79063c34531da971f96595bfadaad59.setIcon(icon_e09c1624659146f74fea0192f11d50d1);
+        
+    
+        var popup_ca1da286187b8875fb33c1083fc4a755 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd3cd12550c44412610af38f0d66792f = $(`<div id="html_dd3cd12550c44412610af38f0d66792f" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: Doğancılar Taksi<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_ca1da286187b8875fb33c1083fc4a755.setContent(html_dd3cd12550c44412610af38f0d66792f);
+            
+        
+
+        marker_f79063c34531da971f96595bfadaad59.bindPopup(popup_ca1da286187b8875fb33c1083fc4a755)
+        ;
+
+        
+    
+    
+            marker_f79063c34531da971f96595bfadaad59.bindTooltip(
+                `<div>
+                     Doğancılar Taksi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8aecbf7c997168112834e5b2d077526d = L.marker(
+                [40.9757975, 29.0447548],
+                {}
+            ).addTo(map_5a9ee4312ae7c44634dea3cc6e08861e);
+        
+    
+            var icon_fca3a77ed9b186b428876718eb0002ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8aecbf7c997168112834e5b2d077526d.setIcon(icon_fca3a77ed9b186b428876718eb0002ae);
+        
+    
+        var popup_b0d5c884fc9c8428c00e93286e30dd8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a488c246c373db1500ac9e785ebca33e = $(`<div id="html_a488c246c373db1500ac9e785ebca33e" style="width: 100.0%; height: 100.0%;"><b>Poi</b><br>Name: N/A<br>Type: taxi<br>Operator: N/A</div>`)[0];
+                popup_b0d5c884fc9c8428c00e93286e30dd8c.setContent(html_a488c246c373db1500ac9e785ebca33e);
+            
+        
+
+        marker_8aecbf7c997168112834e5b2d077526d.bindPopup(popup_b0d5c884fc9c8428c00e93286e30dd8c)
+        ;
+
+        
+    
+    
+            marker_8aecbf7c997168112834e5b2d077526d.bindTooltip(
+                `<div>
+                     Poi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
