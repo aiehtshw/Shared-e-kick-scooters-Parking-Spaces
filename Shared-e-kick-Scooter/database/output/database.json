@@ -1,0 +1,1207 @@
+[
+    {
+        "neighbourhood": "19 MAYIS MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 26366.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "ACIBADEM MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 24429.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 54,
+        "bus_stations": [
+            {
+                "name": "Kuruçeşme",
+                "latitude": 41.0018393,
+                "longitude": 29.0415576,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kuruçeşme",
+                "latitude": 41.0020396,
+                "longitude": 29.0416175,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy Ahmet Sani Gezici Kız Anadolu İmam Hatip Lisesi",
+                "latitude": 41.0037493,
+                "longitude": 29.0440315,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy Ahmet Sani Gezici Kız Anadolu İmam Hatip Lisesi",
+                "latitude": 41.0037297,
+                "longitude": 29.0443175,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Marmara Üniversitesi Güzel Sanatlar Fakültesi",
+                "latitude": 41.005672,
+                "longitude": 29.0462571,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9987436,
+                "longitude": 29.0376951,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Sakızağacı",
+                "latitude": 40.998627,
+                "longitude": 29.0379171,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Acıbadem Köprüsü",
+                "latitude": 41.0023876,
+                "longitude": 29.0418963,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Çamlıca Kız Lisesi",
+                "latitude": 41.008354,
+                "longitude": 29.050164,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Çamlıca Kız Lisesi",
+                "latitude": 41.0084985,
+                "longitude": 29.0500182,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Ayrılıkçeşmesi Marmaray",
+                "latitude": 41.0002522,
+                "longitude": 29.0299355,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Mimoza",
+                "latitude": 41.0025094,
+                "longitude": 29.0575129,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Mimoza",
+                "latitude": 41.0024831,
+                "longitude": 29.057435,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 41.0067963,
+                "longitude": 29.0546279,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9969464,
+                "longitude": 29.0364004,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Acıbadem Caddesi",
+                "latitude": 41.0141566,
+                "longitude": 29.054823,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Rauf Paşa Hanı Sokak",
+                "latitude": 41.0135107,
+                "longitude": 29.0525592,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Genç Sokak",
+                "latitude": 41.0121555,
+                "longitude": 29.0504583,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Gencay Sokak",
+                "latitude": 41.0101306,
+                "longitude": 29.0471394,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Şamfıstığı Sokak",
+                "latitude": 40.9954982,
+                "longitude": 29.0347974,
+                "distance_to_center": 0
+            },
+            {
+                "name": "İkbaliye",
+                "latitude": 41.000137,
+                "longitude": 29.039283,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Marmara Üniversitesi Güzel Sanatlar Fakültesi",
+                "latitude": 41.006034,
+                "longitude": 29.04637,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Şehit Murat Mertel",
+                "latitude": 41.010213,
+                "longitude": 29.051657,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Güreşçi Yaşar Yılmaz",
+                "latitude": 40.99712,
+                "longitude": 29.036299,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Acıbadem Caddesi",
+                "latitude": 41.011325,
+                "longitude": 29.052389,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Sakızağacı",
+                "latitude": 40.998617,
+                "longitude": 29.037915,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Türk Telekom - Çamlıca Kız Lisesi",
+                "latitude": 41.007319,
+                "longitude": 29.048621,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Şehit Mete Sertbaş",
+                "latitude": 41.014389,
+                "longitude": 29.05535,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Sakızağacı",
+                "latitude": 40.998694,
+                "longitude": 29.037682,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Şehit Mete Sertbaş",
+                "latitude": 41.0148074,
+                "longitude": 29.055993,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Güreşçi Yaşar Yılmaz",
+                "latitude": 40.997041,
+                "longitude": 29.036521,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Şehit Murat Naiboğlu",
+                "latitude": 41.008514,
+                "longitude": 29.050053,
+                "distance_to_center": 0
+            },
+            {
+                "name": "İkbaliye",
+                "latitude": 40.999993,
+                "longitude": 29.038839,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Sarayardı Caddesi",
+                "latitude": 40.997606,
+                "longitude": 29.033059,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Şehit Murat Mertel",
+                "latitude": 41.010168,
+                "longitude": 29.051407,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Acıbadem Caddesi",
+                "latitude": 41.011534,
+                "longitude": 29.052814,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Sarayardı Caddesi",
+                "latitude": 40.997968,
+                "longitude": 29.032364,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Uzunçayır Metrobüs",
+                "latitude": 40.999885,
+                "longitude": 29.054369,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Koşuyolu Köprüsü",
+                "latitude": 41.00314,
+                "longitude": 29.03477,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Ayrılık Çeşmesi",
+                "latitude": 40.99942,
+                "longitude": 29.032659,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Acıbadem Lisesi",
+                "latitude": 41.003086,
+                "longitude": 29.0367,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Acıbadem Metro",
+                "latitude": 41.002327,
+                "longitude": 29.044364,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Timlo Sitesi",
+                "latitude": 41.005132,
+                "longitude": 29.054798,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Akasya Konutları Göl Etabı",
+                "latitude": 41.006426,
+                "longitude": 29.055789,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Timlo Sitesi",
+                "latitude": 41.004918,
+                "longitude": 29.054999,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Yıldız Teknik Üniversitesi Lojmanları",
+                "latitude": 41.007588,
+                "longitude": 29.046309,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Yıldız Teknik Üniversitesi Lojmanları",
+                "latitude": 41.007431,
+                "longitude": 29.046286,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Faikbey Sokak",
+                "latitude": 41.008529,
+                "longitude": 29.045085,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Faikbey Sokak",
+                "latitude": 41.00864,
+                "longitude": 29.044801,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Valievleri",
+                "latitude": 41.006757,
+                "longitude": 29.054623,
+                "distance_to_center": 0
+            },
+            {
+                "name": "İncirlibostan",
+                "latitude": 41.000246,
+                "longitude": 29.052511,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Türk Telekom - Çamlıca Kız Lisesi",
+                "latitude": 41.0070774,
+                "longitude": 29.0483098,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Koşuyolu Köprüsü",
+                "latitude": 41.0035508,
+                "longitude": 29.0376877,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Acıbadem Metro",
+                "latitude": 41.0017133,
+                "longitude": 29.0455174,
+                "distance_to_center": 0
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "BOSTANCI MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 27219.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "CADDEBOSTAN MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 16477.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 13,
+        "bus_stations": [
+            {
+                "name": "Erenköy",
+                "latitude": 40.9665123,
+                "longitude": 29.0693368,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9672741,
+                "longitude": 29.0562884,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Caddebostan",
+                "latitude": 40.9642512,
+                "longitude": 29.0644398,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Çiftehavuzlar",
+                "latitude": 40.9702369,
+                "longitude": 29.0531746,
+                "distance_to_center": 0
+            },
+            {
+                "name": "50.Yıl Tahran Anadolu Lisesi",
+                "latitude": 40.9688748,
+                "longitude": 29.0540972,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Gelengül Sokak",
+                "latitude": 40.9658337,
+                "longitude": 29.059685,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Caddebostan",
+                "latitude": 40.968523,
+                "longitude": 29.065453,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Yeniyol",
+                "latitude": 40.9701073,
+                "longitude": 29.0626111,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Göztepe Park",
+                "latitude": 40.9676118,
+                "longitude": 29.0571146,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9720662,
+                "longitude": 29.0613745,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9719591,
+                "longitude": 29.0611236,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Erenköy",
+                "latitude": 40.963351,
+                "longitude": 29.0674391,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Tütüncü Mehmet Efendi",
+                "latitude": 40.9691359,
+                "longitude": 29.0584564,
+                "distance_to_center": 0
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "CAFERAĞA MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 18276.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 3,
+        "bus_stations": [
+            {
+                "name": "İskele",
+                "latitude": 40.9913972,
+                "longitude": 29.022835,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9907208,
+                "longitude": 29.0207582,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9904125,
+                "longitude": 29.0219255,
+                "distance_to_center": 0
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "DUMLUPINAR MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 7833.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 9,
+        "bus_stations": [
+            {
+                "name": "İstanbul Medeniyet Üniversitesi",
+                "latitude": 40.9948888,
+                "longitude": 29.0661801,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Uzunçayır Metrobüs",
+                "latitude": 40.9979594,
+                "longitude": 29.0574968,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Uzunçayır Metrobüs",
+                "latitude": 40.998156,
+                "longitude": 29.0571175,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Mehmet Beyazıt Anadolu Lisesi",
+                "latitude": 40.9881846,
+                "longitude": 29.0609094,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Şehit Orhun Göytan",
+                "latitude": 40.9912304,
+                "longitude": 29.0574994,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Fevzipaşa",
+                "latitude": 40.9906224,
+                "longitude": 29.0603254,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Fevzipaşa",
+                "latitude": 40.9904824,
+                "longitude": 29.0605073,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Şehit Orhun Göytan",
+                "latitude": 40.9912271,
+                "longitude": 29.0579417,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Hürriyet",
+                "latitude": 40.9917872,
+                "longitude": 29.0557892,
+                "distance_to_center": 0
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "ERENKÖY MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 28780.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "EĞİTİM MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 10676.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "FENERBAHÇE MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 16946.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 14,
+        "bus_stations": [
+            {
+                "name": "Taksi",
+                "latitude": 40.9706407,
+                "longitude": 29.0425569,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Ihlamur",
+                "latitude": 40.9812378,
+                "longitude": 29.041344,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Yat Limanı",
+                "latitude": 40.978788,
+                "longitude": 29.0414514,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kalamış",
+                "latitude": 40.9748881,
+                "longitude": 29.0433841,
+                "distance_to_center": 0
+            },
+            {
+                "name": "18 Mart Sokak",
+                "latitude": 40.9722803,
+                "longitude": 29.0508685,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Cemil Cemil Topuzlu Caddesi",
+                "latitude": 40.9741088,
+                "longitude": 29.0470042,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kalamış",
+                "latitude": 40.9749929,
+                "longitude": 29.0424508,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Fenerbahçe",
+                "latitude": 40.9696064,
+                "longitude": 29.0375737,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Münir Nürettin Selçuk Caddesi",
+                "latitude": 40.9727484,
+                "longitude": 29.0400414,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Şehit Selin Çelik",
+                "latitude": 40.9728407,
+                "longitude": 29.0450912,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Dr. Faruk Ayanoğlu",
+                "latitude": 40.9744663,
+                "longitude": 29.0473153,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Selami Çeşme",
+                "latitude": 40.9753693,
+                "longitude": 29.0504644,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Lojmanlar",
+                "latitude": 40.969736,
+                "longitude": 29.04034,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Fenerbahçe Ordu Evi",
+                "latitude": 40.971384,
+                "longitude": 29.044365,
+                "distance_to_center": 0
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "FENERYOLU MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 21700.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 8,
+        "bus_stations": [
+            {
+                "name": "Ziverbey",
+                "latitude": 40.9882089,
+                "longitude": 29.0434749,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kuyubaşı",
+                "latitude": 40.9860337,
+                "longitude": 29.0478797,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Konak",
+                "latitude": 40.9796859,
+                "longitude": 29.0442965,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kızıltoprak",
+                "latitude": 40.9828162,
+                "longitude": 29.04067,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Selamiçeşme",
+                "latitude": 40.9762429,
+                "longitude": 29.0501354,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Feneryolu",
+                "latitude": 40.9782707,
+                "longitude": 29.0466153,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Marmara Üniversitesi Göztepe Yerleşkesi",
+                "latitude": 40.9847941,
+                "longitude": 29.051782,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Göztepe Prof. Dr Süleyman Yalçın Şehir Hastanesi",
+                "latitude": 40.9844947,
+                "longitude": 29.0556972,
+                "distance_to_center": 0
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "FİKİRTEPE MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 8854.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "GÖZTEPE MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 32660.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 10,
+        "bus_stations": [
+            {
+                "name": "Göztepe",
+                "latitude": 40.9718534,
+                "longitude": 29.059256,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Mustafa Mazhar Bey",
+                "latitude": 40.9838929,
+                "longitude": 29.059448,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Mustafa Mazhar Bey",
+                "latitude": 40.9836728,
+                "longitude": 29.0587488,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Çiftehavuzlar",
+                "latitude": 40.9741595,
+                "longitude": 29.0551189,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Çemenzar",
+                "latitude": 40.9830004,
+                "longitude": 29.0635225,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Çiftekonaklar",
+                "latitude": 40.9744419,
+                "longitude": 29.0634959,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Çiftekonaklar",
+                "latitude": 40.9745886,
+                "longitude": 29.063357,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Özgürlük Parkı",
+                "latitude": 40.979611,
+                "longitude": 29.0531204,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9812558,
+                "longitude": 29.0680067,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Trafik Amirliği",
+                "latitude": 40.980806,
+                "longitude": 29.055977,
+                "distance_to_center": 0
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "HASANPAŞA MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 12068.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 16,
+        "bus_stations": [
+            {
+                "name": "Söğütlüçeşme (Metrobüs)",
+                "latitude": 40.9916243,
+                "longitude": 29.0376743,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Söğutlüçeşme",
+                "latitude": 40.9922613,
+                "longitude": 29.0338052,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy Belediyesi",
+                "latitude": 40.9926159,
+                "longitude": 29.036582,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy Belediyesi",
+                "latitude": 40.9938385,
+                "longitude": 29.0381059,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Söğütlüçeşme",
+                "latitude": 40.9918048,
+                "longitude": 29.0379707,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Söğütlüçeşme Metrobüs",
+                "latitude": 40.991764,
+                "longitude": 29.035839,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Hasanpaşa",
+                "latitude": 40.995004,
+                "longitude": 29.040873,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Uzunçayır Caddesi",
+                "latitude": 40.996144,
+                "longitude": 29.045838,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Şehit Er Bülent Altınsoy",
+                "latitude": 40.997707,
+                "longitude": 29.04888,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Şehit Er Bülent Altınsoy",
+                "latitude": 40.998032,
+                "longitude": 29.049659,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Müverrih Ata Sokak",
+                "latitude": 40.995443,
+                "longitude": 29.044055,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy Belediyesi",
+                "latitude": 40.993759,
+                "longitude": 29.036332,
+                "distance_to_center": 0
+            },
+            {
+                "name": "İncirlibostan",
+                "latitude": 40.999458,
+                "longitude": 29.051263,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Müverrih Ata Sokak",
+                "latitude": 40.995616,
+                "longitude": 29.044049,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Uzunçayır Caddesi",
+                "latitude": 40.996128,
+                "longitude": 29.046309,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Hasanpaşa",
+                "latitude": 40.994869,
+                "longitude": 29.040636,
+                "distance_to_center": 0
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "KOZYATAĞI MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 31095.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "KOŞUYOLU MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 5647.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 14,
+        "bus_stations": [
+            {
+                "name": "Koşuyolu Caddesi",
+                "latitude": 41.0073,
+                "longitude": 29.034989,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Koşuyolu",
+                "latitude": 41.009402,
+                "longitude": 29.036924,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Validebağ",
+                "latitude": 41.0111561,
+                "longitude": 29.0382477,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Haydarpaşa Öğrenci Yurdu",
+                "latitude": 41.002126,
+                "longitude": 29.028861,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Dinlenç Caddesi",
+                "latitude": 41.0023798,
+                "longitude": 29.0323069,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Validebağ",
+                "latitude": 41.01194,
+                "longitude": 29.038338,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Koşuyolu Köprüsü",
+                "latitude": 41.004556,
+                "longitude": 29.0340421,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Validebağ",
+                "latitude": 41.01131,
+                "longitude": 29.038507,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Koşuyolu",
+                "latitude": 41.009316,
+                "longitude": 29.037033,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Feridun Paşa Camii",
+                "latitude": 41.005511,
+                "longitude": 29.032798,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Koşuyolu Caddesi",
+                "latitude": 41.007146,
+                "longitude": 29.034972,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Feridun Paşa Camii",
+                "latitude": 41.005545,
+                "longitude": 29.032999,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Validebağ Sanatoryum",
+                "latitude": 41.011403,
+                "longitude": 29.039678,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Koşuyolu Köprüsü",
+                "latitude": 41.0044568,
+                "longitude": 29.0340316,
+                "distance_to_center": 0
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "MERDİVENKÖY MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 25769.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "OSMANAĞA MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 6283.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 10,
+        "bus_stations": [
+            {
+                "name": "Kadıköy Çarşı",
+                "latitude": 40.9910448,
+                "longitude": 29.025459,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Barış Manço",
+                "latitude": 40.9870773,
+                "longitude": 29.0341375,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Altıyol",
+                "latitude": 40.9899602,
+                "longitude": 29.0298503,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Altıyol",
+                "latitude": 40.9907367,
+                "longitude": 29.0293608,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy Çarşı",
+                "latitude": 40.9912048,
+                "longitude": 29.0258535,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Barış Manço",
+                "latitude": 40.9906102,
+                "longitude": 29.0347199,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Rıhtım",
+                "latitude": 40.9932185,
+                "longitude": 29.0258241,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.992822,
+                "longitude": 29.02468,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Rıhtım",
+                "latitude": 40.992367,
+                "longitude": 29.02486,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.992718,
+                "longitude": 29.0242632,
+                "distance_to_center": 0
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "RASİMPAŞA MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 10128.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "SAHRAYICEDİT MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 25058.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "SUADİYE MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 21934.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "ZÜHTÜPAŞA MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 6834.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 6,
+        "bus_stations": [
+            {
+                "name": "Şükrü Saraçoğlu Stadı",
+                "latitude": 40.9865504,
+                "longitude": 29.0387935,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Şükrü Saracoğlu Stadı",
+                "latitude": 40.9868619,
+                "longitude": 29.038359,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kızıltoprak",
+                "latitude": 40.9842007,
+                "longitude": 29.0390996,
+                "distance_to_center": 0
+            },
+            {
+                "name": "2. Hatboyu Sokak",
+                "latitude": 40.9899016,
+                "longitude": 29.0407399,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Şükrü Saraçoğlu Stadı",
+                "latitude": 40.98594,
+                "longitude": 29.036826,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kızıltoprak",
+                "latitude": 40.984443,
+                "longitude": 29.0393,
+                "distance_to_center": 0
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    }
+]

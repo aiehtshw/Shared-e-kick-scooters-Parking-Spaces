@@ -39,8 +39,7 @@ class TransportMap:
     def add_transport_stops(self, stop_type, color, icon, poi_type=None):
         query = self._create_overpass_query(stop_type, poi_type)
         data = self._query_overpass(query)
-        count = self._add_markers(data, color, icon, stop_type.capitalize())
-        print(f"Found {count} {stop_type if poi_type is None else poi_type} locations")
+        return self._add_markers(data, color, icon, stop_type.capitalize())
 
     def _create_overpass_query(self, stop_type, poi_type=None):
         south, west, north, east = self.bounding_box
@@ -78,6 +77,7 @@ class TransportMap:
 
     def _add_markers(self, data, color, icon, location_type):
         count = 0
+        stops = []
         if 'elements' in data:
             for element in data['elements']:
                 count += 1
@@ -93,7 +93,14 @@ class TransportMap:
                     tooltip=element.get('tags', {}).get('name', location_type),
                     icon=folium.Icon(color=color, icon=icon),
                 ).add_to(self.map)
-        return count
+                stop_info = {
+                    "name": element.get('tags', {}).get('name', 'N/A'),
+                    "latitude": element['lat'],
+                    "longitude": element['lon'],
+                    "distance_to_center": 0  # Dummy value, replace with actual distance if needed
+                }
+                stops.append(stop_info)
+        return stops  # Return the list of stops to be used later
 
     def add_search_area_circle(self):
         folium.Circle(
