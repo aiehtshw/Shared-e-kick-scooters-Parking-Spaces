@@ -32,7 +32,7 @@ def initialize_json(output_file):
     """
     data = [
         {
-            "neighbourhod": None,
+            "neighbourhood": None,
             "latitude": None,
             "longitude": None,
             "population": None,

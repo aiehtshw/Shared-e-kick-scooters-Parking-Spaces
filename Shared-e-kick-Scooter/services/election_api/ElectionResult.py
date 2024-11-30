@@ -25,7 +25,7 @@ def process_population_data(input_file, json_file):
         updated_data = []
         for _, row in population_by_neighborhood.iterrows():
             updated_data.append({
-                "neighbourhod": row['Mahalle'],
+                "neighbourhood": row['Mahalle'],
                 "latitude": None,
                 "longitude": None,
                 "population": row['Toplam Nüfus'],
