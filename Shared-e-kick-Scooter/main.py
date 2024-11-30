@@ -1,9 +1,12 @@
 from services.election_api.ElectionResult import process_population_data
+from services.json_api.JSONManipulation import initialize_json
 from services.open_street_api.TransportMap import TransportMap
 
 if __name__ == "__main__":
     input_file = "database/input/kadikoy.xlsx"
     output_file = "database/output/database.json"
+    # Step 1: Initialize JSON
+    initialize_json(output_file)
     process_population_data(input_file, output_file)
     try:
         transport_map = TransportMap("Kadıkoy, Istanbul, Turkey")

@@ -1,86 +1,254 @@
 [
     {
-        "neighbourhood":"19 MAYIS MAH.",
-        "total_pupulation":26366.0
+        "neighbourhod": "19 MAYIS MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 26366.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"ACIBADEM MAH.",
-        "total_pupulation":24429.0
+        "neighbourhod": "ACIBADEM MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 24429.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"BOSTANCI MAH.",
-        "total_pupulation":27219.0
+        "neighbourhod": "BOSTANCI MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 27219.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"CADDEBOSTAN MAH.",
-        "total_pupulation":16477.0
+        "neighbourhod": "CADDEBOSTAN MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 16477.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"CAFERAĞA MAH.",
-        "total_pupulation":18276.0
+        "neighbourhod": "CAFERAĞA MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 18276.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"DUMLUPINAR MAH.",
-        "total_pupulation":7833.0
+        "neighbourhod": "DUMLUPINAR MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 7833.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"ERENKÖY MAH.",
-        "total_pupulation":28780.0
+        "neighbourhod": "ERENKÖY MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 28780.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"EĞİTİM MAH.",
-        "total_pupulation":10676.0
+        "neighbourhod": "EĞİTİM MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 10676.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"FENERBAHÇE MAH.",
-        "total_pupulation":16946.0
+        "neighbourhod": "FENERBAHÇE MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 16946.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"FENERYOLU MAH.",
-        "total_pupulation":21700.0
+        "neighbourhod": "FENERYOLU MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 21700.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"FİKİRTEPE MAH.",
-        "total_pupulation":8854.0
+        "neighbourhod": "FİKİRTEPE MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 8854.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"GÖZTEPE MAH.",
-        "total_pupulation":32660.0
+        "neighbourhod": "GÖZTEPE MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 32660.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"HASANPAŞA MAH.",
-        "total_pupulation":12068.0
+        "neighbourhod": "HASANPAŞA MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 12068.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"KOZYATAĞI MAH.",
-        "total_pupulation":31095.0
+        "neighbourhod": "KOZYATAĞI MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 31095.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"KOŞUYOLU MAH.",
-        "total_pupulation":5647.0
+        "neighbourhod": "KOŞUYOLU MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 5647.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"MERDİVENKÖY MAH.",
-        "total_pupulation":25769.0
+        "neighbourhod": "MERDİVENKÖY MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 25769.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"OSMANAĞA MAH.",
-        "total_pupulation":6283.0
+        "neighbourhod": "OSMANAĞA MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 6283.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"RASİMPAŞA MAH.",
-        "total_pupulation":10128.0
+        "neighbourhod": "RASİMPAŞA MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 10128.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"SAHRAYICEDİT MAH.",
-        "total_pupulation":25058.0
+        "neighbourhod": "SAHRAYICEDİT MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 25058.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"SUADİYE MAH.",
-        "total_pupulation":21934.0
+        "neighbourhod": "SUADİYE MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 21934.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     },
     {
-        "neighbourhood":"ZÜHTÜPAŞA MAH.",
-        "total_pupulation":6834.0
+        "neighbourhod": "ZÜHTÜPAŞA MAH.",
+        "latitude": null,
+        "longitude": null,
+        "population": 6834.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
     }
 ]
