@@ -1,90 +1,86 @@
 [
     {
-        "Mahalle":"19 MAYIS MAH.",
-        "Toplam Nüfus":26366.0
+        "neighbourhood":"19 MAYIS MAH.",
+        "total_pupulation":26366.0
     },
     {
-        "Mahalle":"ACIBADEM MAH.",
-        "Toplam Nüfus":24429.0
+        "neighbourhood":"ACIBADEM MAH.",
+        "total_pupulation":24429.0
     },
     {
-        "Mahalle":"BOSTANCI MAH.",
-        "Toplam Nüfus":27219.0
+        "neighbourhood":"BOSTANCI MAH.",
+        "total_pupulation":27219.0
     },
     {
-        "Mahalle":"CADDEBOSTAN MAH.",
-        "Toplam Nüfus":16477.0
+        "neighbourhood":"CADDEBOSTAN MAH.",
+        "total_pupulation":16477.0
     },
     {
-        "Mahalle":"CAFERAĞA MAH.",
-        "Toplam Nüfus":18276.0
+        "neighbourhood":"CAFERAĞA MAH.",
+        "total_pupulation":18276.0
     },
     {
-        "Mahalle":"DUMLUPINAR MAH.",
-        "Toplam Nüfus":7833.0
+        "neighbourhood":"DUMLUPINAR MAH.",
+        "total_pupulation":7833.0
     },
     {
-        "Mahalle":"ERENKÖY MAH.",
-        "Toplam Nüfus":28780.0
+        "neighbourhood":"ERENKÖY MAH.",
+        "total_pupulation":28780.0
     },
     {
-        "Mahalle":"EĞİTİM MAH.",
-        "Toplam Nüfus":10676.0
+        "neighbourhood":"EĞİTİM MAH.",
+        "total_pupulation":10676.0
     },
     {
-        "Mahalle":"FENERBAHÇE MAH.",
-        "Toplam Nüfus":16946.0
+        "neighbourhood":"FENERBAHÇE MAH.",
+        "total_pupulation":16946.0
     },
     {
-        "Mahalle":"FENERYOLU MAH.",
-        "Toplam Nüfus":21700.0
+        "neighbourhood":"FENERYOLU MAH.",
+        "total_pupulation":21700.0
     },
     {
-        "Mahalle":"FİKİRTEPE MAH.",
-        "Toplam Nüfus":8854.0
+        "neighbourhood":"FİKİRTEPE MAH.",
+        "total_pupulation":8854.0
     },
     {
-        "Mahalle":"GÖZTEPE MAH.",
-        "Toplam Nüfus":32660.0
+        "neighbourhood":"GÖZTEPE MAH.",
+        "total_pupulation":32660.0
     },
     {
-        "Mahalle":"HASANPAŞA MAH.",
-        "Toplam Nüfus":12068.0
+        "neighbourhood":"HASANPAŞA MAH.",
+        "total_pupulation":12068.0
     },
     {
-        "Mahalle":"KOZYATAĞI MAH.",
-        "Toplam Nüfus":31095.0
+        "neighbourhood":"KOZYATAĞI MAH.",
+        "total_pupulation":31095.0
     },
     {
-        "Mahalle":"KOŞUYOLU MAH.",
-        "Toplam Nüfus":5647.0
+        "neighbourhood":"KOŞUYOLU MAH.",
+        "total_pupulation":5647.0
     },
     {
-        "Mahalle":"MERDİVENKÖY MAH.",
-        "Toplam Nüfus":25769.0
+        "neighbourhood":"MERDİVENKÖY MAH.",
+        "total_pupulation":25769.0
     },
     {
-        "Mahalle":"Mahalle\/Köy",
-        "Toplam Nüfus":0.0
+        "neighbourhood":"OSMANAĞA MAH.",
+        "total_pupulation":6283.0
     },
     {
-        "Mahalle":"OSMANAĞA MAH.",
-        "Toplam Nüfus":6283.0
+        "neighbourhood":"RASİMPAŞA MAH.",
+        "total_pupulation":10128.0
     },
     {
-        "Mahalle":"RASİMPAŞA MAH.",
-        "Toplam Nüfus":10128.0
+        "neighbourhood":"SAHRAYICEDİT MAH.",
+        "total_pupulation":25058.0
     },
     {
-        "Mahalle":"SAHRAYICEDİT MAH.",
-        "Toplam Nüfus":25058.0
+        "neighbourhood":"SUADİYE MAH.",
+        "total_pupulation":21934.0
     },
     {
-        "Mahalle":"SUADİYE MAH.",
-        "Toplam Nüfus":21934.0
-    },
-    {
-        "Mahalle":"ZÜHTÜPAŞA MAH.",
-        "Toplam Nüfus":6834.0
+        "neighbourhood":"ZÜHTÜPAŞA MAH.",
+        "total_pupulation":6834.0
     }
 ]
