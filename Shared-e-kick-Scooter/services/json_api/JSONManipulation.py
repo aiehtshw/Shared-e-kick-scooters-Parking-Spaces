@@ -111,13 +111,13 @@ def generate_json_and_map(json_file, transport_map, stop_type, color, icon, poi_
             print(relevant_stops)
             if stop_type == "bus":
                 neighborhood["bus_station_number"] = len(relevant_stops)
-                neighborhood["bus_stations"] = relevant_stops
+                neighborhood["bus_stations"].extend(relevant_stops)
             elif stop_type == "metro":
                 neighborhood["metro_station_number"] = len(relevant_stops)
-                neighborhood["metro_stations"] = relevant_stops
+                neighborhood["metro_stations"].extend(relevant_stops)
             elif stop_type == "poi":
                 neighborhood["poi_number"] = len(relevant_stops)
-                neighborhood["pois"] = relevant_stops
+                neighborhood["pois"].extend(relevant_stops)
             print("neighborhood")
             print(neighborhood)
         # Save the updated JSON file

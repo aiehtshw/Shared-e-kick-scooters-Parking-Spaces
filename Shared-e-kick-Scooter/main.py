@@ -35,6 +35,7 @@ if __name__ == "__main__":
             # Update JSON and map with POI points data
             elif sys.argv[1] == "-updateAll" or sys.argv[1] == "-updatePoiPoints":
                 generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="taxi")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign", poi_type="fast_food")
             else:
                 print("Wrong Parameter")
                 exit()

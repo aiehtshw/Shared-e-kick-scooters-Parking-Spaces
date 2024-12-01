@@ -16,7 +16,7 @@
         "latitude": null,
         "longitude": null,
         "population": 24429.0,
-        "poi_number": 2,
+        "poi_number": 11,
         "pois": [
             {
                 "name": "N/A",
@@ -31,6 +31,83 @@
                 "longitude": 29.0569493,
                 "distance_to_center": 0,
                 "poi_type": "taxi"
+            },
+            {
+                "name": "Komşu Fırın",
+                "latitude": 41.0041002,
+                "longitude": 29.0443078,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "McDonald's",
+                "latitude": 41.0031719,
+                "longitude": 29.0439629,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "KFC",
+                "latitude": 41.0048853,
+                "longitude": 29.0449572,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Burger King",
+                "latitude": 41.002951,
+                "longitude": 29.0427714,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Arby's",
+                "latitude": 41.0029167,
+                "longitude": 29.0427228,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Popeyes",
+                "latitude": 41.0028663,
+                "longitude": 29.0426652,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Burger King",
+                "latitude": 40.9990996,
+                "longitude": 29.0312553,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "McDonald's",
+                "latitude": 40.9990442,
+                "longitude": 29.0315033,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "KFC",
+                "latitude": 40.9995836,
+                "longitude": 29.0308097,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Acıbadem Kokoreç Hakan Büfe",
+                "latitude": 41.0057907,
+                "longitude": 29.0463886,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "McDonald's",
+                "latitude": 41.0012301,
+                "longitude": 29.0543254,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
             }
         ],
         "bus_station_number": 54,
@@ -483,8 +560,93 @@
         "latitude": null,
         "longitude": null,
         "population": 16477.0,
-        "poi_number": 0,
-        "pois": [],
+        "poi_number": 12,
+        "pois": [
+            {
+                "name": "Barış Büfe",
+                "latitude": 40.9732491,
+                "longitude": 29.0568684,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Marmaris Büfe",
+                "latitude": 40.9733492,
+                "longitude": 29.0566384,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kral Burger",
+                "latitude": 40.9733664,
+                "longitude": 29.0567377,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Daily Dana",
+                "latitude": 40.9679528,
+                "longitude": 29.0639155,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Brasserie Prime",
+                "latitude": 40.9679243,
+                "longitude": 29.0668266,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Snob Street Food",
+                "latitude": 40.9682396,
+                "longitude": 29.0653826,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "J Burger",
+                "latitude": 40.9700966,
+                "longitude": 29.0536386,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "McDonald's",
+                "latitude": 40.9638964,
+                "longitude": 29.0655572,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Subway",
+                "latitude": 40.9648786,
+                "longitude": 29.0636623,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Marmaris Büfe",
+                "latitude": 40.9688093,
+                "longitude": 29.0652329,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Cadde Büfe",
+                "latitude": 40.9676908,
+                "longitude": 29.0662498,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Beltur Plaj kiosk",
+                "latitude": 40.9633556,
+                "longitude": 29.0585934,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            }
+        ],
         "bus_station_number": 13,
         "bus_stations": [
             {
@@ -574,7 +736,7 @@
         "latitude": null,
         "longitude": null,
         "population": 18276.0,
-        "poi_number": 5,
+        "poi_number": 75,
         "pois": [
             {
                 "name": "N/A",
@@ -610,6 +772,531 @@
                 "longitude": 29.0232352,
                 "distance_to_center": 0,
                 "poi_type": "taxi"
+            },
+            {
+                "name": "Ciğerci Hulusi",
+                "latitude": 40.989147,
+                "longitude": 29.0226195,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pilav Dünyası",
+                "latitude": 40.9875674,
+                "longitude": 29.0269901,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Tek Büfe 7",
+                "latitude": 40.98741,
+                "longitude": 29.0276167,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Borsam Taşfırın",
+                "latitude": 40.9899741,
+                "longitude": 29.0246531,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Halil Lahmacun",
+                "latitude": 40.9896999,
+                "longitude": 29.0245378,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bambi",
+                "latitude": 40.9911884,
+                "longitude": 29.023873,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bombacı Mülayim",
+                "latitude": 40.9893782,
+                "longitude": 29.0238722,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Catchy BBQ",
+                "latitude": 40.9874676,
+                "longitude": 29.0253142,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Hat Döner",
+                "latitude": 40.9874226,
+                "longitude": 29.0275414,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9851577,
+                "longitude": 29.0249862,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pide Sun",
+                "latitude": 40.9866004,
+                "longitude": 29.0257795,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Gorgonzo",
+                "latitude": 40.9876049,
+                "longitude": 29.0267312,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Sakız Büfe",
+                "latitude": 40.9833987,
+                "longitude": 29.0297291,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Tarihi Petek Büfe",
+                "latitude": 40.9873392,
+                "longitude": 29.0278449,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bubada",
+                "latitude": 40.9847186,
+                "longitude": 29.0268241,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Rolls and Balls",
+                "latitude": 40.9803418,
+                "longitude": 29.0233833,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Reks Kokoreç",
+                "latitude": 40.9873048,
+                "longitude": 29.0270966,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Korkmaz Bufe Döner",
+                "latitude": 40.9845173,
+                "longitude": 29.0243502,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Best of Burger",
+                "latitude": 40.9869041,
+                "longitude": 29.0251854,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9877384,
+                "longitude": 29.0261521,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kotti's Hotdog",
+                "latitude": 40.9871883,
+                "longitude": 29.025752,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Snob Street Food",
+                "latitude": 40.9838011,
+                "longitude": 29.0276919,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "B.O.B. Burger",
+                "latitude": 40.9868137,
+                "longitude": 29.0254176,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kebo",
+                "latitude": 40.9900664,
+                "longitude": 29.0226736,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "KFC",
+                "latitude": 40.9902359,
+                "longitude": 29.0245637,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "En Moda",
+                "latitude": 40.9845523,
+                "longitude": 29.0263415,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pizza 2 Go",
+                "latitude": 40.9884499,
+                "longitude": 29.023232,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "nom Burger",
+                "latitude": 40.9857662,
+                "longitude": 29.022968,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "McDonald's",
+                "latitude": 40.9895358,
+                "longitude": 29.0240066,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Ayla Tantuni",
+                "latitude": 40.9904908,
+                "longitude": 29.0247379,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Tavuk Dünyası",
+                "latitude": 40.989144,
+                "longitude": 29.0237176,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Suvi Mutfak",
+                "latitude": 40.9845816,
+                "longitude": 29.0269281,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Levent Börek",
+                "latitude": 40.9894674,
+                "longitude": 29.0239899,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Mamabowl",
+                "latitude": 40.9840091,
+                "longitude": 29.0300891,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Burger",
+                "latitude": 40.9875103,
+                "longitude": 29.0261856,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Biber Burger",
+                "latitude": 40.9832579,
+                "longitude": 29.0235775,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pita Manti",
+                "latitude": 40.9858884,
+                "longitude": 29.0274949,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Burrito Shop",
+                "latitude": 40.9883162,
+                "longitude": 29.0266561,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Arda Büfe",
+                "latitude": 40.9885841,
+                "longitude": 29.0265776,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kotti’s Hotdog",
+                "latitude": 40.9872129,
+                "longitude": 29.0257125,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Falafella",
+                "latitude": 40.9872912,
+                "longitude": 29.0256424,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "WIN",
+                "latitude": 40.9842125,
+                "longitude": 29.0237817,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Moda Ercan",
+                "latitude": 40.9852323,
+                "longitude": 29.0248102,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Umut Gurme",
+                "latitude": 40.98173,
+                "longitude": 29.0262656,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Mis Tantuni",
+                "latitude": 40.9895623,
+                "longitude": 29.0238403,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kızılkayalar Hamburger",
+                "latitude": 40.9903921,
+                "longitude": 29.0245031,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "İsos Döner",
+                "latitude": 40.9896837,
+                "longitude": 29.0239583,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "bykush sokak",
+                "latitude": 40.9842095,
+                "longitude": 29.0232585,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9872257,
+                "longitude": 29.0257849,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9845376,
+                "longitude": 29.0250989,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Moda pilavcısı",
+                "latitude": 40.9848796,
+                "longitude": 29.0246129,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "White Burger",
+                "latitude": 40.9873346,
+                "longitude": 29.0295932,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Çiğköfteci Ömer Usta",
+                "latitude": 40.9862255,
+                "longitude": 29.0306276,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Currywurst Pommes",
+                "latitude": 40.9853829,
+                "longitude": 29.0278802,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kem Küm",
+                "latitude": 40.9861013,
+                "longitude": 29.0222933,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pilav house",
+                "latitude": 40.9883628,
+                "longitude": 29.023653,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pilav Döner",
+                "latitude": 40.9890526,
+                "longitude": 29.0226438,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Tamamen Organik Toast",
+                "latitude": 40.9833898,
+                "longitude": 29.0297996,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9905936,
+                "longitude": 29.0247172,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9875722,
+                "longitude": 29.0244028,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kasap Doner",
+                "latitude": 40.9892954,
+                "longitude": 29.0236672,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Alfred",
+                "latitude": 40.9851034,
+                "longitude": 29.0251131,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "say cheese",
+                "latitude": 40.9860419,
+                "longitude": 29.0272163,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kirinti moda",
+                "latitude": 40.9816562,
+                "longitude": 29.0223975,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kottis hotdog",
+                "latitude": 40.9873453,
+                "longitude": 29.0258227,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "tostçudede",
+                "latitude": 40.9802537,
+                "longitude": 29.0232082,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kadikoy Midyecisi",
+                "latitude": 40.9880213,
+                "longitude": 29.0241804,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Moda Midyecisi",
+                "latitude": 40.9872982,
+                "longitude": 29.0254293,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Saucisse",
+                "latitude": 40.9831897,
+                "longitude": 29.0235462,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Beyaz Dürüm",
+                "latitude": 40.9850796,
+                "longitude": 29.0247227,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Good Fast Food",
+                "latitude": 40.987775,
+                "longitude": 29.0253525,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bütme Evi",
+                "latitude": 40.9878891,
+                "longitude": 29.024455,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Brox Burger",
+                "latitude": 40.985973,
+                "longitude": 29.026385,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Ecem Büfe",
+                "latitude": 40.9927222,
+                "longitude": 29.0236216,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Everyday pizza",
+                "latitude": 40.9844944,
+                "longitude": 29.02682,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
             }
         ],
         "bus_station_number": 3,
@@ -836,7 +1523,7 @@
         "latitude": null,
         "longitude": null,
         "population": 16946.0,
-        "poi_number": 3,
+        "poi_number": 7,
         "pois": [
             {
                 "name": "18 Mart Taksi",
@@ -858,6 +1545,55 @@
                 "longitude": 29.0447548,
                 "distance_to_center": 0,
                 "poi_type": "taxi"
+            },
+            {
+                "name": "Buffe",
+                "latitude": 40.9733539,
+                "longitude": 29.041244,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Domino's",
+                "latitude": 40.9717571,
+                "longitude": 29.0443775,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Domino's",
+                "latitude": 40.9740539,
+                "longitude": 29.045591,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Subway",
+                "latitude": 40.9832357,
+                "longitude": 29.0400642,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Komagene",
+                "latitude": 40.9745789,
+                "longitude": 29.0460105,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Il Boccalino",
+                "latitude": 40.9718644,
+                "longitude": 29.0522111,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "KFC",
+                "latitude": 40.9748142,
+                "longitude": 29.0521728,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
             }
         ],
         "bus_station_number": 14,
@@ -955,7 +1691,7 @@
         "latitude": null,
         "longitude": null,
         "population": 21700.0,
-        "poi_number": 2,
+        "poi_number": 17,
         "pois": [
             {
                 "name": "N/A",
@@ -970,6 +1706,125 @@
                 "longitude": 29.0449835,
                 "distance_to_center": 0,
                 "poi_type": "taxi"
+            },
+            {
+                "name": "Bağdat Börek",
+                "latitude": 40.9842209,
+                "longitude": 29.0431273,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "McDonald's",
+                "latitude": 40.9831711,
+                "longitude": 29.0405031,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Domino's",
+                "latitude": 40.9853076,
+                "longitude": 29.0492934,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Sarıoğlu Büfe Patso Kuyubaşı-2",
+                "latitude": 40.9853301,
+                "longitude": 29.0492113,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Sıla-1 Mersin Tantuni",
+                "latitude": 40.9853795,
+                "longitude": 29.0490916,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Göztepe Dönercisi",
+                "latitude": 40.9843049,
+                "longitude": 29.0561121,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bolsos Döner",
+                "latitude": 40.9859069,
+                "longitude": 29.0477212,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Adışanlı Çiğköfte",
+                "latitude": 40.9847155,
+                "longitude": 29.0513846,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kanka Zurna Dürüm",
+                "latitude": 40.9849887,
+                "longitude": 29.0500398,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Levent Börek",
+                "latitude": 40.9844548,
+                "longitude": 29.0533565,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Ateş Dürüm Evi",
+                "latitude": 40.9842811,
+                "longitude": 29.0565163,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Mert 33 Tantuni",
+                "latitude": 40.9849308,
+                "longitude": 29.0506013,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pizza 2 Go",
+                "latitude": 40.9850023,
+                "longitude": 29.050201,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Chicker's",
+                "latitude": 40.9849598,
+                "longitude": 29.0502873,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Frango",
+                "latitude": 40.9850348,
+                "longitude": 29.0499489,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Tarihi Mercan Dönercisi",
+                "latitude": 40.9849477,
+                "longitude": 29.050547,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bağdat Marmaris",
+                "latitude": 40.9802443,
+                "longitude": 29.0433337,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
             }
         ],
         "bus_station_number": 8,
@@ -1074,7 +1929,7 @@
         "latitude": null,
         "longitude": null,
         "population": 32660.0,
-        "poi_number": 2,
+        "poi_number": 12,
         "pois": [
             {
                 "name": "Barış Taksi",
@@ -1089,6 +1944,90 @@
                 "longitude": 29.0603282,
                 "distance_to_center": 0,
                 "poi_type": "taxi"
+            },
+            {
+                "name": "Kristal Büfe Caddebostan",
+                "latitude": 40.9719277,
+                "longitude": 29.0594035,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pizzabulls",
+                "latitude": 40.9822323,
+                "longitude": 29.0666669,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Maydonoz Döner",
+                "latitude": 40.9826511,
+                "longitude": 29.0643749,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Komagene",
+                "latitude": 40.9826512,
+                "longitude": 29.0646838,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Paşa Döner",
+                "latitude": 40.9826806,
+                "longitude": 29.0642676,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Burger King",
+                "latitude": 40.9819711,
+                "longitude": 29.0674118,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Teksos Döner",
+                "latitude": 40.9827611,
+                "longitude": 29.0639142,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Öncü",
+                "latitude": 40.9826407,
+                "longitude": 29.0647292,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Etiler Marmaris",
+                "latitude": 40.9826375,
+                "longitude": 29.0644268,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Göztepe Piliç",
+                "latitude": 40.9824819,
+                "longitude": 29.0656613,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "KFC",
+                "latitude": 40.9791976,
+                "longitude": 29.0671697,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Komagene",
+                "latitude": 40.9801418,
+                "longitude": 29.0676183,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
             }
         ],
         "bus_station_number": 10,
@@ -1199,7 +2138,7 @@
         "latitude": null,
         "longitude": null,
         "population": 12068.0,
-        "poi_number": 2,
+        "poi_number": 3,
         "pois": [
             {
                 "name": "N/A",
@@ -1214,6 +2153,27 @@
                 "longitude": 29.03779,
                 "distance_to_center": 0,
                 "poi_type": "taxi"
+            },
+            {
+                "name": "Paşa Döner",
+                "latitude": 40.9948911,
+                "longitude": 29.0394951,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Domino's",
+                "latitude": 40.9935399,
+                "longitude": 29.0382529,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Komagene",
+                "latitude": 40.9919163,
+                "longitude": 29.0335852,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
             }
         ],
         "bus_station_number": 16,
@@ -1342,7 +2302,7 @@
         "latitude": null,
         "longitude": null,
         "population": 5647.0,
-        "poi_number": 1,
+        "poi_number": 4,
         "pois": [
             {
                 "name": "N/A",
@@ -1350,6 +2310,34 @@
                 "longitude": 29.0369929,
                 "distance_to_center": 0,
                 "poi_type": "taxi"
+            },
+            {
+                "name": "BÜFE KOŞUYOLU",
+                "latitude": 41.0115038,
+                "longitude": 29.0383925,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Dönerli",
+                "latitude": 41.011371,
+                "longitude": 29.0382845,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Papa John's",
+                "latitude": 41.0109748,
+                "longitude": 29.0379863,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Domino's",
+                "latitude": 41.0109466,
+                "longitude": 29.0379467,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
             }
         ],
         "bus_station_number": 14,
@@ -1459,7 +2447,7 @@
         "latitude": null,
         "longitude": null,
         "population": 6283.0,
-        "poi_number": 1,
+        "poi_number": 49,
         "pois": [
             {
                 "name": "N/A",
@@ -1467,6 +2455,349 @@
                 "longitude": 29.0248516,
                 "distance_to_center": 0,
                 "poi_type": "taxi"
+            },
+            {
+                "name": "Hacıoğlu",
+                "latitude": 40.9905919,
+                "longitude": 29.0248543,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Çiğ Köfteci Sait Usta",
+                "latitude": 40.9879195,
+                "longitude": 29.0315988,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Etiler Marmaris",
+                "latitude": 40.9929536,
+                "longitude": 29.025064,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bambi",
+                "latitude": 40.9909156,
+                "longitude": 29.0275652,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Burger King",
+                "latitude": 40.9906953,
+                "longitude": 29.0298256,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Meşhur Adıyaman Çiğ Köftecisi",
+                "latitude": 40.986853,
+                "longitude": 29.0310928,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Adıyaman Çiğ Koftecisi",
+                "latitude": 40.9928451,
+                "longitude": 29.0250605,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Doyuran",
+                "latitude": 40.9932882,
+                "longitude": 29.0250757,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Sayla Mantı",
+                "latitude": 40.9885585,
+                "longitude": 29.0277437,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Betro Burgers",
+                "latitude": 40.988487,
+                "longitude": 29.0273987,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "KFC",
+                "latitude": 40.9901803,
+                "longitude": 29.0288893,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pilav Station",
+                "latitude": 40.9887208,
+                "longitude": 29.0274086,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Borsam Taş Fırın Rıhtım",
+                "latitude": 40.9927974,
+                "longitude": 29.0250503,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "La Pitsa",
+                "latitude": 40.989927,
+                "longitude": 29.0289216,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Salt Fried Chicken",
+                "latitude": 40.9884161,
+                "longitude": 29.0279897,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Frango",
+                "latitude": 40.9917322,
+                "longitude": 29.0279655,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Barbara Dumbo",
+                "latitude": 40.9886473,
+                "longitude": 29.0273943,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Gurman Köfte Lokantası",
+                "latitude": 40.9925605,
+                "longitude": 29.0294105,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Komagene",
+                "latitude": 40.9920763,
+                "longitude": 29.0289679,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Carl's Jr.",
+                "latitude": 40.9889959,
+                "longitude": 29.0288899,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Saloon Burger",
+                "latitude": 40.991057,
+                "longitude": 29.0267532,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Burger Yiyelim",
+                "latitude": 40.9907147,
+                "longitude": 29.0288145,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pizza 2 Go",
+                "latitude": 40.9914999,
+                "longitude": 29.0286297,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Paşa Zurna Dürüm",
+                "latitude": 40.9914822,
+                "longitude": 29.0285868,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Hosta",
+                "latitude": 40.9911526,
+                "longitude": 29.0247322,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Gözde Mersin Tantuni",
+                "latitude": 40.9894957,
+                "longitude": 29.0275483,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Tek Büfe",
+                "latitude": 40.9893606,
+                "longitude": 29.0282388,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "ATM Burger",
+                "latitude": 40.9893314,
+                "longitude": 29.0321581,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Osmanağa Pilavcısı",
+                "latitude": 40.9902737,
+                "longitude": 29.0268286,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Subway",
+                "latitude": 40.988836,
+                "longitude": 29.0273964,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pişiköy",
+                "latitude": 40.9885411,
+                "longitude": 29.0288466,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Paşa Zurna Dürüm",
+                "latitude": 40.9897833,
+                "longitude": 29.0290605,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kaıköy Tantuni",
+                "latitude": 40.990233,
+                "longitude": 29.0268256,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bizim Dürüm ve Kanat Evi",
+                "latitude": 40.9901439,
+                "longitude": 29.0267997,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kadıköy Simit",
+                "latitude": 40.9896014,
+                "longitude": 29.0276834,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Tost Akademisi",
+                "latitude": 40.9896876,
+                "longitude": 29.0271588,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Dali",
+                "latitude": 40.9884338,
+                "longitude": 29.0278806,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "İzzet Paşa Kokoreç",
+                "latitude": 40.9903383,
+                "longitude": 29.0276754,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Köşe Ekspress Cafe",
+                "latitude": 40.9902784,
+                "longitude": 29.0263777,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Osis",
+                "latitude": 40.9890969,
+                "longitude": 29.0274188,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9889422,
+                "longitude": 29.0273958,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Subway",
+                "latitude": 40.9886039,
+                "longitude": 29.0273935,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Cajun Corner",
+                "latitude": 40.9888281,
+                "longitude": 29.0274468,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9926494,
+                "longitude": 29.0249955,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Zurna Kadıköy",
+                "latitude": 40.9898352,
+                "longitude": 29.0272214,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Popeyes",
+                "latitude": 40.992247,
+                "longitude": 29.0291202,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Hello Fires",
+                "latitude": 40.9903369,
+                "longitude": 29.0278332,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Little Caesars",
+                "latitude": 40.9881893,
+                "longitude": 29.0336617,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Panzarotti",
+                "latitude": 40.9920558,
+                "longitude": 29.0285208,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
             }
         ],
         "bus_station_number": 10,
@@ -1576,8 +2907,79 @@
         "latitude": null,
         "longitude": null,
         "population": 6834.0,
-        "poi_number": 0,
-        "pois": [],
+        "poi_number": 10,
+        "pois": [
+            {
+                "name": "Kasap Döner",
+                "latitude": 40.9833113,
+                "longitude": 29.0404266,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Şampiyon Kokoreç",
+                "latitude": 40.9835688,
+                "longitude": 29.040103,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Çiğ Köfteci Gakgoş Usta",
+                "latitude": 40.9856322,
+                "longitude": 29.0371211,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Büfe",
+                "latitude": 40.982619,
+                "longitude": 29.0392807,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9833444,
+                "longitude": 29.0404849,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Papa John's",
+                "latitude": 40.9870061,
+                "longitude": 29.035056,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Birtat Mersin Tantuni",
+                "latitude": 40.9870071,
+                "longitude": 29.0349796,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Ersoy Tantoni",
+                "latitude": 40.9841768,
+                "longitude": 29.0428811,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Ömer Aybak Adıyaman Çiğ Köftecisi",
+                "latitude": 40.9892735,
+                "longitude": 29.0413275,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Barış Büfe",
+                "latitude": 40.9834237,
+                "longitude": 29.0398174,
+                "distance_to_center": 0,
+                "poi_type": "fast_food"
+            }
+        ],
         "bus_station_number": 6,
         "bus_stations": [
             {
