@@ -16,8 +16,23 @@
         "latitude": null,
         "longitude": null,
         "population": 24429.0,
-        "poi_number": 0,
-        "pois": [],
+        "poi_number": 2,
+        "pois": [
+            {
+                "name": "N/A",
+                "latitude": 40.999974,
+                "longitude": 29.0328366,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "N/A",
+                "latitude": 41.0126445,
+                "longitude": 29.0569493,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            }
+        ],
         "bus_station_number": 54,
         "bus_stations": [
             {
@@ -345,8 +360,111 @@
                 "distance_to_center": 0
             }
         ],
-        "metro_station_number": 0,
-        "metro_stations": []
+        "metro_station_number": 17,
+        "metro_stations": [
+            {
+                "name": "Ayrılık Çeşmesi",
+                "latitude": 41.0001678,
+                "longitude": 29.0302593,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Acıbadem",
+                "latitude": 41.0023323,
+                "longitude": 29.0444009,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 41.001699,
+                "longitude": 29.0453485,
+                "distance_to_center": 0
+            },
+            {
+                "name": "3",
+                "latitude": 40.9996222,
+                "longitude": 29.0565262,
+                "distance_to_center": 0
+            },
+            {
+                "name": "1",
+                "latitude": 41.0004219,
+                "longitude": 29.0300451,
+                "distance_to_center": 0
+            },
+            {
+                "name": "2",
+                "latitude": 40.999795,
+                "longitude": 29.0303802,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Acıbadem",
+                "latitude": 41.0025088,
+                "longitude": 29.0444678,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 41.002151,
+                "longitude": 29.0454661,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Ayrılık Çeşmesi",
+                "latitude": 41.0002756,
+                "longitude": 29.0302732,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Ayrılık Çeşmesi",
+                "latitude": 41.0002547,
+                "longitude": 29.0301688,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Ayrılık Çeşmesi",
+                "latitude": 41.0003185,
+                "longitude": 29.0300887,
+                "distance_to_center": 0
+            },
+            {
+                "name": "2",
+                "latitude": 41.0003923,
+                "longitude": 29.0545928,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Ayrılık Çeşmesi",
+                "latitude": 41.0001803,
+                "longitude": 29.0305822,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Acıbadem",
+                "latitude": 41.0021833,
+                "longitude": 29.0443227,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 41.0022344,
+                "longitude": 29.0449218,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 41.0025403,
+                "longitude": 29.0434532,
+                "distance_to_center": 0
+            },
+            {
+                "name": "3",
+                "latitude": 41.0004194,
+                "longitude": 29.0306065,
+                "distance_to_center": 0
+            }
+        ]
     },
     {
         "neighbourhood": "BOSTANCI MAH.",
@@ -456,8 +574,44 @@
         "latitude": null,
         "longitude": null,
         "population": 18276.0,
-        "poi_number": 0,
-        "pois": [],
+        "poi_number": 5,
+        "pois": [
+            {
+                "name": "N/A",
+                "latitude": 40.991022,
+                "longitude": 29.0218395,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Moda Taksi",
+                "latitude": 40.9807575,
+                "longitude": 29.0237299,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Cem Taksi",
+                "latitude": 40.9840338,
+                "longitude": 29.0245772,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9894452,
+                "longitude": 29.0210783,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9906987,
+                "longitude": 29.0232352,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            }
+        ],
         "bus_station_number": 3,
         "bus_stations": [
             {
@@ -479,8 +633,105 @@
                 "distance_to_center": 0
             }
         ],
-        "metro_station_number": 0,
-        "metro_stations": []
+        "metro_station_number": 16,
+        "metro_stations": [
+            {
+                "name": "Kadıköy Vapur İskelesi;Kadıköy",
+                "latitude": 40.9930645,
+                "longitude": 29.0225349,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadiköy",
+                "latitude": 40.9918247,
+                "longitude": 29.0215599,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9905872,
+                "longitude": 29.0220448,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9916815,
+                "longitude": 29.0182427,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9930191,
+                "longitude": 29.0230008,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9928033,
+                "longitude": 29.0227727,
+                "distance_to_center": 0
+            },
+            {
+                "name": "3",
+                "latitude": 40.9908237,
+                "longitude": 29.0230765,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9913973,
+                "longitude": 29.0204425,
+                "distance_to_center": 0
+            },
+            {
+                "name": "4",
+                "latitude": 40.9914581,
+                "longitude": 29.0220749,
+                "distance_to_center": 0
+            },
+            {
+                "name": "2",
+                "latitude": 40.990031,
+                "longitude": 29.0215606,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9907682,
+                "longitude": 29.0229095,
+                "distance_to_center": 0
+            },
+            {
+                "name": "1",
+                "latitude": 40.9911226,
+                "longitude": 29.020948,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9907057,
+                "longitude": 29.0219242,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9929562,
+                "longitude": 29.0231271,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9912449,
+                "longitude": 29.0222454,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Moda",
+                "latitude": 40.978901,
+                "longitude": 29.0251505,
+                "distance_to_center": 0
+            }
+        ]
     },
     {
         "neighbourhood": "DUMLUPINAR MAH.",
@@ -546,8 +797,15 @@
                 "distance_to_center": 0
             }
         ],
-        "metro_station_number": 0,
-        "metro_stations": []
+        "metro_station_number": 1,
+        "metro_stations": [
+            {
+                "name": "4",
+                "latitude": 40.9973532,
+                "longitude": 29.0596604,
+                "distance_to_center": 0
+            }
+        ]
     },
     {
         "neighbourhood": "ERENKÖY MAH.",
@@ -578,8 +836,30 @@
         "latitude": null,
         "longitude": null,
         "population": 16946.0,
-        "poi_number": 0,
-        "pois": [],
+        "poi_number": 3,
+        "pois": [
+            {
+                "name": "18 Mart Taksi",
+                "latitude": 40.9718147,
+                "longitude": 29.0530829,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Okultur Taksi",
+                "latitude": 40.9752228,
+                "longitude": 29.0406422,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9757975,
+                "longitude": 29.0447548,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            }
+        ],
         "bus_station_number": 14,
         "bus_stations": [
             {
@@ -675,8 +955,23 @@
         "latitude": null,
         "longitude": null,
         "population": 21700.0,
-        "poi_number": 0,
-        "pois": [],
+        "poi_number": 2,
+        "pois": [
+            {
+                "name": "N/A",
+                "latitude": 40.978503,
+                "longitude": 29.0476405,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9824481,
+                "longitude": 29.0449835,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            }
+        ],
         "bus_station_number": 8,
         "bus_stations": [
             {
@@ -728,8 +1023,39 @@
                 "distance_to_center": 0
             }
         ],
-        "metro_station_number": 0,
-        "metro_stations": []
+        "metro_station_number": 5,
+        "metro_stations": [
+            {
+                "name": "Feneryolu",
+                "latitude": 40.9788502,
+                "longitude": 29.0487327,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Feneryolu",
+                "latitude": 40.9788046,
+                "longitude": 29.0486924,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Feneryolu",
+                "latitude": 40.9788973,
+                "longitude": 29.048782,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9789341,
+                "longitude": 29.0487975,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.978748,
+                "longitude": 29.0486366,
+                "distance_to_center": 0
+            }
+        ]
     },
     {
         "neighbourhood": "FİKİRTEPE MAH.",
@@ -748,8 +1074,23 @@
         "latitude": null,
         "longitude": null,
         "population": 32660.0,
-        "poi_number": 0,
-        "pois": [],
+        "poi_number": 2,
+        "pois": [
+            {
+                "name": "Barış Taksi",
+                "latitude": 40.9746406,
+                "longitude": 29.0570504,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Hizmet Taksi",
+                "latitude": 40.9790984,
+                "longitude": 29.0603282,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            }
+        ],
         "bus_station_number": 10,
         "bus_stations": [
             {
@@ -813,16 +1154,68 @@
                 "distance_to_center": 0
             }
         ],
-        "metro_station_number": 0,
-        "metro_stations": []
+        "metro_station_number": 6,
+        "metro_stations": [
+            {
+                "name": "Göztepe",
+                "latitude": 40.9791456,
+                "longitude": 29.0626905,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9792219,
+                "longitude": 29.062645,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9792871,
+                "longitude": 29.0626332,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9794183,
+                "longitude": 29.0625846,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9792994,
+                "longitude": 29.0624507,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9790784,
+                "longitude": 29.0628513,
+                "distance_to_center": 0
+            }
+        ]
     },
     {
         "neighbourhood": "HASANPAŞA MAH.",
         "latitude": null,
         "longitude": null,
         "population": 12068.0,
-        "poi_number": 0,
-        "pois": [],
+        "poi_number": 2,
+        "pois": [
+            {
+                "name": "N/A",
+                "latitude": 41.0006979,
+                "longitude": 29.0479182,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9924245,
+                "longitude": 29.03779,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            }
+        ],
         "bus_station_number": 16,
         "bus_stations": [
             {
@@ -922,8 +1315,15 @@
                 "distance_to_center": 0
             }
         ],
-        "metro_station_number": 0,
-        "metro_stations": []
+        "metro_station_number": 1,
+        "metro_stations": [
+            {
+                "name": "N/A",
+                "latitude": 41.0015991,
+                "longitude": 29.0456746,
+                "distance_to_center": 0
+            }
+        ]
     },
     {
         "neighbourhood": "KOZYATAĞI MAH.",
@@ -942,8 +1342,16 @@
         "latitude": null,
         "longitude": null,
         "population": 5647.0,
-        "poi_number": 0,
-        "pois": [],
+        "poi_number": 1,
+        "pois": [
+            {
+                "name": "N/A",
+                "latitude": 41.0120851,
+                "longitude": 29.0369929,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            }
+        ],
         "bus_station_number": 14,
         "bus_stations": [
             {
@@ -1051,8 +1459,16 @@
         "latitude": null,
         "longitude": null,
         "population": 6283.0,
-        "poi_number": 0,
-        "pois": [],
+        "poi_number": 1,
+        "pois": [
+            {
+                "name": "N/A",
+                "latitude": 40.9924189,
+                "longitude": 29.0248516,
+                "distance_to_center": 0,
+                "poi_type": "taxi"
+            }
+        ],
         "bus_station_number": 10,
         "bus_stations": [
             {
@@ -1201,7 +1617,50 @@
                 "distance_to_center": 0
             }
         ],
-        "metro_station_number": 0,
-        "metro_stations": []
+        "metro_station_number": 7,
+        "metro_stations": [
+            {
+                "name": "Söğütlüçeşme",
+                "latitude": 40.9910811,
+                "longitude": 29.0378356,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Söğütlüçeşme",
+                "latitude": 40.9910017,
+                "longitude": 29.0376538,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Söğütlüçeşme",
+                "latitude": 40.9910179,
+                "longitude": 29.0376707,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9910047,
+                "longitude": 29.0376226,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9909463,
+                "longitude": 29.0374472,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9907619,
+                "longitude": 29.0381316,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9905761,
+                "longitude": 29.0377299,
+                "distance_to_center": 0
+            }
+        ]
     }
 ]
