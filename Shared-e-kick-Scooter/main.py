@@ -1,6 +1,7 @@
 import sys
 from services.election_api.ElectionResult import process_population_data
 from services.json_api.JSONManipulation import initialize_json, generate_json_and_map
+from services.nominatim.Nominatim import calculate_distances
 from services.open_street_api.TransportMap import TransportMap
 
 if __name__ == "__main__":
@@ -15,6 +16,7 @@ if __name__ == "__main__":
 
             # Process population data
             process_population_data(input_file, output_file)
+            calculate_distances(output_file)
 
         try:
 
