@@ -4,12 +4,9 @@ from services.json_api.JSONManipulation import initialize_json, generate_json_an
 from services.open_street_api.TransportMap import TransportMap
 
 if __name__ == "__main__":
+
     input_file = "database/input/kadikoy.xlsx"
     output_file = "database/output/database.json"
-
-    print('The command line arguments are:')
-    for i in sys.argv:
-        print(i)
 
     if len(sys.argv) == 3:
         if sys.argv[1] == "-updateAll":

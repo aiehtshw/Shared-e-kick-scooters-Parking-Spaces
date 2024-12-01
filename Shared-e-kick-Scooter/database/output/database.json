@@ -1,8 +1,8 @@
 [
     {
         "neighbourhood": "19 MAYIS MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.973511,
+        "longitude": 29.088955,
         "population": 26366.0,
         "poi_number": 0,
         "pois": [],
@@ -44,8 +44,8 @@
     },
     {
         "neighbourhood": "ACIBADEM MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.001781,
+        "longitude": 29.038741,
         "population": 24429.0,
         "poi_number": 11,
         "pois": [
@@ -576,8 +576,8 @@
     },
     {
         "neighbourhood": "BOSTANCI MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.957852,
+        "longitude": 29.095764,
         "population": 27219.0,
         "poi_number": 0,
         "pois": [],
@@ -709,8 +709,8 @@
     },
     {
         "neighbourhood": "CADDEBOSTAN MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.962856,
+        "longitude": 29.061369,
         "population": 16477.0,
         "poi_number": 12,
         "pois": [
@@ -885,8 +885,8 @@
     },
     {
         "neighbourhood": "CAFERAĞA MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.9850403,
+        "longitude": 29.0248102,
         "population": 18276.0,
         "poi_number": 75,
         "pois": [
@@ -1574,8 +1574,8 @@
     },
     {
         "neighbourhood": "DUMLUPINAR MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.99297,
+        "longitude": 29.05974,
         "population": 7833.0,
         "poi_number": 0,
         "pois": [],
@@ -1648,8 +1648,8 @@
     },
     {
         "neighbourhood": "ERENKÖY MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 35.179008,
+        "longitude": 32.608181,
         "population": 28780.0,
         "poi_number": 0,
         "pois": [],
@@ -1697,8 +1697,8 @@
     },
     {
         "neighbourhood": "EĞİTİM MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.989437,
+        "longitude": 29.049488,
         "population": 10676.0,
         "poi_number": 0,
         "pois": [],
@@ -1709,8 +1709,8 @@
     },
     {
         "neighbourhood": "FENERBAHÇE MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.974454,
+        "longitude": 29.043537,
         "population": 16946.0,
         "poi_number": 7,
         "pois": [
@@ -1877,8 +1877,8 @@
     },
     {
         "neighbourhood": "FENERYOLU MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.982013,
+        "longitude": 29.049548,
         "population": 21700.0,
         "poi_number": 17,
         "pois": [
@@ -2103,8 +2103,8 @@
     },
     {
         "neighbourhood": "FİKİRTEPE MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.993729,
+        "longitude": 29.050432,
         "population": 8854.0,
         "poi_number": 0,
         "pois": [],
@@ -2115,8 +2115,8 @@
     },
     {
         "neighbourhood": "GÖZTEPE MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.977171,
+        "longitude": 29.06264,
         "population": 32660.0,
         "poi_number": 12,
         "pois": [
@@ -2360,8 +2360,8 @@
     },
     {
         "neighbourhood": "HASANPAŞA MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.996225,
+        "longitude": 29.044654,
         "population": 12068.0,
         "poi_number": 3,
         "pois": [
@@ -2512,8 +2512,8 @@
     },
     {
         "neighbourhood": "KOZYATAĞI MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.968948,
+        "longitude": 29.095792,
         "population": 31095.0,
         "poi_number": 0,
         "pois": [],
@@ -2537,8 +2537,8 @@
     },
     {
         "neighbourhood": "KOŞUYOLU MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 41.006589,
+        "longitude": 29.034666,
         "population": 5647.0,
         "poi_number": 4,
         "pois": [
@@ -2670,8 +2670,8 @@
     },
     {
         "neighbourhood": "MERDİVENKÖY MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.987681,
+        "longitude": 29.069109,
         "population": 25769.0,
         "poi_number": 0,
         "pois": [],
@@ -2689,8 +2689,8 @@
     },
     {
         "neighbourhood": "OSMANAĞA MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.988172,
+        "longitude": 29.029933,
         "population": 6283.0,
         "poi_number": 49,
         "pois": [
@@ -3113,8 +3113,8 @@
     },
     {
         "neighbourhood": "RASİMPAŞA MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.996897,
+        "longitude": 29.025539,
         "population": 10128.0,
         "poi_number": 0,
         "pois": [],
@@ -3125,8 +3125,8 @@
     },
     {
         "neighbourhood": "SAHRAYICEDİT MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.982849,
+        "longitude": 29.086509,
         "population": 25058.0,
         "poi_number": 0,
         "pois": [],
@@ -3174,8 +3174,8 @@
     },
     {
         "neighbourhood": "SUADİYE MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.961046,
+        "longitude": 29.081574,
         "population": 21934.0,
         "poi_number": 0,
         "pois": [],
@@ -3217,8 +3217,8 @@
     },
     {
         "neighbourhood": "ZÜHTÜPAŞA MAH.",
-        "latitude": null,
-        "longitude": null,
+        "latitude": 40.986532,
+        "longitude": 29.038801,
         "population": 6834.0,
         "poi_number": 10,
         "pois": [
