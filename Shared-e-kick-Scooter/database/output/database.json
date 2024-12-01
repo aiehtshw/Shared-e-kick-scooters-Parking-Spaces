@@ -8,8 +8,39 @@
         "pois": [],
         "bus_station_number": 0,
         "bus_stations": [],
-        "metro_station_number": 0,
-        "metro_stations": []
+        "metro_station_number": 5,
+        "metro_stations": [
+            {
+                "name": "Ayşekadın",
+                "latitude": 40.9668107,
+                "longitude": 29.0867801,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Ayşekadın",
+                "latitude": 40.9668223,
+                "longitude": 29.0870683,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Ayşekadın",
+                "latitude": 40.9666465,
+                "longitude": 29.0865803,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9673983,
+                "longitude": 29.0865187,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9662301,
+                "longitude": 29.0869634,
+                "distance_to_center": 0
+            }
+        ]
     },
     {
         "neighbourhood": "ACIBADEM MAH.",
@@ -552,8 +583,129 @@
         "pois": [],
         "bus_station_number": 0,
         "bus_stations": [],
-        "metro_station_number": 0,
-        "metro_stations": []
+        "metro_station_number": 20,
+        "metro_stations": [
+            {
+                "name": "Bostancı",
+                "latitude": 40.9538984,
+                "longitude": 29.094853,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Bostancı",
+                "latitude": 40.964688,
+                "longitude": 29.1053769,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Bostancı",
+                "latitude": 40.9540096,
+                "longitude": 29.0949313,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Bostancı",
+                "latitude": 40.951845,
+                "longitude": 29.0928318,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9537942,
+                "longitude": 29.0958466,
+                "distance_to_center": 0
+            },
+            {
+                "name": "1",
+                "latitude": 40.9645806,
+                "longitude": 29.1047664,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Bostancı",
+                "latitude": 40.9515634,
+                "longitude": 29.0942563,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Bostancı",
+                "latitude": 40.9539279,
+                "longitude": 29.0949153,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Emin Ali Paşa",
+                "latitude": 40.9606909,
+                "longitude": 29.093549,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Bostancı",
+                "latitude": 40.964554,
+                "longitude": 29.1050971,
+                "distance_to_center": 0
+            },
+            {
+                "name": "3",
+                "latitude": 40.9646252,
+                "longitude": 29.1028518,
+                "distance_to_center": 0
+            },
+            {
+                "name": "4",
+                "latitude": 40.9631133,
+                "longitude": 29.106128,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Emin Ali Paşa",
+                "latitude": 40.9605812,
+                "longitude": 29.0933503,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9538778,
+                "longitude": 29.0948321,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9543943,
+                "longitude": 29.0940139,
+                "distance_to_center": 0
+            },
+            {
+                "name": "YHT V.I.P. Giriş, Engelli Asansörü",
+                "latitude": 40.9539843,
+                "longitude": 29.0942981,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9533822,
+                "longitude": 29.0956001,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.959875,
+                "longitude": 29.0941908,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9519864,
+                "longitude": 29.0933969,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9612597,
+                "longitude": 29.0931575,
+                "distance_to_center": 0
+            }
+        ]
     },
     {
         "neighbourhood": "CADDEBOSTAN MAH.",
@@ -1503,8 +1655,45 @@
         "pois": [],
         "bus_station_number": 0,
         "bus_stations": [],
-        "metro_station_number": 0,
-        "metro_stations": []
+        "metro_station_number": 6,
+        "metro_stations": [
+            {
+                "name": "Erenköy",
+                "latitude": 40.9716688,
+                "longitude": 29.0763701,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Erenköy",
+                "latitude": 40.9716882,
+                "longitude": 29.0764655,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9718762,
+                "longitude": 29.0765733,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9717971,
+                "longitude": 29.0760619,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9714049,
+                "longitude": 29.0762255,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Erenköy",
+                "latitude": 40.9716704,
+                "longitude": 29.0762961,
+                "distance_to_center": 0
+            }
+        ]
     },
     {
         "neighbourhood": "EĞİTİM MAH.",
@@ -2093,8 +2282,44 @@
                 "distance_to_center": 0
             }
         ],
-        "metro_station_number": 6,
+        "metro_station_number": 12,
         "metro_stations": [
+            {
+                "name": "Göztepe",
+                "latitude": 40.9791456,
+                "longitude": 29.0626905,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9792219,
+                "longitude": 29.062645,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9792871,
+                "longitude": 29.0626332,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9794183,
+                "longitude": 29.0625846,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9792994,
+                "longitude": 29.0624507,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9790784,
+                "longitude": 29.0628513,
+                "distance_to_center": 0
+            },
             {
                 "name": "Göztepe",
                 "latitude": 40.9791456,
@@ -2294,8 +2519,21 @@
         "pois": [],
         "bus_station_number": 0,
         "bus_stations": [],
-        "metro_station_number": 0,
-        "metro_stations": []
+        "metro_station_number": 2,
+        "metro_stations": [
+            {
+                "name": "Giriş 2",
+                "latitude": 40.9753691,
+                "longitude": 29.098427,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Emin Ali Paşa",
+                "latitude": 40.9608531,
+                "longitude": 29.0937566,
+                "distance_to_center": 0
+            }
+        ]
     },
     {
         "neighbourhood": "KOŞUYOLU MAH.",
@@ -2439,8 +2677,15 @@
         "pois": [],
         "bus_station_number": 0,
         "bus_stations": [],
-        "metro_station_number": 0,
-        "metro_stations": []
+        "metro_station_number": 1,
+        "metro_stations": [
+            {
+                "name": "2",
+                "latitude": 40.9931196,
+                "longitude": 29.0704696,
+                "distance_to_center": 0
+            }
+        ]
     },
     {
         "neighbourhood": "OSMANAĞA MAH.",
@@ -2887,8 +3132,45 @@
         "pois": [],
         "bus_station_number": 0,
         "bus_stations": [],
-        "metro_station_number": 0,
-        "metro_stations": []
+        "metro_station_number": 6,
+        "metro_stations": [
+            {
+                "name": "Yenisahra",
+                "latitude": 40.9845938,
+                "longitude": 29.0904257,
+                "distance_to_center": 0
+            },
+            {
+                "name": "2",
+                "latitude": 40.9849437,
+                "longitude": 29.0900864,
+                "distance_to_center": 0
+            },
+            {
+                "name": "1",
+                "latitude": 40.9841372,
+                "longitude": 29.0912249,
+                "distance_to_center": 0
+            },
+            {
+                "name": "3",
+                "latitude": 40.9846229,
+                "longitude": 29.09,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Yenisahra",
+                "latitude": 40.9847125,
+                "longitude": 29.0905702,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Yenisahra",
+                "latitude": 40.9844847,
+                "longitude": 29.09026,
+                "distance_to_center": 0
+            }
+        ]
     },
     {
         "neighbourhood": "SUADİYE MAH.",
@@ -2899,8 +3181,39 @@
         "pois": [],
         "bus_station_number": 0,
         "bus_stations": [],
-        "metro_station_number": 0,
-        "metro_stations": []
+        "metro_station_number": 5,
+        "metro_stations": [
+            {
+                "name": "Suadiye",
+                "latitude": 40.9605007,
+                "longitude": 29.0844637,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Suadiye",
+                "latitude": 40.9605637,
+                "longitude": 29.08449,
+                "distance_to_center": 0
+            },
+            {
+                "name": "Suadiye",
+                "latitude": 40.9604329,
+                "longitude": 29.084443,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9605943,
+                "longitude": 29.0844391,
+                "distance_to_center": 0
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9603963,
+                "longitude": 29.0843935,
+                "distance_to_center": 0
+            }
+        ]
     },
     {
         "neighbourhood": "ZÜHTÜPAŞA MAH.",

@@ -20,28 +20,44 @@ if __name__ == "__main__":
             process_population_data(input_file, output_file)
 
         try:
-            # Create a TransportMap instance and fetch transport data
+
             transport_map = TransportMap("Kadıkoy, Istanbul, Turkey")
+            transport_map1 = TransportMap("19 MAYIS MAHALLESİ, Istanbul, Turkey", radius_km=3)
+
+            # Add search areas
             transport_map.add_search_area_circle()
+            transport_map1.add_search_area_circle()
 
             # Update JSON and map with bus stop data
             if sys.argv[1] == "-updateAll" or sys.argv[1] == "-updateBusStops":
                 generate_json_and_map(output_file, transport_map, "bus", "blue", "info-sign")
+                generate_json_and_map(output_file, transport_map1, "bus", "blue", "info-sign")
             # Update JSON and map with metro stop data
 
             elif sys.argv[1] == "-updateAll" or sys.argv[1] == "-updateMetroStops":
                 generate_json_and_map(output_file, transport_map, "metro", "purple", "info-sign")
+                generate_json_and_map(output_file, transport_map1, "metro", "purple", "info-sign")
 
             # Update JSON and map with POI points data
             elif sys.argv[1] == "-updateAll" or sys.argv[1] == "-updatePoiPoints":
                 generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="taxi")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="taxi")
                 generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign", poi_type="fast_food")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign", poi_type="fast_food")
+
+            #TODO: CPlex
+            elif sys.argv[1] == "-onlyCplex":
+                print("run cplex")
+
             else:
                 print("Wrong Parameter")
                 exit()
             # Save the map (optional)
             if len(sys.argv) == 3 and sys.argv[2] == "-enableMapUpdate":
-                transport_map.save_map("kadikoy_transport_map.html")
+                # Merge transport_map1 into transport_map
+                transport_map.merge_map(transport_map1)
+                # Save the combined map with all markers and search areas
+                transport_map.save_map("kadikoy_combined_transport_map.html")
 
         except Exception as e:
             print(f"An error occurred: {str(e)}")

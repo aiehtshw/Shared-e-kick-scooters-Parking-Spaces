@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 
+from services.localize_char.LocalizeChar import tr_upper
 from services.nominatim.Nominatim import get_address_from_lat_lon
 
 
@@ -95,7 +96,7 @@ def generate_json_and_map(json_file, transport_map, stop_type, color, icon, poi_
                         -6].strip()  # Extract the 4th part (adjust if needed)
                     neighborhood_name_from_address = neighborhood_name_from_address.split(" ")[0]
                     print("neighborhood_name_from_address {}".format(neighborhood_name_from_address))
-                    if neighborhood_name_from_address.upper() in neighborhood["neighbourhood"].upper():
+                    if tr_upper(neighborhood_name_from_address) in tr_upper(neighborhood["neighbourhood"]):
                         print("matched")
                         print("neighborhood")
                         print(neighborhood)
@@ -110,13 +111,13 @@ def generate_json_and_map(json_file, transport_map, stop_type, color, icon, poi_
             print("relevant_stops")
             print(relevant_stops)
             if stop_type == "bus":
-                neighborhood["bus_station_number"] = len(relevant_stops)
+                neighborhood["bus_station_number"] += len(relevant_stops)
                 neighborhood["bus_stations"].extend(relevant_stops)
             elif stop_type == "metro":
-                neighborhood["metro_station_number"] = len(relevant_stops)
+                neighborhood["metro_station_number"] += len(relevant_stops)
                 neighborhood["metro_stations"].extend(relevant_stops)
             elif stop_type == "poi":
-                neighborhood["poi_number"] = len(relevant_stops)
+                neighborhood["poi_number"] += len(relevant_stops)
                 neighborhood["pois"].extend(relevant_stops)
             print("neighborhood")
             print(neighborhood)
