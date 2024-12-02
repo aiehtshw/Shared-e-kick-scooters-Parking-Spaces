@@ -1,0 +1,3381 @@
+[
+    {
+        "neighbourhood": "19 MAYIS MAH.",
+        "latitude": 40.973511,
+        "longitude": 29.088955,
+        "population": 26366.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 5,
+        "metro_stations": [
+            {
+                "name": "Ayşekadın",
+                "latitude": 40.9668107,
+                "longitude": 29.0867801,
+                "distance_to_center": 0.7662798486846327
+            },
+            {
+                "name": "Ayşekadın",
+                "latitude": 40.9668223,
+                "longitude": 29.0870683,
+                "distance_to_center": 0.7595892692366113
+            },
+            {
+                "name": "Ayşekadın",
+                "latitude": 40.9666465,
+                "longitude": 29.0865803,
+                "distance_to_center": 0.7880956564716399
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9673983,
+                "longitude": 29.0865187,
+                "distance_to_center": 0.7091344575626143
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9662301,
+                "longitude": 29.0869634,
+                "distance_to_center": 0.8257636508414298
+            }
+        ]
+    },
+    {
+        "neighbourhood": "ACIBADEM MAH.",
+        "latitude": 41.001781,
+        "longitude": 29.038741,
+        "population": 24429.0,
+        "poi_number": 11,
+        "pois": [
+            {
+                "name": "N/A",
+                "latitude": 40.999974,
+                "longitude": 29.0328366,
+                "distance_to_center": 0.5357629326387503,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "N/A",
+                "latitude": 41.0126445,
+                "longitude": 29.0569493,
+                "distance_to_center": 1.9498391387240637,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Komşu Fırın",
+                "latitude": 41.0041002,
+                "longitude": 29.0443078,
+                "distance_to_center": 0.5344907648551666,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "McDonald's",
+                "latitude": 41.0031719,
+                "longitude": 29.0439629,
+                "distance_to_center": 0.4656924511291657,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "KFC",
+                "latitude": 41.0048853,
+                "longitude": 29.0449572,
+                "distance_to_center": 0.6263797883570221,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Burger King",
+                "latitude": 41.002951,
+                "longitude": 29.0427714,
+                "distance_to_center": 0.3631282860369617,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Arby's",
+                "latitude": 41.0029167,
+                "longitude": 29.0427228,
+                "distance_to_center": 0.3579534050444579,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Popeyes",
+                "latitude": 41.0028663,
+                "longitude": 29.0426652,
+                "distance_to_center": 0.35146389066001543,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Burger King",
+                "latitude": 40.9990996,
+                "longitude": 29.0312553,
+                "distance_to_center": 0.696655739203008,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "McDonald's",
+                "latitude": 40.9990442,
+                "longitude": 29.0315033,
+                "distance_to_center": 0.6805766265555201,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "KFC",
+                "latitude": 40.9995836,
+                "longitude": 29.0308097,
+                "distance_to_center": 0.7105156936925392,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Acıbadem Kokoreç Hakan Büfe",
+                "latitude": 41.0057907,
+                "longitude": 29.0463886,
+                "distance_to_center": 0.7824600040786073,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "McDonald's",
+                "latitude": 41.0012301,
+                "longitude": 29.0543254,
+                "distance_to_center": 1.3125930987058028,
+                "poi_type": "fast_food"
+            }
+        ],
+        "bus_station_number": 54,
+        "bus_stations": [
+            {
+                "name": "Kuruçeşme",
+                "latitude": 41.0018393,
+                "longitude": 29.0415576,
+                "distance_to_center": 0.23705710970519842
+            },
+            {
+                "name": "Kuruçeşme",
+                "latitude": 41.0020396,
+                "longitude": 29.0416175,
+                "distance_to_center": 0.2437058994082019
+            },
+            {
+                "name": "Kadıköy Ahmet Sani Gezici Kız Anadolu İmam Hatip Lisesi",
+                "latitude": 41.0037493,
+                "longitude": 29.0440315,
+                "distance_to_center": 0.4958762533137705
+            },
+            {
+                "name": "Kadıköy Ahmet Sani Gezici Kız Anadolu İmam Hatip Lisesi",
+                "latitude": 41.0037297,
+                "longitude": 29.0443175,
+                "distance_to_center": 0.5166672663444406
+            },
+            {
+                "name": "Marmara Üniversitesi Güzel Sanatlar Fakültesi",
+                "latitude": 41.005672,
+                "longitude": 29.0462571,
+                "distance_to_center": 0.7658751701527211
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9987436,
+                "longitude": 29.0376951,
+                "distance_to_center": 0.3486042495089359
+            },
+            {
+                "name": "Sakızağacı",
+                "latitude": 40.998627,
+                "longitude": 29.0379171,
+                "distance_to_center": 0.35705740076354886
+            },
+            {
+                "name": "Acıbadem Köprüsü",
+                "latitude": 41.0023876,
+                "longitude": 29.0418963,
+                "distance_to_center": 0.2738775211572777
+            },
+            {
+                "name": "Çamlıca Kız Lisesi",
+                "latitude": 41.008354,
+                "longitude": 29.050164,
+                "distance_to_center": 1.2067993451811292
+            },
+            {
+                "name": "Çamlıca Kız Lisesi",
+                "latitude": 41.0084985,
+                "longitude": 29.0500182,
+                "distance_to_center": 1.2069064310382518
+            },
+            {
+                "name": "Ayrılıkçeşmesi Marmaray",
+                "latitude": 41.0002522,
+                "longitude": 29.0299355,
+                "distance_to_center": 0.7600462898919639
+            },
+            {
+                "name": "Mimoza",
+                "latitude": 41.0025094,
+                "longitude": 29.0575129,
+                "distance_to_center": 1.5813963141721867
+            },
+            {
+                "name": "Mimoza",
+                "latitude": 41.0024831,
+                "longitude": 29.057435,
+                "distance_to_center": 1.5747040033308772
+            },
+            {
+                "name": "N/A",
+                "latitude": 41.0067963,
+                "longitude": 29.0546279,
+                "distance_to_center": 1.4479671487082844
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9969464,
+                "longitude": 29.0364004,
+                "distance_to_center": 0.571877412920634
+            },
+            {
+                "name": "Acıbadem Caddesi",
+                "latitude": 41.0141566,
+                "longitude": 29.054823,
+                "distance_to_center": 1.9285235444978135
+            },
+            {
+                "name": "Rauf Paşa Hanı Sokak",
+                "latitude": 41.0135107,
+                "longitude": 29.0525592,
+                "distance_to_center": 1.7458997201703956
+            },
+            {
+                "name": "Genç Sokak",
+                "latitude": 41.0121555,
+                "longitude": 29.0504583,
+                "distance_to_center": 1.5162698260967267
+            },
+            {
+                "name": "Gencay Sokak",
+                "latitude": 41.0101306,
+                "longitude": 29.0471394,
+                "distance_to_center": 1.1657615228179488
+            },
+            {
+                "name": "Şamfıstığı Sokak",
+                "latitude": 40.9954982,
+                "longitude": 29.0347974,
+                "distance_to_center": 0.7726053359156012
+            },
+            {
+                "name": "İkbaliye",
+                "latitude": 41.000137,
+                "longitude": 29.039283,
+                "distance_to_center": 0.1881812688184887
+            },
+            {
+                "name": "Marmara Üniversitesi Güzel Sanatlar Fakültesi",
+                "latitude": 41.006034,
+                "longitude": 29.04637,
+                "distance_to_center": 0.7968840478598085
+            },
+            {
+                "name": "Şehit Murat Mertel",
+                "latitude": 41.010213,
+                "longitude": 29.051657,
+                "distance_to_center": 1.4344128575714612
+            },
+            {
+                "name": "Güreşçi Yaşar Yılmaz",
+                "latitude": 40.99712,
+                "longitude": 29.036299,
+                "distance_to_center": 0.5569079803286636
+            },
+            {
+                "name": "Acıbadem Caddesi",
+                "latitude": 41.011325,
+                "longitude": 29.052389,
+                "distance_to_center": 1.5625832049762407
+            },
+            {
+                "name": "Sakızağacı",
+                "latitude": 40.998617,
+                "longitude": 29.037915,
+                "distance_to_center": 0.35818111514125467
+            },
+            {
+                "name": "Türk Telekom - Çamlıca Kız Lisesi",
+                "latitude": 41.007319,
+                "longitude": 29.048621,
+                "distance_to_center": 1.0339907287042662
+            },
+            {
+                "name": "Şehit Mete Sertbaş",
+                "latitude": 41.014389,
+                "longitude": 29.05535,
+                "distance_to_center": 1.9780617064545385
+            },
+            {
+                "name": "Sakızağacı",
+                "latitude": 40.998694,
+                "longitude": 29.037682,
+                "distance_to_center": 0.35421251548889626
+            },
+            {
+                "name": "Şehit Mete Sertbaş",
+                "latitude": 41.0148074,
+                "longitude": 29.055993,
+                "distance_to_center": 2.049164853676187
+            },
+            {
+                "name": "Güreşçi Yaşar Yılmaz",
+                "latitude": 40.997041,
+                "longitude": 29.036521,
+                "distance_to_center": 0.5585513593776548
+            },
+            {
+                "name": "Şehit Murat Naiboğlu",
+                "latitude": 41.008514,
+                "longitude": 29.050053,
+                "distance_to_center": 1.2102718259903988
+            },
+            {
+                "name": "İkbaliye",
+                "latitude": 40.999993,
+                "longitude": 29.038839,
+                "distance_to_center": 0.19873552868744088
+            },
+            {
+                "name": "Sarayardı Caddesi",
+                "latitude": 40.997606,
+                "longitude": 29.033059,
+                "distance_to_center": 0.6659663150145089
+            },
+            {
+                "name": "Şehit Murat Mertel",
+                "latitude": 41.010168,
+                "longitude": 29.051407,
+                "distance_to_center": 1.4152536576062675
+            },
+            {
+                "name": "Acıbadem Caddesi",
+                "latitude": 41.011534,
+                "longitude": 29.052814,
+                "distance_to_center": 1.604612965186597
+            },
+            {
+                "name": "Sarayardı Caddesi",
+                "latitude": 40.997968,
+                "longitude": 29.032364,
+                "distance_to_center": 0.683501485530388
+            },
+            {
+                "name": "Uzunçayır Metrobüs",
+                "latitude": 40.999885,
+                "longitude": 29.054369,
+                "distance_to_center": 1.3316006694409077
+            },
+            {
+                "name": "Koşuyolu Köprüsü",
+                "latitude": 41.00314,
+                "longitude": 29.03477,
+                "distance_to_center": 0.36659596856355525
+            },
+            {
+                "name": "Ayrılık Çeşmesi",
+                "latitude": 40.99942,
+                "longitude": 29.032659,
+                "distance_to_center": 0.5749700182463781
+            },
+            {
+                "name": "Acıbadem Lisesi",
+                "latitude": 41.003086,
+                "longitude": 29.0367,
+                "distance_to_center": 0.22469742798074943
+            },
+            {
+                "name": "Acıbadem Metro",
+                "latitude": 41.002327,
+                "longitude": 29.044364,
+                "distance_to_center": 0.4769475238709622
+            },
+            {
+                "name": "Timlo Sitesi",
+                "latitude": 41.005132,
+                "longitude": 29.054798,
+                "distance_to_center": 1.4012095466239276
+            },
+            {
+                "name": "Akasya Konutları Göl Etabı",
+                "latitude": 41.006426,
+                "longitude": 29.055789,
+                "distance_to_center": 1.5241926522709617
+            },
+            {
+                "name": "Timlo Sitesi",
+                "latitude": 41.004918,
+                "longitude": 29.054999,
+                "distance_to_center": 1.4114689165659462
+            },
+            {
+                "name": "Yıldız Teknik Üniversitesi Lojmanları",
+                "latitude": 41.007588,
+                "longitude": 29.046309,
+                "distance_to_center": 0.9062328602724271
+            },
+            {
+                "name": "Yıldız Teknik Üniversitesi Lojmanları",
+                "latitude": 41.007431,
+                "longitude": 29.046286,
+                "distance_to_center": 0.8925327878009282
+            },
+            {
+                "name": "Faikbey Sokak",
+                "latitude": 41.008529,
+                "longitude": 29.045085,
+                "distance_to_center": 0.9200204122929962
+            },
+            {
+                "name": "Faikbey Sokak",
+                "latitude": 41.00864,
+                "longitude": 29.044801,
+                "distance_to_center": 0.9165871445243686
+            },
+            {
+                "name": "Valievleri",
+                "latitude": 41.006757,
+                "longitude": 29.054623,
+                "distance_to_center": 1.4459133751416207
+            },
+            {
+                "name": "İncirlibostan",
+                "latitude": 41.000246,
+                "longitude": 29.052511,
+                "distance_to_center": 1.1709980979203376
+            },
+            {
+                "name": "Türk Telekom - Çamlıca Kız Lisesi",
+                "latitude": 41.0070774,
+                "longitude": 29.0483098,
+                "distance_to_center": 0.9970048020592255
+            },
+            {
+                "name": "Koşuyolu Köprüsü",
+                "latitude": 41.0035508,
+                "longitude": 29.0376877,
+                "distance_to_center": 0.215597000631088
+            },
+            {
+                "name": "Acıbadem Metro",
+                "latitude": 41.0017133,
+                "longitude": 29.0455174,
+                "distance_to_center": 0.5701681843088748
+            }
+        ],
+        "metro_station_number": 17,
+        "metro_stations": [
+            {
+                "name": "Ayrılık Çeşmesi",
+                "latitude": 41.0001678,
+                "longitude": 29.0302593,
+                "distance_to_center": 0.7357437627001788
+            },
+            {
+                "name": "Acıbadem",
+                "latitude": 41.0023323,
+                "longitude": 29.0444009,
+                "distance_to_center": 0.48010167188158026
+            },
+            {
+                "name": "N/A",
+                "latitude": 41.001699,
+                "longitude": 29.0453485,
+                "distance_to_center": 0.5559831973260382
+            },
+            {
+                "name": "3",
+                "latitude": 40.9996222,
+                "longitude": 29.0565262,
+                "distance_to_center": 1.5154292573673993
+            },
+            {
+                "name": "1",
+                "latitude": 41.0004219,
+                "longitude": 29.0300451,
+                "distance_to_center": 0.7470255792098124
+            },
+            {
+                "name": "2",
+                "latitude": 40.999795,
+                "longitude": 29.0303802,
+                "distance_to_center": 0.7371947728578964
+            },
+            {
+                "name": "Acıbadem",
+                "latitude": 41.0025088,
+                "longitude": 29.0444678,
+                "distance_to_center": 0.4885420492498208
+            },
+            {
+                "name": "N/A",
+                "latitude": 41.002151,
+                "longitude": 29.0454661,
+                "distance_to_center": 0.5672907895192487
+            },
+            {
+                "name": "Ayrılık Çeşmesi",
+                "latitude": 41.0002756,
+                "longitude": 29.0302732,
+                "distance_to_center": 0.7317815316987187
+            },
+            {
+                "name": "Ayrılık Çeşmesi",
+                "latitude": 41.0002547,
+                "longitude": 29.0301688,
+                "distance_to_center": 0.7408632269484112
+            },
+            {
+                "name": "Ayrılık Çeşmesi",
+                "latitude": 41.0003185,
+                "longitude": 29.0300887,
+                "distance_to_center": 0.7458499780788563
+            },
+            {
+                "name": "2",
+                "latitude": 41.0003923,
+                "longitude": 29.0545928,
+                "distance_to_center": 1.3425593411357144
+            },
+            {
+                "name": "Ayrılık Çeşmesi",
+                "latitude": 41.0001803,
+                "longitude": 29.0305822,
+                "distance_to_center": 0.7090760902266151
+            },
+            {
+                "name": "Acıbadem",
+                "latitude": 41.0021833,
+                "longitude": 29.0443227,
+                "distance_to_center": 0.4717237410823334
+            },
+            {
+                "name": "N/A",
+                "latitude": 41.0022344,
+                "longitude": 29.0449218,
+                "distance_to_center": 0.5224390497828107
+            },
+            {
+                "name": "N/A",
+                "latitude": 41.0025403,
+                "longitude": 29.0434532,
+                "distance_to_center": 0.4053173091300464
+            },
+            {
+                "name": "3",
+                "latitude": 41.0004194,
+                "longitude": 29.0306065,
+                "distance_to_center": 0.700891831348943
+            }
+        ]
+    },
+    {
+        "neighbourhood": "BOSTANCI MAH.",
+        "latitude": 40.957852,
+        "longitude": 29.095764,
+        "population": 27219.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 20,
+        "metro_stations": [
+            {
+                "name": "Bostancı",
+                "latitude": 40.9538984,
+                "longitude": 29.094853,
+                "distance_to_center": 0.44570813467176584
+            },
+            {
+                "name": "Bostancı",
+                "latitude": 40.964688,
+                "longitude": 29.1053769,
+                "distance_to_center": 1.1096030156149197
+            },
+            {
+                "name": "Bostancı",
+                "latitude": 40.9540096,
+                "longitude": 29.0949313,
+                "distance_to_center": 0.4324309208366281
+            },
+            {
+                "name": "Bostancı",
+                "latitude": 40.951845,
+                "longitude": 29.0928318,
+                "distance_to_center": 0.711309390546054
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9537942,
+                "longitude": 29.0958466,
+                "distance_to_center": 0.45068473870516956
+            },
+            {
+                "name": "1",
+                "latitude": 40.9645806,
+                "longitude": 29.1047664,
+                "distance_to_center": 1.0642891935648664
+            },
+            {
+                "name": "Bostancı",
+                "latitude": 40.9515634,
+                "longitude": 29.0942563,
+                "distance_to_center": 0.7098106157691186
+            },
+            {
+                "name": "Bostancı",
+                "latitude": 40.9539279,
+                "longitude": 29.0949153,
+                "distance_to_center": 0.44160234073391424
+            },
+            {
+                "name": "Emin Ali Paşa",
+                "latitude": 40.9606909,
+                "longitude": 29.093549,
+                "distance_to_center": 0.36628806634425753
+            },
+            {
+                "name": "Bostancı",
+                "latitude": 40.964554,
+                "longitude": 29.1050971,
+                "distance_to_center": 1.082256130792837
+            },
+            {
+                "name": "3",
+                "latitude": 40.9646252,
+                "longitude": 29.1028518,
+                "distance_to_center": 0.9601108053654188
+            },
+            {
+                "name": "4",
+                "latitude": 40.9631133,
+                "longitude": 29.106128,
+                "distance_to_center": 1.050066582377288
+            },
+            {
+                "name": "Emin Ali Paşa",
+                "latitude": 40.9605812,
+                "longitude": 29.0933503,
+                "distance_to_center": 0.36490049512798156
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9538778,
+                "longitude": 29.0948321,
+                "distance_to_center": 0.44826649922280587
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9543943,
+                "longitude": 29.0940139,
+                "distance_to_center": 0.4112867000070614
+            },
+            {
+                "name": "YHT V.I.P. Giriş, Engelli Asansörü",
+                "latitude": 40.9539843,
+                "longitude": 29.0942981,
+                "distance_to_center": 0.4468991307330757
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9533822,
+                "longitude": 29.0956001,
+                "distance_to_center": 0.4965766854062165
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.959875,
+                "longitude": 29.0941908,
+                "distance_to_center": 0.26079428443627956
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9519864,
+                "longitude": 29.0933969,
+                "distance_to_center": 0.681197292451991
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9612597,
+                "longitude": 29.0931575,
+                "distance_to_center": 0.4374519018191536
+            }
+        ]
+    },
+    {
+        "neighbourhood": "CADDEBOSTAN MAH.",
+        "latitude": 40.962856,
+        "longitude": 29.061369,
+        "population": 16477.0,
+        "poi_number": 12,
+        "pois": [
+            {
+                "name": "Barış Büfe",
+                "latitude": 40.9732491,
+                "longitude": 29.0568684,
+                "distance_to_center": 1.2147719040976235,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Marmaris Büfe",
+                "latitude": 40.9733492,
+                "longitude": 29.0566384,
+                "distance_to_center": 1.2314621180647947,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kral Burger",
+                "latitude": 40.9733664,
+                "longitude": 29.0567377,
+                "distance_to_center": 1.2305963209579789,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Daily Dana",
+                "latitude": 40.9679528,
+                "longitude": 29.0639155,
+                "distance_to_center": 0.6052482545391443,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Brasserie Prime",
+                "latitude": 40.9679243,
+                "longitude": 29.0668266,
+                "distance_to_center": 0.7265429958647042,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Snob Street Food",
+                "latitude": 40.9682396,
+                "longitude": 29.0653826,
+                "distance_to_center": 0.6867269625458572,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "J Burger",
+                "latitude": 40.9700966,
+                "longitude": 29.0536386,
+                "distance_to_center": 1.0344135200813924,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "McDonald's",
+                "latitude": 40.9638964,
+                "longitude": 29.0655572,
+                "distance_to_center": 0.37101888088518103,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Subway",
+                "latitude": 40.9648786,
+                "longitude": 29.0636623,
+                "distance_to_center": 0.29617855164491913,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Marmaris Büfe",
+                "latitude": 40.9688093,
+                "longitude": 29.0652329,
+                "distance_to_center": 0.7368105921625068,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Cadde Büfe",
+                "latitude": 40.9676908,
+                "longitude": 29.0662498,
+                "distance_to_center": 0.6760852418876568,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Beltur Plaj kiosk",
+                "latitude": 40.9633556,
+                "longitude": 29.0585934,
+                "distance_to_center": 0.24015265852119919,
+                "poi_type": "fast_food"
+            }
+        ],
+        "bus_station_number": 13,
+        "bus_stations": [
+            {
+                "name": "Erenköy",
+                "latitude": 40.9665123,
+                "longitude": 29.0693368,
+                "distance_to_center": 0.7840602089060636
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9672741,
+                "longitude": 29.0562884,
+                "distance_to_center": 0.6508797340865217
+            },
+            {
+                "name": "Caddebostan",
+                "latitude": 40.9642512,
+                "longitude": 29.0644398,
+                "distance_to_center": 0.3013825984781204
+            },
+            {
+                "name": "Çiftehavuzlar",
+                "latitude": 40.9702369,
+                "longitude": 29.0531746,
+                "distance_to_center": 1.0712928379503988
+            },
+            {
+                "name": "50.Yıl Tahran Anadolu Lisesi",
+                "latitude": 40.9688748,
+                "longitude": 29.0540972,
+                "distance_to_center": 0.9063504609449692
+            },
+            {
+                "name": "Gelengül Sokak",
+                "latitude": 40.9658337,
+                "longitude": 29.059685,
+                "distance_to_center": 0.3597877836831247
+            },
+            {
+                "name": "Caddebostan",
+                "latitude": 40.968523,
+                "longitude": 29.065453,
+                "distance_to_center": 0.7171165943614137
+            },
+            {
+                "name": "Yeniyol",
+                "latitude": 40.9701073,
+                "longitude": 29.0626111,
+                "distance_to_center": 0.8120399661599462
+            },
+            {
+                "name": "Göztepe Park",
+                "latitude": 40.9676118,
+                "longitude": 29.0571146,
+                "distance_to_center": 0.6381209106992793
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9720662,
+                "longitude": 29.0613745,
+                "distance_to_center": 1.0228230147326716
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9719591,
+                "longitude": 29.0611236,
+                "distance_to_center": 1.0111401203819521
+            },
+            {
+                "name": "Erenköy",
+                "latitude": 40.963351,
+                "longitude": 29.0674391,
+                "distance_to_center": 0.513942006143326
+            },
+            {
+                "name": "Tütüncü Mehmet Efendi",
+                "latitude": 40.9691359,
+                "longitude": 29.0584564,
+                "distance_to_center": 0.7392453211777865
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "CAFERAĞA MAH.",
+        "latitude": 40.9850403,
+        "longitude": 29.0248102,
+        "population": 18276.0,
+        "poi_number": 75,
+        "pois": [
+            {
+                "name": "N/A",
+                "latitude": 40.991022,
+                "longitude": 29.0218395,
+                "distance_to_center": 0.7097701802529285,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Moda Taksi",
+                "latitude": 40.9807575,
+                "longitude": 29.0237299,
+                "distance_to_center": 0.48423147412116835,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Cem Taksi",
+                "latitude": 40.9840338,
+                "longitude": 29.0245772,
+                "distance_to_center": 0.11348228780428546,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9894452,
+                "longitude": 29.0210783,
+                "distance_to_center": 0.5813100447785678,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9906987,
+                "longitude": 29.0232352,
+                "distance_to_center": 0.6422111874286228,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Ciğerci Hulusi",
+                "latitude": 40.989147,
+                "longitude": 29.0226195,
+                "distance_to_center": 0.4919143012047598,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pilav Dünyası",
+                "latitude": 40.9875674,
+                "longitude": 29.0269901,
+                "distance_to_center": 0.33527996917283787,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Tek Büfe 7",
+                "latitude": 40.98741,
+                "longitude": 29.0276167,
+                "distance_to_center": 0.35360092066327936,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Borsam Taşfırın",
+                "latitude": 40.9899741,
+                "longitude": 29.0246531,
+                "distance_to_center": 0.5480760437930644,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Halil Lahmacun",
+                "latitude": 40.9896999,
+                "longitude": 29.0245378,
+                "distance_to_center": 0.5179731221827056,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bambi",
+                "latitude": 40.9911884,
+                "longitude": 29.023873,
+                "distance_to_center": 0.6873088543956094,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bombacı Mülayim",
+                "latitude": 40.9893782,
+                "longitude": 29.0238722,
+                "distance_to_center": 0.48816359912301266,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Catchy BBQ",
+                "latitude": 40.9874676,
+                "longitude": 29.0253142,
+                "distance_to_center": 0.2728767557783413,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Hat Döner",
+                "latitude": 40.9874226,
+                "longitude": 29.0275414,
+                "distance_to_center": 0.35045549898863315,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9851577,
+                "longitude": 29.0249862,
+                "distance_to_center": 0.01973197841930918,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pide Sun",
+                "latitude": 40.9866004,
+                "longitude": 29.0257795,
+                "distance_to_center": 0.1914963036466259,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Gorgonzo",
+                "latitude": 40.9876049,
+                "longitude": 29.0267312,
+                "distance_to_center": 0.3274884928237531,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Sakız Büfe",
+                "latitude": 40.9833987,
+                "longitude": 29.0297291,
+                "distance_to_center": 0.45231733199803403,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Tarihi Petek Büfe",
+                "latitude": 40.9873392,
+                "longitude": 29.0278449,
+                "distance_to_center": 0.3611049748510482,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bubada",
+                "latitude": 40.9847186,
+                "longitude": 29.0268241,
+                "distance_to_center": 0.17320313953601393,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Rolls and Balls",
+                "latitude": 40.9803418,
+                "longitude": 29.0233833,
+                "distance_to_center": 0.535425019929735,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Reks Kokoreç",
+                "latitude": 40.9873048,
+                "longitude": 29.0270966,
+                "distance_to_center": 0.3166434694078057,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Korkmaz Bufe Döner",
+                "latitude": 40.9845173,
+                "longitude": 29.0243502,
+                "distance_to_center": 0.06979939455267108,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Best of Burger",
+                "latitude": 40.9869041,
+                "longitude": 29.0251854,
+                "distance_to_center": 0.2093761765050159,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9877384,
+                "longitude": 29.0261521,
+                "distance_to_center": 0.32020668079549663,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kotti's Hotdog",
+                "latitude": 40.9871883,
+                "longitude": 29.025752,
+                "distance_to_center": 0.25136476403891805,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Snob Street Food",
+                "latitude": 40.9838011,
+                "longitude": 29.0276919,
+                "distance_to_center": 0.27883586882204875,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "B.O.B. Burger",
+                "latitude": 40.9868137,
+                "longitude": 29.0254176,
+                "distance_to_center": 0.20346757867511536,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kebo",
+                "latitude": 40.9900664,
+                "longitude": 29.0226736,
+                "distance_to_center": 0.5864104337745061,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "KFC",
+                "latitude": 40.9902359,
+                "longitude": 29.0245637,
+                "distance_to_center": 0.5773631879084411,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "En Moda",
+                "latitude": 40.9845523,
+                "longitude": 29.0263415,
+                "distance_to_center": 0.13979772595188888,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pizza 2 Go",
+                "latitude": 40.9884499,
+                "longitude": 29.023232,
+                "distance_to_center": 0.40126409370321,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "nom Burger",
+                "latitude": 40.9857662,
+                "longitude": 29.022968,
+                "distance_to_center": 0.17473487964388512,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "McDonald's",
+                "latitude": 40.9895358,
+                "longitude": 29.0240066,
+                "distance_to_center": 0.5038008750564351,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Ayla Tantuni",
+                "latitude": 40.9904908,
+                "longitude": 29.0247379,
+                "distance_to_center": 0.6053286120539222,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Tavuk Dünyası",
+                "latitude": 40.989144,
+                "longitude": 29.0237176,
+                "distance_to_center": 0.46491327877294614,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Suvi Mutfak",
+                "latitude": 40.9845816,
+                "longitude": 29.0269281,
+                "distance_to_center": 0.18536756608487598,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Levent Börek",
+                "latitude": 40.9894674,
+                "longitude": 29.0239899,
+                "distance_to_center": 0.4964680411797929,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Mamabowl",
+                "latitude": 40.9840091,
+                "longitude": 29.0300891,
+                "distance_to_center": 0.45876811749660334,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Burger",
+                "latitude": 40.9875103,
+                "longitude": 29.0261856,
+                "distance_to_center": 0.2977220611905473,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Biber Burger",
+                "latitude": 40.9832579,
+                "longitude": 29.0235775,
+                "distance_to_center": 0.223478507138999,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pita Manti",
+                "latitude": 40.9858884,
+                "longitude": 29.0274949,
+                "distance_to_center": 0.24477316347616093,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Burrito Shop",
+                "latitude": 40.9883162,
+                "longitude": 29.0266561,
+                "distance_to_center": 0.3955759264803305,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Arda Büfe",
+                "latitude": 40.9885841,
+                "longitude": 29.0265776,
+                "distance_to_center": 0.420718179588115,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kotti’s Hotdog",
+                "latitude": 40.9872129,
+                "longitude": 29.0257125,
+                "distance_to_center": 0.25294114527298,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Falafella",
+                "latitude": 40.9872912,
+                "longitude": 29.0256424,
+                "distance_to_center": 0.2595954410134707,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "WIN",
+                "latitude": 40.9842125,
+                "longitude": 29.0237817,
+                "distance_to_center": 0.1262640251387892,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Moda Ercan",
+                "latitude": 40.9852323,
+                "longitude": 29.0248102,
+                "distance_to_center": 0.021322295150925027,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Umut Gurme",
+                "latitude": 40.98173,
+                "longitude": 29.0262656,
+                "distance_to_center": 0.3874875331364769,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Mis Tantuni",
+                "latitude": 40.9895623,
+                "longitude": 29.0238403,
+                "distance_to_center": 0.5087740102189261,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kızılkayalar Hamburger",
+                "latitude": 40.9903921,
+                "longitude": 29.0245031,
+                "distance_to_center": 0.5948986090941946,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "İsos Döner",
+                "latitude": 40.9896837,
+                "longitude": 29.0239583,
+                "distance_to_center": 0.5206258326290308,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "bykush sokak",
+                "latitude": 40.9842095,
+                "longitude": 29.0232585,
+                "distance_to_center": 0.15988876605233718,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9872257,
+                "longitude": 29.0257849,
+                "distance_to_center": 0.2561826439851107,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9845376,
+                "longitude": 29.0250989,
+                "distance_to_center": 0.060884169105042796,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Moda pilavcısı",
+                "latitude": 40.9848796,
+                "longitude": 29.0246129,
+                "distance_to_center": 0.02437564412092066,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "White Burger",
+                "latitude": 40.9873346,
+                "longitude": 29.0295932,
+                "distance_to_center": 0.4763679933954523,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Çiğköfteci Ömer Usta",
+                "latitude": 40.9862255,
+                "longitude": 29.0306276,
+                "distance_to_center": 0.5069392748833907,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Currywurst Pommes",
+                "latitude": 40.9853829,
+                "longitude": 29.0278802,
+                "distance_to_center": 0.2611392557779991,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kem Küm",
+                "latitude": 40.9861013,
+                "longitude": 29.0222933,
+                "distance_to_center": 0.24237410105349835,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pilav house",
+                "latitude": 40.9883628,
+                "longitude": 29.023653,
+                "distance_to_center": 0.38160991647172643,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pilav Döner",
+                "latitude": 40.9890526,
+                "longitude": 29.0226438,
+                "distance_to_center": 0.4814328537037003,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Tamamen Organik Toast",
+                "latitude": 40.9833898,
+                "longitude": 29.0297996,
+                "distance_to_center": 0.4581478392136586,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9905936,
+                "longitude": 29.0247172,
+                "distance_to_center": 0.6167640123422975,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9875722,
+                "longitude": 29.0244028,
+                "distance_to_center": 0.2832591112940415,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kasap Doner",
+                "latitude": 40.9892954,
+                "longitude": 29.0236672,
+                "distance_to_center": 0.4822341986996072,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Alfred",
+                "latitude": 40.9851034,
+                "longitude": 29.0251131,
+                "distance_to_center": 0.02643596118125757,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "say cheese",
+                "latitude": 40.9860419,
+                "longitude": 29.0272163,
+                "distance_to_center": 0.2310223486291139,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kirinti moda",
+                "latitude": 40.9816562,
+                "longitude": 29.0223975,
+                "distance_to_center": 0.42715907947335363,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kottis hotdog",
+                "latitude": 40.9873453,
+                "longitude": 29.0258227,
+                "distance_to_center": 0.2697867633394127,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "tostçudede",
+                "latitude": 40.9802537,
+                "longitude": 29.0232082,
+                "distance_to_center": 0.54839952756954,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kadikoy Midyecisi",
+                "latitude": 40.9880213,
+                "longitude": 29.0241804,
+                "distance_to_center": 0.33526649260651675,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Moda Midyecisi",
+                "latitude": 40.9872982,
+                "longitude": 29.0254293,
+                "distance_to_center": 0.25610324230961085,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Saucisse",
+                "latitude": 40.9831897,
+                "longitude": 29.0235462,
+                "distance_to_center": 0.23141268199167045,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Beyaz Dürüm",
+                "latitude": 40.9850796,
+                "longitude": 29.0247227,
+                "distance_to_center": 0.00855973403341725,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Good Fast Food",
+                "latitude": 40.987775,
+                "longitude": 29.0253525,
+                "distance_to_center": 0.30710804942304476,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bütme Evi",
+                "latitude": 40.9878891,
+                "longitude": 29.024455,
+                "distance_to_center": 0.31777855323078685,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Brox Burger",
+                "latitude": 40.985973,
+                "longitude": 29.026385,
+                "distance_to_center": 0.16820125601917865,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Ecem Büfe",
+                "latitude": 40.9927222,
+                "longitude": 29.0236216,
+                "distance_to_center": 0.8589466379308491,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Everyday pizza",
+                "latitude": 40.9844944,
+                "longitude": 29.02682,
+                "distance_to_center": 0.17967063860051782,
+                "poi_type": "fast_food"
+            }
+        ],
+        "bus_station_number": 3,
+        "bus_stations": [
+            {
+                "name": "İskele",
+                "latitude": 40.9913972,
+                "longitude": 29.022835,
+                "distance_to_center": 0.7252602143453489
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9907208,
+                "longitude": 29.0207582,
+                "distance_to_center": 0.7170953492327025
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9904125,
+                "longitude": 29.0219255,
+                "distance_to_center": 0.6440978466935856
+            }
+        ],
+        "metro_station_number": 16,
+        "metro_stations": [
+            {
+                "name": "Kadıköy Vapur İskelesi;Kadıköy",
+                "latitude": 40.9930645,
+                "longitude": 29.0225349,
+                "distance_to_center": 0.911453931986062
+            },
+            {
+                "name": "Kadiköy",
+                "latitude": 40.9918247,
+                "longitude": 29.0215599,
+                "distance_to_center": 0.8015420993605493
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9905872,
+                "longitude": 29.0220448,
+                "distance_to_center": 0.6584941397347588
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9916815,
+                "longitude": 29.0182427,
+                "distance_to_center": 0.9216168696249141
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9930191,
+                "longitude": 29.0230008,
+                "distance_to_center": 0.8990618709445027
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9928033,
+                "longitude": 29.0227727,
+                "distance_to_center": 0.8789936696014004
+            },
+            {
+                "name": "3",
+                "latitude": 40.9908237,
+                "longitude": 29.0230765,
+                "distance_to_center": 0.6586291551363596
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9913973,
+                "longitude": 29.0204425,
+                "distance_to_center": 0.7959138010557576
+            },
+            {
+                "name": "4",
+                "latitude": 40.9914581,
+                "longitude": 29.0220749,
+                "distance_to_center": 0.7489667283810967
+            },
+            {
+                "name": "2",
+                "latitude": 40.990031,
+                "longitude": 29.0215606,
+                "distance_to_center": 0.6180257819613751
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9907682,
+                "longitude": 29.0229095,
+                "distance_to_center": 0.6559048153684109
+            },
+            {
+                "name": "1",
+                "latitude": 40.9911226,
+                "longitude": 29.020948,
+                "distance_to_center": 0.7495846551016442
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9907057,
+                "longitude": 29.0219242,
+                "distance_to_center": 0.674408635130697
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.9929562,
+                "longitude": 29.0231271,
+                "distance_to_center": 0.8904260819752622
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9912449,
+                "longitude": 29.0222454,
+                "distance_to_center": 0.7220548028700463
+            },
+            {
+                "name": "Moda",
+                "latitude": 40.978901,
+                "longitude": 29.0251505,
+                "distance_to_center": 0.6823923504850141
+            }
+        ]
+    },
+    {
+        "neighbourhood": "DUMLUPINAR MAH.",
+        "latitude": 40.99297,
+        "longitude": 29.05974,
+        "population": 7833.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 9,
+        "bus_stations": [
+            {
+                "name": "İstanbul Medeniyet Üniversitesi",
+                "latitude": 40.9948888,
+                "longitude": 29.0661801,
+                "distance_to_center": 0.5822806322278404
+            },
+            {
+                "name": "Uzunçayır Metrobüs",
+                "latitude": 40.9979594,
+                "longitude": 29.0574968,
+                "distance_to_center": 0.585356759779535
+            },
+            {
+                "name": "Uzunçayır Metrobüs",
+                "latitude": 40.998156,
+                "longitude": 29.0571175,
+                "distance_to_center": 0.6167497712895165
+            },
+            {
+                "name": "Mehmet Beyazıt Anadolu Lisesi",
+                "latitude": 40.9881846,
+                "longitude": 29.0609094,
+                "distance_to_center": 0.5404698385496942
+            },
+            {
+                "name": "Şehit Orhun Göytan",
+                "latitude": 40.9912304,
+                "longitude": 29.0574994,
+                "distance_to_center": 0.26994032999303985
+            },
+            {
+                "name": "Fevzipaşa",
+                "latitude": 40.9906224,
+                "longitude": 29.0603254,
+                "distance_to_center": 0.2653224906518699
+            },
+            {
+                "name": "Fevzipaşa",
+                "latitude": 40.9904824,
+                "longitude": 29.0605073,
+                "distance_to_center": 0.28370184500657775
+            },
+            {
+                "name": "Şehit Orhun Göytan",
+                "latitude": 40.9912271,
+                "longitude": 29.0579417,
+                "distance_to_center": 0.24568478910758498
+            },
+            {
+                "name": "Hürriyet",
+                "latitude": 40.9917872,
+                "longitude": 29.0557892,
+                "distance_to_center": 0.35744936214088463
+            }
+        ],
+        "metro_station_number": 1,
+        "metro_stations": [
+            {
+                "name": "4",
+                "latitude": 40.9973532,
+                "longitude": 29.0596604,
+                "distance_to_center": 0.4868171545154193
+            }
+        ]
+    },
+    {
+        "neighbourhood": "ERENKÖY MAH.",
+        "latitude": 35.179008,
+        "longitude": 32.608181,
+        "population": 28780.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 6,
+        "metro_stations": [
+            {
+                "name": "Erenköy",
+                "latitude": 40.9716688,
+                "longitude": 29.0763701,
+                "distance_to_center": 713.5851147252362
+            },
+            {
+                "name": "Erenköy",
+                "latitude": 40.9716882,
+                "longitude": 29.0764655,
+                "distance_to_center": 713.5834116824756
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9718762,
+                "longitude": 29.0765733,
+                "distance_to_center": 713.5979444152542
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9717971,
+                "longitude": 29.0760619,
+                "distance_to_center": 713.6095405989637
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9714049,
+                "longitude": 29.0762255,
+                "distance_to_center": 713.5644604272853
+            },
+            {
+                "name": "Erenköy",
+                "latitude": 40.9716704,
+                "longitude": 29.0762961,
+                "distance_to_center": 713.5880854819194
+            }
+        ]
+    },
+    {
+        "neighbourhood": "EĞİTİM MAH.",
+        "latitude": 40.989437,
+        "longitude": 29.049488,
+        "population": 10676.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "FENERBAHÇE MAH.",
+        "latitude": 40.974454,
+        "longitude": 29.043537,
+        "population": 16946.0,
+        "poi_number": 7,
+        "pois": [
+            {
+                "name": "18 Mart Taksi",
+                "latitude": 40.9718147,
+                "longitude": 29.0530829,
+                "distance_to_center": 0.855264220061175,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Okultur Taksi",
+                "latitude": 40.9752228,
+                "longitude": 29.0406422,
+                "distance_to_center": 0.25817301464147113,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9757975,
+                "longitude": 29.0447548,
+                "distance_to_center": 0.18101555920293497,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Buffe",
+                "latitude": 40.9733539,
+                "longitude": 29.041244,
+                "distance_to_center": 0.22841567253748052,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Domino's",
+                "latitude": 40.9717571,
+                "longitude": 29.0443775,
+                "distance_to_center": 0.30774168371627836,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Domino's",
+                "latitude": 40.9740539,
+                "longitude": 29.045591,
+                "distance_to_center": 0.1784994381011348,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Subway",
+                "latitude": 40.9832357,
+                "longitude": 29.0400642,
+                "distance_to_center": 1.018094605952378,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Komagene",
+                "latitude": 40.9745789,
+                "longitude": 29.0460105,
+                "distance_to_center": 0.20865006601065386,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Il Boccalino",
+                "latitude": 40.9718644,
+                "longitude": 29.0522111,
+                "distance_to_center": 0.7846911750534621,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "KFC",
+                "latitude": 40.9748142,
+                "longitude": 29.0521728,
+                "distance_to_center": 0.7279529943626536,
+                "poi_type": "fast_food"
+            }
+        ],
+        "bus_station_number": 14,
+        "bus_stations": [
+            {
+                "name": "Taksi",
+                "latitude": 40.9706407,
+                "longitude": 29.0425569,
+                "distance_to_center": 0.4314401689241763
+            },
+            {
+                "name": "Ihlamur",
+                "latitude": 40.9812378,
+                "longitude": 29.041344,
+                "distance_to_center": 0.7756444946884922
+            },
+            {
+                "name": "Yat Limanı",
+                "latitude": 40.978788,
+                "longitude": 29.0414514,
+                "distance_to_center": 0.5123157785726342
+            },
+            {
+                "name": "Kalamış",
+                "latitude": 40.9748881,
+                "longitude": 29.0433841,
+                "distance_to_center": 0.049896445285315234
+            },
+            {
+                "name": "18 Mart Sokak",
+                "latitude": 40.9722803,
+                "longitude": 29.0508685,
+                "distance_to_center": 0.6626210887712655
+            },
+            {
+                "name": "Cemil Cemil Topuzlu Caddesi",
+                "latitude": 40.9741088,
+                "longitude": 29.0470042,
+                "distance_to_center": 0.2943340729433958
+            },
+            {
+                "name": "Kalamış",
+                "latitude": 40.9749929,
+                "longitude": 29.0424508,
+                "distance_to_center": 0.10926896702760057
+            },
+            {
+                "name": "Fenerbahçe",
+                "latitude": 40.9696064,
+                "longitude": 29.0375737,
+                "distance_to_center": 0.7360377467888507
+            },
+            {
+                "name": "Münir Nürettin Selçuk Caddesi",
+                "latitude": 40.9727484,
+                "longitude": 29.0400414,
+                "distance_to_center": 0.34991817049406987
+            },
+            {
+                "name": "Şehit Selin Çelik",
+                "latitude": 40.9728407,
+                "longitude": 29.0450912,
+                "distance_to_center": 0.2218371919885345
+            },
+            {
+                "name": "Dr. Faruk Ayanoğlu",
+                "latitude": 40.9744663,
+                "longitude": 29.0473153,
+                "distance_to_center": 0.31801357862985913
+            },
+            {
+                "name": "Selami Çeşme",
+                "latitude": 40.9753693,
+                "longitude": 29.0504644,
+                "distance_to_center": 0.5918530071303417
+            },
+            {
+                "name": "Lojmanlar",
+                "latitude": 40.969736,
+                "longitude": 29.04034,
+                "distance_to_center": 0.5890116718967945
+            },
+            {
+                "name": "Fenerbahçe Ordu Evi",
+                "latitude": 40.971384,
+                "longitude": 29.044365,
+                "distance_to_center": 0.347984128314163
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "FENERYOLU MAH.",
+        "latitude": 40.982013,
+        "longitude": 29.049548,
+        "population": 21700.0,
+        "poi_number": 17,
+        "pois": [
+            {
+                "name": "N/A",
+                "latitude": 40.978503,
+                "longitude": 29.0476405,
+                "distance_to_center": 0.42156151344744974,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9824481,
+                "longitude": 29.0449835,
+                "distance_to_center": 0.38716521090134487,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Bağdat Börek",
+                "latitude": 40.9842209,
+                "longitude": 29.0431273,
+                "distance_to_center": 0.5933742306056252,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "McDonald's",
+                "latitude": 40.9831711,
+                "longitude": 29.0405031,
+                "distance_to_center": 0.7719831097697067,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Domino's",
+                "latitude": 40.9853076,
+                "longitude": 29.0492934,
+                "distance_to_center": 0.36650399380542914,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Sarıoğlu Büfe Patso Kuyubaşı-2",
+                "latitude": 40.9853301,
+                "longitude": 29.0492113,
+                "distance_to_center": 0.3694640332594043,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Sıla-1 Mersin Tantuni",
+                "latitude": 40.9853795,
+                "longitude": 29.0490916,
+                "distance_to_center": 0.37582970608138594,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Göztepe Dönercisi",
+                "latitude": 40.9843049,
+                "longitude": 29.0561121,
+                "distance_to_center": 0.6082283155077788,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bolsos Döner",
+                "latitude": 40.9859069,
+                "longitude": 29.0477212,
+                "distance_to_center": 0.45894625958534,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Adışanlı Çiğköfte",
+                "latitude": 40.9847155,
+                "longitude": 29.0513846,
+                "distance_to_center": 0.3375835756757419,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kanka Zurna Dürüm",
+                "latitude": 40.9849887,
+                "longitude": 29.0500398,
+                "distance_to_center": 0.33304385428522953,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Levent Börek",
+                "latitude": 40.9844548,
+                "longitude": 29.0533565,
+                "distance_to_center": 0.41983353779519006,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Ateş Dürüm Evi",
+                "latitude": 40.9842811,
+                "longitude": 29.0565163,
+                "distance_to_center": 0.6382337019919052,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Mert 33 Tantuni",
+                "latitude": 40.9849308,
+                "longitude": 29.0506013,
+                "distance_to_center": 0.3359377861466048,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pizza 2 Go",
+                "latitude": 40.9850023,
+                "longitude": 29.050201,
+                "distance_to_center": 0.33649023064558764,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Chicker's",
+                "latitude": 40.9849598,
+                "longitude": 29.0502873,
+                "distance_to_center": 0.33311447412761536,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Frango",
+                "latitude": 40.9850348,
+                "longitude": 29.0499489,
+                "distance_to_center": 0.337273431466149,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Tarihi Mercan Dönercisi",
+                "latitude": 40.9849477,
+                "longitude": 29.050547,
+                "distance_to_center": 0.336578016099542,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bağdat Marmaris",
+                "latitude": 40.9802443,
+                "longitude": 29.0433337,
+                "distance_to_center": 0.5586590269743983,
+                "poi_type": "fast_food"
+            }
+        ],
+        "bus_station_number": 8,
+        "bus_stations": [
+            {
+                "name": "Ziverbey",
+                "latitude": 40.9882089,
+                "longitude": 29.0434749,
+                "distance_to_center": 0.8571167785798791
+            },
+            {
+                "name": "Kuyubaşı",
+                "latitude": 40.9860337,
+                "longitude": 29.0478797,
+                "distance_to_center": 0.4680654366681677
+            },
+            {
+                "name": "Konak",
+                "latitude": 40.9796859,
+                "longitude": 29.0442965,
+                "distance_to_center": 0.5119760158105806
+            },
+            {
+                "name": "Kızıltoprak",
+                "latitude": 40.9828162,
+                "longitude": 29.04067,
+                "distance_to_center": 0.7524562715822085
+            },
+            {
+                "name": "Selamiçeşme",
+                "latitude": 40.9762429,
+                "longitude": 29.0501354,
+                "distance_to_center": 0.6426940003051138
+            },
+            {
+                "name": "Feneryolu",
+                "latitude": 40.9782707,
+                "longitude": 29.0466153,
+                "distance_to_center": 0.48336164933583803
+            },
+            {
+                "name": "Marmara Üniversitesi Göztepe Yerleşkesi",
+                "latitude": 40.9847941,
+                "longitude": 29.051782,
+                "distance_to_center": 0.36157288990122816
+            },
+            {
+                "name": "Göztepe Prof. Dr Süleyman Yalçın Şehir Hastanesi",
+                "latitude": 40.9844947,
+                "longitude": 29.0556972,
+                "distance_to_center": 0.5863082496179091
+            }
+        ],
+        "metro_station_number": 5,
+        "metro_stations": [
+            {
+                "name": "Feneryolu",
+                "latitude": 40.9788502,
+                "longitude": 29.0487327,
+                "distance_to_center": 0.35787948336190634
+            },
+            {
+                "name": "Feneryolu",
+                "latitude": 40.9788046,
+                "longitude": 29.0486924,
+                "distance_to_center": 0.36350750263108983
+            },
+            {
+                "name": "Feneryolu",
+                "latitude": 40.9788973,
+                "longitude": 29.048782,
+                "distance_to_center": 0.3519637815346033
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9789341,
+                "longitude": 29.0487975,
+                "distance_to_center": 0.3477076247356681
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.978748,
+                "longitude": 29.0486366,
+                "distance_to_center": 0.3706140516781784
+            }
+        ]
+    },
+    {
+        "neighbourhood": "FİKİRTEPE MAH.",
+        "latitude": 40.993729,
+        "longitude": 29.050432,
+        "population": 8854.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "GÖZTEPE MAH.",
+        "latitude": 40.977171,
+        "longitude": 29.06264,
+        "population": 32660.0,
+        "poi_number": 12,
+        "pois": [
+            {
+                "name": "Barış Taksi",
+                "latitude": 40.9746406,
+                "longitude": 29.0570504,
+                "distance_to_center": 0.5479896607140643,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Hizmet Taksi",
+                "latitude": 40.9790984,
+                "longitude": 29.0603282,
+                "distance_to_center": 0.28926068370159663,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Kristal Büfe Caddebostan",
+                "latitude": 40.9719277,
+                "longitude": 29.0594035,
+                "distance_to_center": 0.6428558738167999,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pizzabulls",
+                "latitude": 40.9822323,
+                "longitude": 29.0666669,
+                "distance_to_center": 0.6563436945372741,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Maydonoz Döner",
+                "latitude": 40.9826511,
+                "longitude": 29.0643749,
+                "distance_to_center": 0.6258546254488876,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Komagene",
+                "latitude": 40.9826512,
+                "longitude": 29.0646838,
+                "distance_to_center": 0.6324358668005273,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Paşa Döner",
+                "latitude": 40.9826806,
+                "longitude": 29.0642676,
+                "distance_to_center": 0.627006179811364,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Burger King",
+                "latitude": 40.9819711,
+                "longitude": 29.0674118,
+                "distance_to_center": 0.6674160526833557,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Teksos Döner",
+                "latitude": 40.9827611,
+                "longitude": 29.0639142,
+                "distance_to_center": 0.6299943473586668,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Öncü",
+                "latitude": 40.9826407,
+                "longitude": 29.0647292,
+                "distance_to_center": 0.6323655714758013,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Etiler Marmaris",
+                "latitude": 40.9826375,
+                "longitude": 29.0644268,
+                "distance_to_center": 0.6254219233581965,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Göztepe Piliç",
+                "latitude": 40.9824819,
+                "longitude": 29.0656613,
+                "distance_to_center": 0.6422717123997398,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "KFC",
+                "latitude": 40.9791976,
+                "longitude": 29.0671697,
+                "distance_to_center": 0.44270857597434643,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Komagene",
+                "latitude": 40.9801418,
+                "longitude": 29.0676183,
+                "distance_to_center": 0.5332863839159808,
+                "poi_type": "fast_food"
+            }
+        ],
+        "bus_station_number": 10,
+        "bus_stations": [
+            {
+                "name": "Göztepe",
+                "latitude": 40.9718534,
+                "longitude": 29.059256,
+                "distance_to_center": 0.6556362651563967
+            },
+            {
+                "name": "Mustafa Mazhar Bey",
+                "latitude": 40.9838929,
+                "longitude": 29.059448,
+                "distance_to_center": 0.793356835077787
+            },
+            {
+                "name": "Mustafa Mazhar Bey",
+                "latitude": 40.9836728,
+                "longitude": 29.0587488,
+                "distance_to_center": 0.7928421313205025
+            },
+            {
+                "name": "Çiftehavuzlar",
+                "latitude": 40.9741595,
+                "longitude": 29.0551189,
+                "distance_to_center": 0.7159364602683211
+            },
+            {
+                "name": "Çemenzar",
+                "latitude": 40.9830004,
+                "longitude": 29.0635225,
+                "distance_to_center": 0.6516219719786055
+            },
+            {
+                "name": "Çiftekonaklar",
+                "latitude": 40.9744419,
+                "longitude": 29.0634959,
+                "distance_to_center": 0.31151957859753865
+            },
+            {
+                "name": "Çiftekonaklar",
+                "latitude": 40.9745886,
+                "longitude": 29.063357,
+                "distance_to_center": 0.29306491865809
+            },
+            {
+                "name": "Özgürlük Parkı",
+                "latitude": 40.979611,
+                "longitude": 29.0531204,
+                "distance_to_center": 0.8457766724599318
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9812558,
+                "longitude": 29.0680067,
+                "distance_to_center": 0.6401463209007597
+            },
+            {
+                "name": "Trafik Amirliği",
+                "latitude": 40.980806,
+                "longitude": 29.055977,
+                "distance_to_center": 0.6909565310430387
+            }
+        ],
+        "metro_station_number": 12,
+        "metro_stations": [
+            {
+                "name": "Göztepe",
+                "latitude": 40.9791456,
+                "longitude": 29.0626905,
+                "distance_to_center": 0.21932739821602118
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9792219,
+                "longitude": 29.062645,
+                "distance_to_center": 0.22775998410739348
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9792871,
+                "longitude": 29.0626332,
+                "distance_to_center": 0.2350009808875435
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9794183,
+                "longitude": 29.0625846,
+                "distance_to_center": 0.24961405539689832
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9792994,
+                "longitude": 29.0624507,
+                "distance_to_center": 0.2369025748270771
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9790784,
+                "longitude": 29.0628513,
+                "distance_to_center": 0.21256861962423637
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9791456,
+                "longitude": 29.0626905,
+                "distance_to_center": 0.21932739821602118
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9792219,
+                "longitude": 29.062645,
+                "distance_to_center": 0.22775998410739348
+            },
+            {
+                "name": "Göztepe",
+                "latitude": 40.9792871,
+                "longitude": 29.0626332,
+                "distance_to_center": 0.2350009808875435
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9794183,
+                "longitude": 29.0625846,
+                "distance_to_center": 0.24961405539689832
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9792994,
+                "longitude": 29.0624507,
+                "distance_to_center": 0.2369025748270771
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9790784,
+                "longitude": 29.0628513,
+                "distance_to_center": 0.21256861962423637
+            }
+        ]
+    },
+    {
+        "neighbourhood": "HASANPAŞA MAH.",
+        "latitude": 40.996225,
+        "longitude": 29.044654,
+        "population": 12068.0,
+        "poi_number": 3,
+        "pois": [
+            {
+                "name": "N/A",
+                "latitude": 41.0006979,
+                "longitude": 29.0479182,
+                "distance_to_center": 0.5676010449081221,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9924245,
+                "longitude": 29.03779,
+                "distance_to_center": 0.7153339003948568,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Paşa Döner",
+                "latitude": 40.9948911,
+                "longitude": 29.0394951,
+                "distance_to_center": 0.45865482716355604,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Domino's",
+                "latitude": 40.9935399,
+                "longitude": 29.0382529,
+                "distance_to_center": 0.6156353810664141,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Komagene",
+                "latitude": 40.9919163,
+                "longitude": 29.0335852,
+                "distance_to_center": 1.047086147810406,
+                "poi_type": "fast_food"
+            }
+        ],
+        "bus_station_number": 16,
+        "bus_stations": [
+            {
+                "name": "Söğütlüçeşme (Metrobüs)",
+                "latitude": 40.9916243,
+                "longitude": 29.0376743,
+                "distance_to_center": 0.77843223367384
+            },
+            {
+                "name": "Söğutlüçeşme",
+                "latitude": 40.9922613,
+                "longitude": 29.0338052,
+                "distance_to_center": 1.013433900447053
+            },
+            {
+                "name": "Kadıköy Belediyesi",
+                "latitude": 40.9926159,
+                "longitude": 29.036582,
+                "distance_to_center": 0.7886392856493605
+            },
+            {
+                "name": "Kadıköy Belediyesi",
+                "latitude": 40.9938385,
+                "longitude": 29.0381059,
+                "distance_to_center": 0.611396323083087
+            },
+            {
+                "name": "Söğütlüçeşme",
+                "latitude": 40.9918048,
+                "longitude": 29.0379707,
+                "distance_to_center": 0.7464599157546161
+            },
+            {
+                "name": "Söğütlüçeşme Metrobüs",
+                "latitude": 40.991764,
+                "longitude": 29.035839,
+                "distance_to_center": 0.8919523828315177
+            },
+            {
+                "name": "Hasanpaşa",
+                "latitude": 40.995004,
+                "longitude": 29.040873,
+                "distance_to_center": 0.34582817110271824
+            },
+            {
+                "name": "Uzunçayır Caddesi",
+                "latitude": 40.996144,
+                "longitude": 29.045838,
+                "distance_to_center": 0.1000270975689952
+            },
+            {
+                "name": "Şehit Er Bülent Altınsoy",
+                "latitude": 40.997707,
+                "longitude": 29.04888,
+                "distance_to_center": 0.39181415264112834
+            },
+            {
+                "name": "Şehit Er Bülent Altınsoy",
+                "latitude": 40.998032,
+                "longitude": 29.049659,
+                "distance_to_center": 0.46648463875162066
+            },
+            {
+                "name": "Müverrih Ata Sokak",
+                "latitude": 40.995443,
+                "longitude": 29.044055,
+                "distance_to_center": 0.10040951898331954
+            },
+            {
+                "name": "Kadıköy Belediyesi",
+                "latitude": 40.993759,
+                "longitude": 29.036332,
+                "distance_to_center": 0.7518743531178919
+            },
+            {
+                "name": "İncirlibostan",
+                "latitude": 40.999458,
+                "longitude": 29.051263,
+                "distance_to_center": 0.6619054507084793
+            },
+            {
+                "name": "Müverrih Ata Sokak",
+                "latitude": 40.995616,
+                "longitude": 29.044049,
+                "distance_to_center": 0.08464850466173608
+            },
+            {
+                "name": "Uzunçayır Caddesi",
+                "latitude": 40.996128,
+                "longitude": 29.046309,
+                "distance_to_center": 0.1396678142861513
+            },
+            {
+                "name": "Hasanpaşa",
+                "latitude": 40.994869,
+                "longitude": 29.040636,
+                "distance_to_center": 0.3700996145404184
+            }
+        ],
+        "metro_station_number": 1,
+        "metro_stations": [
+            {
+                "name": "N/A",
+                "latitude": 41.0015991,
+                "longitude": 29.0456746,
+                "distance_to_center": 0.6029605273470386
+            }
+        ]
+    },
+    {
+        "neighbourhood": "KOZYATAĞI MAH.",
+        "latitude": 40.968948,
+        "longitude": 29.095792,
+        "population": 31095.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 2,
+        "metro_stations": [
+            {
+                "name": "Giriş 2",
+                "latitude": 40.9753691,
+                "longitude": 29.098427,
+                "distance_to_center": 0.7467800828985868
+            },
+            {
+                "name": "Emin Ali Paşa",
+                "latitude": 40.9608531,
+                "longitude": 29.0937566,
+                "distance_to_center": 0.9151474944916999
+            }
+        ]
+    },
+    {
+        "neighbourhood": "KOŞUYOLU MAH.",
+        "latitude": 41.006589,
+        "longitude": 29.034666,
+        "population": 5647.0,
+        "poi_number": 4,
+        "pois": [
+            {
+                "name": "N/A",
+                "latitude": 41.0120851,
+                "longitude": 29.0369929,
+                "distance_to_center": 0.6409846917305354,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "BÜFE KOŞUYOLU",
+                "latitude": 41.0115038,
+                "longitude": 29.0383925,
+                "distance_to_center": 0.6294291602102244,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Dönerli",
+                "latitude": 41.011371,
+                "longitude": 29.0382845,
+                "distance_to_center": 0.6121158891369817,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Papa John's",
+                "latitude": 41.0109748,
+                "longitude": 29.0379863,
+                "distance_to_center": 0.5614680432741406,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Domino's",
+                "latitude": 41.0109466,
+                "longitude": 29.0379467,
+                "distance_to_center": 0.5570957142040986,
+                "poi_type": "fast_food"
+            }
+        ],
+        "bus_station_number": 14,
+        "bus_stations": [
+            {
+                "name": "Koşuyolu Caddesi",
+                "latitude": 41.0073,
+                "longitude": 29.034989,
+                "distance_to_center": 0.08350420561657788
+            },
+            {
+                "name": "Koşuyolu",
+                "latitude": 41.009402,
+                "longitude": 29.036924,
+                "distance_to_center": 0.36561361608721893
+            },
+            {
+                "name": "Validebağ",
+                "latitude": 41.0111561,
+                "longitude": 29.0382477,
+                "distance_to_center": 0.5899428017506188
+            },
+            {
+                "name": "Haydarpaşa Öğrenci Yurdu",
+                "latitude": 41.002126,
+                "longitude": 29.028861,
+                "distance_to_center": 0.6958166480949273
+            },
+            {
+                "name": "Dinlenç Caddesi",
+                "latitude": 41.0023798,
+                "longitude": 29.0323069,
+                "distance_to_center": 0.5078369441149791
+            },
+            {
+                "name": "Validebağ",
+                "latitude": 41.01194,
+                "longitude": 29.038338,
+                "distance_to_center": 0.6697413476027397
+            },
+            {
+                "name": "Koşuyolu Köprüsü",
+                "latitude": 41.004556,
+                "longitude": 29.0340421,
+                "distance_to_center": 0.23179366521826958
+            },
+            {
+                "name": "Validebağ",
+                "latitude": 41.01131,
+                "longitude": 29.038507,
+                "distance_to_center": 0.6158590517502331
+            },
+            {
+                "name": "Koşuyolu",
+                "latitude": 41.009316,
+                "longitude": 29.037033,
+                "distance_to_center": 0.3624432805328164
+            },
+            {
+                "name": "Feridun Paşa Camii",
+                "latitude": 41.005511,
+                "longitude": 29.032798,
+                "distance_to_center": 0.19755543196495554
+            },
+            {
+                "name": "Koşuyolu Caddesi",
+                "latitude": 41.007146,
+                "longitude": 29.034972,
+                "distance_to_center": 0.06699990450538268
+            },
+            {
+                "name": "Feridun Paşa Camii",
+                "latitude": 41.005545,
+                "longitude": 29.032999,
+                "distance_to_center": 0.18196035970110097
+            },
+            {
+                "name": "Validebağ Sanatoryum",
+                "latitude": 41.011403,
+                "longitude": 29.039678,
+                "distance_to_center": 0.6808691859783403
+            },
+            {
+                "name": "Koşuyolu Köprüsü",
+                "latitude": 41.0044568,
+                "longitude": 29.0340316,
+                "distance_to_center": 0.24272960125798512
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "MERDİVENKÖY MAH.",
+        "latitude": 40.987681,
+        "longitude": 29.069109,
+        "population": 25769.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 1,
+        "metro_stations": [
+            {
+                "name": "2",
+                "latitude": 40.9931196,
+                "longitude": 29.0704696,
+                "distance_to_center": 0.6147325590400881
+            }
+        ]
+    },
+    {
+        "neighbourhood": "OSMANAĞA MAH.",
+        "latitude": 40.988172,
+        "longitude": 29.029933,
+        "population": 6283.0,
+        "poi_number": 49,
+        "pois": [
+            {
+                "name": "N/A",
+                "latitude": 40.9924189,
+                "longitude": 29.0248516,
+                "distance_to_center": 0.636607815764741,
+                "poi_type": "taxi"
+            },
+            {
+                "name": "Hacıoğlu",
+                "latitude": 40.9905919,
+                "longitude": 29.0248543,
+                "distance_to_center": 0.5048387962273964,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Çiğ Köfteci Sait Usta",
+                "latitude": 40.9879195,
+                "longitude": 29.0315988,
+                "distance_to_center": 0.1429548570729432,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Etiler Marmaris",
+                "latitude": 40.9929536,
+                "longitude": 29.025064,
+                "distance_to_center": 0.670701752069492,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bambi",
+                "latitude": 40.9909156,
+                "longitude": 29.0275652,
+                "distance_to_center": 0.3640513856384282,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Burger King",
+                "latitude": 40.9906953,
+                "longitude": 29.0298256,
+                "distance_to_center": 0.2803675097776555,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Meşhur Adıyaman Çiğ Köftecisi",
+                "latitude": 40.986853,
+                "longitude": 29.0310928,
+                "distance_to_center": 0.17601640785313605,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Adıyaman Çiğ Koftecisi",
+                "latitude": 40.9928451,
+                "longitude": 29.0250605,
+                "distance_to_center": 0.661385651540148,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Doyuran",
+                "latitude": 40.9932882,
+                "longitude": 29.0250757,
+                "distance_to_center": 0.6999131993874627,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Sayla Mantı",
+                "latitude": 40.9885585,
+                "longitude": 29.0277437,
+                "distance_to_center": 0.18916354176817138,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Betro Burgers",
+                "latitude": 40.988487,
+                "longitude": 29.0273987,
+                "distance_to_center": 0.2161114548058917,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "KFC",
+                "latitude": 40.9901803,
+                "longitude": 29.0288893,
+                "distance_to_center": 0.23969866485336985,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pilav Station",
+                "latitude": 40.9887208,
+                "longitude": 29.0274086,
+                "distance_to_center": 0.22099791519687967,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Borsam Taş Fırın Rıhtım",
+                "latitude": 40.9927974,
+                "longitude": 29.0250503,
+                "distance_to_center": 0.6577731586073363,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "La Pitsa",
+                "latitude": 40.989927,
+                "longitude": 29.0289216,
+                "distance_to_center": 0.212671468856187,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Salt Fried Chicken",
+                "latitude": 40.9884161,
+                "longitude": 29.0279897,
+                "distance_to_center": 0.16576046722721285,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Frango",
+                "latitude": 40.9917322,
+                "longitude": 29.0279655,
+                "distance_to_center": 0.42863811346372344,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Barbara Dumbo",
+                "latitude": 40.9886473,
+                "longitude": 29.0273943,
+                "distance_to_center": 0.22005569533088487,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Gurman Köfte Lokantası",
+                "latitude": 40.9925605,
+                "longitude": 29.0294105,
+                "distance_to_center": 0.4893384779469258,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Komagene",
+                "latitude": 40.9920763,
+                "longitude": 29.0289679,
+                "distance_to_center": 0.44112689148631024,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Carl's Jr.",
+                "latitude": 40.9889959,
+                "longitude": 29.0288899,
+                "distance_to_center": 0.1267929353647218,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Saloon Burger",
+                "latitude": 40.991057,
+                "longitude": 29.0267532,
+                "distance_to_center": 0.41742798728973507,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Burger Yiyelim",
+                "latitude": 40.9907147,
+                "longitude": 29.0288145,
+                "distance_to_center": 0.2976490609056845,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pizza 2 Go",
+                "latitude": 40.9914999,
+                "longitude": 29.0286297,
+                "distance_to_center": 0.38550449746452103,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Paşa Zurna Dürüm",
+                "latitude": 40.9914822,
+                "longitude": 29.0285868,
+                "distance_to_center": 0.38466805406384263,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Hosta",
+                "latitude": 40.9911526,
+                "longitude": 29.0247322,
+                "distance_to_center": 0.5487194134496083,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Gözde Mersin Tantuni",
+                "latitude": 40.9894957,
+                "longitude": 29.0275483,
+                "distance_to_center": 0.2487536618324893,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Tek Büfe",
+                "latitude": 40.9893606,
+                "longitude": 29.0282388,
+                "distance_to_center": 0.1942901303621583,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "ATM Burger",
+                "latitude": 40.9893314,
+                "longitude": 29.0321581,
+                "distance_to_center": 0.2272382404260676,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Osmanağa Pilavcısı",
+                "latitude": 40.9902737,
+                "longitude": 29.0268286,
+                "distance_to_center": 0.3503117836206205,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Subway",
+                "latitude": 40.988836,
+                "longitude": 29.0273964,
+                "distance_to_center": 0.22583248451561527,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Pişiköy",
+                "latitude": 40.9885411,
+                "longitude": 29.0288466,
+                "distance_to_center": 0.10018926959537036,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Paşa Zurna Dürüm",
+                "latitude": 40.9897833,
+                "longitude": 29.0290605,
+                "distance_to_center": 0.19341752470552465,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kaıköy Tantuni",
+                "latitude": 40.990233,
+                "longitude": 29.0268256,
+                "distance_to_center": 0.3475066589538369,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Bizim Dürüm ve Kanat Evi",
+                "latitude": 40.9901439,
+                "longitude": 29.0267997,
+                "distance_to_center": 0.3427446597511737,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Kadıköy Simit",
+                "latitude": 40.9896014,
+                "longitude": 29.0276834,
+                "distance_to_center": 0.24705018829486566,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Tost Akademisi",
+                "latitude": 40.9896876,
+                "longitude": 29.0271588,
+                "distance_to_center": 0.2877962887260819,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Dali",
+                "latitude": 40.9884338,
+                "longitude": 29.0278806,
+                "distance_to_center": 0.1751396223635412,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "İzzet Paşa Kokoreç",
+                "latitude": 40.9903383,
+                "longitude": 29.0276754,
+                "distance_to_center": 0.3065402431875232,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Köşe Ekspress Cafe",
+                "latitude": 40.9902784,
+                "longitude": 29.0263777,
+                "distance_to_center": 0.3797704697015702,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Osis",
+                "latitude": 40.9890969,
+                "longitude": 29.0274188,
+                "distance_to_center": 0.23518401872450134,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9889422,
+                "longitude": 29.0273958,
+                "distance_to_center": 0.2300005381609627,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Subway",
+                "latitude": 40.9886039,
+                "longitude": 29.0273935,
+                "distance_to_center": 0.21901536278895956,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Cajun Corner",
+                "latitude": 40.9888281,
+                "longitude": 29.0274468,
+                "distance_to_center": 0.2215380374411391,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9926494,
+                "longitude": 29.0249955,
+                "distance_to_center": 0.6479670514897533,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Zurna Kadıköy",
+                "latitude": 40.9898352,
+                "longitude": 29.0272214,
+                "distance_to_center": 0.2935666125597339,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Popeyes",
+                "latitude": 40.992247,
+                "longitude": 29.0291202,
+                "distance_to_center": 0.4576831736447527,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Hello Fires",
+                "latitude": 40.9903369,
+                "longitude": 29.0278332,
+                "distance_to_center": 0.2983676246337133,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Little Caesars",
+                "latitude": 40.9881893,
+                "longitude": 29.0336617,
+                "distance_to_center": 0.3137767807272209,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Panzarotti",
+                "latitude": 40.9920558,
+                "longitude": 29.0285208,
+                "distance_to_center": 0.44738135195278683,
+                "poi_type": "fast_food"
+            }
+        ],
+        "bus_station_number": 10,
+        "bus_stations": [
+            {
+                "name": "Kadıköy Çarşı",
+                "latitude": 40.9910448,
+                "longitude": 29.025459,
+                "distance_to_center": 0.49347799059276704
+            },
+            {
+                "name": "Barış Manço",
+                "latitude": 40.9870773,
+                "longitude": 29.0341375,
+                "distance_to_center": 0.37411587715016914
+            },
+            {
+                "name": "Altıyol",
+                "latitude": 40.9899602,
+                "longitude": 29.0298503,
+                "distance_to_center": 0.19870811838570393
+            },
+            {
+                "name": "Altıyol",
+                "latitude": 40.9907367,
+                "longitude": 29.0293608,
+                "distance_to_center": 0.28886072090257947
+            },
+            {
+                "name": "Kadıköy Çarşı",
+                "latitude": 40.9912048,
+                "longitude": 29.0258535,
+                "distance_to_center": 0.48091571385915644
+            },
+            {
+                "name": "Barış Manço",
+                "latitude": 40.9906102,
+                "longitude": 29.0347199,
+                "distance_to_center": 0.48535960149663127
+            },
+            {
+                "name": "Rıhtım",
+                "latitude": 40.9932185,
+                "longitude": 29.0258241,
+                "distance_to_center": 0.6585050965098259
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.992822,
+                "longitude": 29.02468,
+                "distance_to_center": 0.6797465714442487
+            },
+            {
+                "name": "Rıhtım",
+                "latitude": 40.992367,
+                "longitude": 29.02486,
+                "distance_to_center": 0.6318719790215788
+            },
+            {
+                "name": "Kadıköy",
+                "latitude": 40.992718,
+                "longitude": 29.0242632,
+                "distance_to_center": 0.6946198826004525
+            }
+        ],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "RASİMPAŞA MAH.",
+        "latitude": 40.996897,
+        "longitude": 29.025539,
+        "population": 10128.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 0,
+        "metro_stations": []
+    },
+    {
+        "neighbourhood": "SAHRAYICEDİT MAH.",
+        "latitude": 40.982849,
+        "longitude": 29.086509,
+        "population": 25058.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 6,
+        "metro_stations": [
+            {
+                "name": "Yenisahra",
+                "latitude": 40.9845938,
+                "longitude": 29.0904257,
+                "distance_to_center": 0.382348450859194
+            },
+            {
+                "name": "2",
+                "latitude": 40.9849437,
+                "longitude": 29.0900864,
+                "distance_to_center": 0.38046038506047697
+            },
+            {
+                "name": "1",
+                "latitude": 40.9841372,
+                "longitude": 29.0912249,
+                "distance_to_center": 0.42186893816140386
+            },
+            {
+                "name": "3",
+                "latitude": 40.9846229,
+                "longitude": 29.09,
+                "distance_to_center": 0.3537225729153575
+            },
+            {
+                "name": "Yenisahra",
+                "latitude": 40.9847125,
+                "longitude": 29.0905702,
+                "distance_to_center": 0.39954573675664334
+            },
+            {
+                "name": "Yenisahra",
+                "latitude": 40.9844847,
+                "longitude": 29.09026,
+                "distance_to_center": 0.36420290186192167
+            }
+        ]
+    },
+    {
+        "neighbourhood": "SUADİYE MAH.",
+        "latitude": 40.961046,
+        "longitude": 29.081574,
+        "population": 21934.0,
+        "poi_number": 0,
+        "pois": [],
+        "bus_station_number": 0,
+        "bus_stations": [],
+        "metro_station_number": 5,
+        "metro_stations": [
+            {
+                "name": "Suadiye",
+                "latitude": 40.9605007,
+                "longitude": 29.0844637,
+                "distance_to_center": 0.25069353379518405
+            },
+            {
+                "name": "Suadiye",
+                "latitude": 40.9605637,
+                "longitude": 29.08449,
+                "distance_to_center": 0.25125865524393004
+            },
+            {
+                "name": "Suadiye",
+                "latitude": 40.9604329,
+                "longitude": 29.084443,
+                "distance_to_center": 0.2509404289105013
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9605943,
+                "longitude": 29.0844391,
+                "distance_to_center": 0.24635942901012303
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9603963,
+                "longitude": 29.0843935,
+                "distance_to_center": 0.24808372403906787
+            }
+        ]
+    },
+    {
+        "neighbourhood": "ZÜHTÜPAŞA MAH.",
+        "latitude": 40.986532,
+        "longitude": 29.038801,
+        "population": 6834.0,
+        "poi_number": 10,
+        "pois": [
+            {
+                "name": "Kasap Döner",
+                "latitude": 40.9833113,
+                "longitude": 29.0404266,
+                "distance_to_center": 0.38293955645674116,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Şampiyon Kokoreç",
+                "latitude": 40.9835688,
+                "longitude": 29.040103,
+                "distance_to_center": 0.3468357900841929,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Çiğ Köfteci Gakgoş Usta",
+                "latitude": 40.9856322,
+                "longitude": 29.0371211,
+                "distance_to_center": 0.17311917782741215,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Büfe",
+                "latitude": 40.982619,
+                "longitude": 29.0392807,
+                "distance_to_center": 0.43642384768517406,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9833444,
+                "longitude": 29.0404849,
+                "distance_to_center": 0.38130450219772755,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Papa John's",
+                "latitude": 40.9870061,
+                "longitude": 29.035056,
+                "distance_to_center": 0.31951704194545194,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Birtat Mersin Tantuni",
+                "latitude": 40.9870071,
+                "longitude": 29.0349796,
+                "distance_to_center": 0.3258780500304099,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Ersoy Tantoni",
+                "latitude": 40.9841768,
+                "longitude": 29.0428811,
+                "distance_to_center": 0.4316289327007726,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Ömer Aybak Adıyaman Çiğ Köftecisi",
+                "latitude": 40.9892735,
+                "longitude": 29.0413275,
+                "distance_to_center": 0.37134015008982374,
+                "poi_type": "fast_food"
+            },
+            {
+                "name": "Barış Büfe",
+                "latitude": 40.9834237,
+                "longitude": 29.0398174,
+                "distance_to_center": 0.35562742212633974,
+                "poi_type": "fast_food"
+            }
+        ],
+        "bus_station_number": 6,
+        "bus_stations": [
+            {
+                "name": "Şükrü Saraçoğlu Stadı",
+                "latitude": 40.9865504,
+                "longitude": 29.0387935,
+                "distance_to_center": 0.002138637751291881
+            },
+            {
+                "name": "Şükrü Saracoğlu Stadı",
+                "latitude": 40.9868619,
+                "longitude": 29.038359,
+                "distance_to_center": 0.052208480024887025
+            },
+            {
+                "name": "Kızıltoprak",
+                "latitude": 40.9842007,
+                "longitude": 29.0390996,
+                "distance_to_center": 0.26011591338190415
+            },
+            {
+                "name": "2. Hatboyu Sokak",
+                "latitude": 40.9899016,
+                "longitude": 29.0407399,
+                "distance_to_center": 0.40822943376347953
+            },
+            {
+                "name": "Şükrü Saraçoğlu Stadı",
+                "latitude": 40.98594,
+                "longitude": 29.036826,
+                "distance_to_center": 0.17873219549023636
+            },
+            {
+                "name": "Kızıltoprak",
+                "latitude": 40.984443,
+                "longitude": 29.0393,
+                "distance_to_center": 0.2357609398468698
+            }
+        ],
+        "metro_station_number": 7,
+        "metro_stations": [
+            {
+                "name": "Söğütlüçeşme",
+                "latitude": 40.9910811,
+                "longitude": 29.0378356,
+                "distance_to_center": 0.511684392144132
+            },
+            {
+                "name": "Söğütlüçeşme",
+                "latitude": 40.9910017,
+                "longitude": 29.0376538,
+                "distance_to_center": 0.5056768348027555
+            },
+            {
+                "name": "Söğütlüçeşme",
+                "latitude": 40.9910179,
+                "longitude": 29.0376707,
+                "distance_to_center": 0.5071743072590439
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9910047,
+                "longitude": 29.0376226,
+                "distance_to_center": 0.50651131937004
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9909463,
+                "longitude": 29.0374472,
+                "distance_to_center": 0.5032871935332244
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9907619,
+                "longitude": 29.0381316,
+                "distance_to_center": 0.47311134290464807
+            },
+            {
+                "name": "N/A",
+                "latitude": 40.9905761,
+                "longitude": 29.0377299,
+                "distance_to_center": 0.45806735282546446
+            }
+        ]
+    }
+]

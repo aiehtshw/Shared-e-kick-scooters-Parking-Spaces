@@ -1,17 +1,68 @@
+import sys
+from services.election_api.ElectionResult import process_population_data
+from services.json_api.JSONManipulation import initialize_json, generate_json_and_map
+from services.nominatim.Nominatim import calculate_distances
 from services.open_street_api.TransportMap import TransportMap
 
 if __name__ == "__main__":
-    try:
-        transport_map = TransportMap("Kadıkoy, Istanbul, Turkey")
-        transport_map.add_search_area_circle()
-        #transport_map.add_transport_stops("bus", "blue", "info-sign")
-        #transport_map.add_transport_stops("metro", "purple", "info-sign")
 
-        # Adding points of interest such as restaurants and parks
-        #transport_map.add_transport_stops("poi", "green", "info-sign", poi_type="parking_entrance")
-        transport_map.add_transport_stops("poi", "green", "info-sign", poi_type="taxi")
-        #transport_map.add_transport_stops("poi", "orange", "info-sign", poi_type="park")
+    input_file = "database/input/kadikoy.xlsx"
+    output_file = "database/output/database.json"
 
-        transport_map.save_map("kadikoy_transport_map.html")
-    except Exception as e:
-        print(f"An error occurred: {str(e)}")
+    if len(sys.argv) == 3:
+        if sys.argv[1] == "-updateAll":
+            # Initialize JSON
+            initialize_json(output_file)
+
+            # Process population data
+            process_population_data(input_file, output_file)
+            calculate_distances(output_file)
+
+        try:
+
+            transport_map = TransportMap("Kadıkoy, Istanbul, Turkey")
+            transport_map1 = TransportMap("19 MAYIS MAHALLESİ, Istanbul, Turkey", radius_km=3)
+
+            # Add search areas
+            transport_map.add_search_area_circle()
+            transport_map1.add_search_area_circle()
+
+            # Update JSON and map with bus stop data
+            if sys.argv[1] == "-updateAll" or sys.argv[1] == "-updateBusStops":
+                generate_json_and_map(output_file, transport_map, "bus", "blue", "info-sign")
+                generate_json_and_map(output_file, transport_map1, "bus", "blue", "info-sign")
+            # Update JSON and map with metro stop data
+
+            elif sys.argv[1] == "-updateAll" or sys.argv[1] == "-updateMetroStops":
+                generate_json_and_map(output_file, transport_map, "metro", "purple", "info-sign")
+                generate_json_and_map(output_file, transport_map1, "metro", "purple", "info-sign")
+
+            # Update JSON and map with POI points data
+            elif sys.argv[1] == "-updateAll" or sys.argv[1] == "-updatePoiPoints":
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="taxi")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="taxi")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign", poi_type="fast_food")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign", poi_type="fast_food")
+
+            #TODO: CPlex
+            elif sys.argv[1] == "-onlyCplex":
+                print("run cplex")
+
+            else:
+                print("Wrong Parameter")
+                exit()
+            # Save the map (optional)
+            if len(sys.argv) == 3 and sys.argv[2] == "-enableMapUpdate":
+                # Merge transport_map1 into transport_map
+                transport_map.merge_map(transport_map1)
+                # Save the combined map with all markers and search areas
+                transport_map.save_map("kadikoy_combined_transport_map.html")
+
+        except Exception as e:
+            print(f"An error occurred: {str(e)}")
+
+    else:
+        print("\nInvalid Argument\n"
+              "Example: python main.py "
+              "Argument 1: <-updateAll | -updateBusStops | -updatePoiPoints | -updateMetroStops | -onlyCplex> \n"
+              "Argument 2: <-enableMapUpdate>")
