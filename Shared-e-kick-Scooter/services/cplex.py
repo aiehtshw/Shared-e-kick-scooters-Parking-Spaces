@@ -160,12 +160,10 @@ class EScooterLocationOptimizer:
 
 
 # Main execution
-def main():
-    # Path to your JSON file
-    json_path = r"C:/Users/ALPER/Desktop/Grad2OpenstreetMap/upd_database.json"
-
+def execCplex(path):
+    
     try:
-        optimizer = EScooterLocationOptimizer(json_path)
+        optimizer = EScooterLocationOptimizer(path)
         optimization_results = optimizer.optimize_locations()
         detailed_analysis = optimizer.detailed_location_analysis(optimization_results)
 
@@ -183,12 +181,9 @@ def main():
                 print(f"    Metro Stations: {loc['Metro Stations']}")
             print(f"Total Covered Zones: {analysis['Covered Zones Count']}\n")
     except FileNotFoundError:
-        print(f"Error: JSON data file not found at {json_path}")
+        print(f"Error: JSON data file not found at {path}")
     except Exception as e:
         print(f"An error occurred: {e}")
         import traceback
         traceback.print_exc()
 
-
-if __name__ == "__main__":
-    main()

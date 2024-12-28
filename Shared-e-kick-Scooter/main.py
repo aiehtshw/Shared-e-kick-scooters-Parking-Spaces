@@ -1,5 +1,7 @@
 import sys
+from services.cplex import execCplex
 from services.election_api.ElectionResult import process_population_data
+from services.elitistga import execEga
 from services.json_api.JSONManipulation import initialize_json, generate_json_and_map
 from services.nominatim.Nominatim import calculate_distances
 from services.open_street_api.TransportMap import TransportMap
@@ -45,12 +47,16 @@ if __name__ == "__main__":
                 generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign", poi_type="fast_food")
 
             #TODO: CPlex
-            if sys.argv[1] == "-onlyCplex":
-                print("run cplex")
+            if sys.argv[1] == "-onlyCalculations":
+                ##print("run cplex and elitist ga")
+                execCplex(output_file)
+                execEga(output_file)
 
-            else:
+            if not(sys.argv[1] == "-updateAll" or sys.argv[1] == "-updatePoiPoints" or sys.argv[1] == "-updateMetroStops" or sys.argv[1] == "-updateBusStops" or sys.argv[1] == "-onlyCalculations"):
                 print("Wrong Parameter")
                 exit()
+
+
             # Save the map (optional)
             if len(sys.argv) == 3 and sys.argv[2] == "-enableMapUpdate":
                 # Merge transport_map1 into transport_map
@@ -64,5 +70,5 @@ if __name__ == "__main__":
     else:
         print("\nInvalid Argument\n"
               "Example: python main.py "
-              "Argument 1: <-updateAll | -updateBusStops | -updatePoiPoints | -updateMetroStops | -onlyCplex> \n"
+              "Argument 1: <-updateAll | -updateBusStops | -updatePoiPoints | -updateMetroStops | -onlyCalculations> \n"
               "Argument 2: <-enableMapUpdate>")
