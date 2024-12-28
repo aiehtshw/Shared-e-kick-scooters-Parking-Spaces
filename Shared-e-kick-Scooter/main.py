@@ -33,19 +33,19 @@ if __name__ == "__main__":
                 generate_json_and_map(output_file, transport_map1, "bus", "blue", "info-sign")
             # Update JSON and map with metro stop data
 
-            elif sys.argv[1] == "-updateAll" or sys.argv[1] == "-updateMetroStops":
+            if sys.argv[1] == "-updateAll" or sys.argv[1] == "-updateMetroStops":
                 generate_json_and_map(output_file, transport_map, "metro", "purple", "info-sign")
                 generate_json_and_map(output_file, transport_map1, "metro", "purple", "info-sign")
 
             # Update JSON and map with POI points data
-            elif sys.argv[1] == "-updateAll" or sys.argv[1] == "-updatePoiPoints":
+            if sys.argv[1] == "-updateAll" or sys.argv[1] == "-updatePoiPoints":
                 generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="taxi")
                 generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="taxi")
                 generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign", poi_type="fast_food")
                 generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign", poi_type="fast_food")
 
             #TODO: CPlex
-            elif sys.argv[1] == "-onlyCplex":
+            if sys.argv[1] == "-onlyCplex":
                 print("run cplex")
 
             else:
