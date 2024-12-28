@@ -1,4 +1,5 @@
 import sys
+from report_scripts.tableRes import tableResult
 from services.cplex import execCplex
 from services.election_api.ElectionResult import process_population_data
 from services.elitistga import execEga
@@ -11,7 +12,7 @@ if __name__ == "__main__":
     input_file = "database/input/kadikoy.xlsx"
     output_file = "database/output/database.json"
 
-    if len(sys.argv) == 3:
+    if len(sys.argv) == 3 or len(sys.argv) == 2 :
         if sys.argv[1] == "-updateAll":
             # Initialize JSON
             initialize_json(output_file)
@@ -46,13 +47,18 @@ if __name__ == "__main__":
                 generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign", poi_type="fast_food")
                 generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign", poi_type="fast_food")
 
-            #TODO: CPlex
+            # CPlex and Elitist GA
             if sys.argv[1] == "-onlyCalculations":
                 ##print("run cplex and elitist ga")
                 execCplex(output_file)
                 execEga(output_file)
+            
+            # Table of the result of objective functions
+            if sys.argv[1] == "-onlyReport":
+                tableResult(output_file)
 
-            if not(sys.argv[1] == "-updateAll" or sys.argv[1] == "-updatePoiPoints" or sys.argv[1] == "-updateMetroStops" or sys.argv[1] == "-updateBusStops" or sys.argv[1] == "-onlyCalculations"):
+
+            if not(sys.argv[1] == "-updateAll" or sys.argv[1] == "-updatePoiPoints" or sys.argv[1] == "-updateMetroStops" or sys.argv[1] == "-updateBusStops" or sys.argv[1] == "-onlyCalculations" or sys.argv[1] == "-onlyReport"):
                 print("Wrong Parameter")
                 exit()
 
@@ -70,5 +76,5 @@ if __name__ == "__main__":
     else:
         print("\nInvalid Argument\n"
               "Example: python main.py "
-              "Argument 1: <-updateAll | -updateBusStops | -updatePoiPoints | -updateMetroStops | -onlyCalculations> \n"
+              "Argument 1: <-updateAll | -updateBusStops | -updatePoiPoints | -updateMetroStops | -onlyCalculations | -onlyReport> \n"
               "Argument 2: <-enableMapUpdate>")
