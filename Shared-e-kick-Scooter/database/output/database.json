@@ -458,14 +458,14 @@
                 "name": "Kadıköy Belediyesi Alzheimer Merkezi",
                 "latitude": 40.9770219,
                 "longitude": 29.0849834,
-                "distance_to_center": 0,
+                "distance_to_center": 0.5135763002731752,
                 "poi_type": "social_facility"
             },
             {
                 "name": "Kadıköy Belediyesi Sosyal Yaşam Evi",
                 "latitude": 40.977133,
                 "longitude": 29.0851246,
-                "distance_to_center": 0,
+                "distance_to_center": 0.515489817818629,
                 "poi_type": "social_facility"
             }
         ],
@@ -15702,7 +15702,7 @@
                 "name": "Suadiye Huzurevi",
                 "latitude": 40.9612081,
                 "longitude": 29.0820602,
-                "distance_to_center": 0,
+                "distance_to_center": 0.04471433561890211,
                 "poi_type": "social_facility"
             }
         ],
