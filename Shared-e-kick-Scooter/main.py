@@ -1,4 +1,6 @@
 import sys
+from report_scripts.elitistGAanalysis import elitistAnalysisRes
+from report_scripts.numericalAnalysis import numericalAnalysisRes
 from report_scripts.tableRes import tableResult
 from services.cplex import execCplex
 from services.election_api.ElectionResult import process_population_data
@@ -106,14 +108,20 @@ if __name__ == "__main__":
                 ##print("run cplex and elitist ga")
                 
                 execCplex(output_file)
-                #execEga(output_file)
+                execEga(output_file)
             
             # Table of the result of objective functions
             if sys.argv[1] == "-onlyReport":
                 tableResult(output_file)
 
+            if sys.argv[1] == "-onlyNumerical":
+                numericalAnalysisRes(output_file)
 
-            if not(sys.argv[1] == "-updateAll" or sys.argv[1] == "-updatePoiPoints" or sys.argv[1] == "-updateMetroStops" or sys.argv[1] == "-updateBusStops" or sys.argv[1] == "-onlyCalculations" or sys.argv[1] == "-onlyReport"):
+            if sys.argv[1] == "-onlyElitist":
+                elitistAnalysisRes(output_file)
+
+                
+            if not(sys.argv[1] == "-updateAll" or sys.argv[1] == "-updatePoiPoints" or sys.argv[1] == "-updateMetroStops" or sys.argv[1] == "-updateBusStops" or sys.argv[1] == "-onlyCalculations" or sys.argv[1] == "-onlyReport" or sys.argv[1] == "-onlyNumerical" or sys.argv[1] == "-onlyElitist"):
                 print("Wrong Parameter")
                 exit()
 
