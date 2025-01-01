@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
             # Process population data
             process_population_data(input_file, output_file)
-            calculate_distances(output_file)
+            
 
         try:
 
@@ -34,11 +34,13 @@ if __name__ == "__main__":
             if sys.argv[1] == "-updateAll" or sys.argv[1] == "-updateBusStops":
                 generate_json_and_map(output_file, transport_map, "bus", "blue", "info-sign")
                 generate_json_and_map(output_file, transport_map1, "bus", "blue", "info-sign")
+                
             # Update JSON and map with metro stop data
 
             if sys.argv[1] == "-updateAll" or sys.argv[1] == "-updateMetroStops":
                 generate_json_and_map(output_file, transport_map, "metro", "purple", "info-sign")
                 generate_json_and_map(output_file, transport_map1, "metro", "purple", "info-sign")
+                
 
             # Update JSON and map with POI points data
             if sys.argv[1] == "-updateAll" or sys.argv[1] == "-updatePoiPoints":
@@ -46,12 +48,65 @@ if __name__ == "__main__":
                 generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="taxi")
                 generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign", poi_type="fast_food")
                 generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign", poi_type="fast_food")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="cafe")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="cafe")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="restaurant")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="restaurant")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="college")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="college")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="library")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="library")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="school")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="school")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="university")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="university")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="atm")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="atm")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="hospital")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="hospital")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="arts_centre")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="arts_centre")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="cinema")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="cinema")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="theatre")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="theatre")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="grave_yard")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="grave_yard")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="social_centre")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="social_centre")
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="social_facility")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="social_facility")
+
+                
+                
+                #### OPTIONAL #####
+
+                generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="nightclub")
+                generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="nightclub")
+
+                #-generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="bank")
+                #-generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="bank")
+                #-generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="clinic")
+                #-generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="clinic")
+                #-generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="dentist")
+                #-generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="dentist")
+                #-generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="pharmacy")
+                #-generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="pharmacy")
+                #-generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="post_office")
+                #-generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="post_office")
+                #-generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="toilets")
+                #-generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="toilets")
+                #-generate_json_and_map(output_file, transport_map, "poi", "green", "info-sign",  poi_type="baking_oven")
+                #-generate_json_and_map(output_file, transport_map1, "poi", "green", "info-sign",  poi_type="baking_oven")
+                
+            calculate_distances(output_file)
 
             # CPlex and Elitist GA
             if sys.argv[1] == "-onlyCalculations":
                 ##print("run cplex and elitist ga")
+                
                 execCplex(output_file)
-                execEga(output_file)
+                #execEga(output_file)
             
             # Table of the result of objective functions
             if sys.argv[1] == "-onlyReport":
