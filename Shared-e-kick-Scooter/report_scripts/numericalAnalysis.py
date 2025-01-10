@@ -115,76 +115,129 @@ class EScooterLocationOptimizer:
 
         return results
 
-    def compute_all_results(self, num_steps=5, step_size=0.01):
-        """Compute results for varying distance and number of locations."""
-        all_results1 = []
-        all_results2 = []
-        self.DISTANCE_THRESHOLD -= 0.01
-        self.NUM_LOCATIONS = 5
-        # Vary distance
-        for step in range(num_steps):
-            self.DISTANCE_THRESHOLD += step_size
-            result = self.optimize_locations()
-            all_results1.append((self.DISTANCE_THRESHOLD, self.NUM_LOCATIONS, result))
+    def compute_all_results(self, base_distance=1.0, base_locations=5, 
+                          distance_range=(0.5, 2.0), distance_steps=5,
+                          location_range=(1, 20), location_steps=20):
+        """
+        Compute results for:
+        1. Varying distance with fixed locations
+        2. Varying locations with fixed distance
+        """
+        distance_results = []
+        location_results = []
         
-        # Reset distance to the original and vary number of locations
-        self.DISTANCE_THRESHOLD -= 1
-        self.NUM_LOCATIONS = 1
-        num_steps=20
-        for step in range(num_steps):
-            self.NUM_LOCATIONS += 1
+        # 1. Vary distance, keep locations constant
+        distances = [base_distance + (distance_range[1] - distance_range[0]) * i / distance_steps 
+                    for i in range(distance_steps)]
+        
+        for dist in distances:
+            self.DISTANCE_THRESHOLD = dist
+            self.NUM_LOCATIONS = base_locations
+            self.preprocess_data()  # Recompute coverage matrix with new distance
             result = self.optimize_locations()
-            all_results2.append((self.DISTANCE_THRESHOLD, self.NUM_LOCATIONS, result))
+            distance_results.append({
+                'distance': dist,
+                'locations': base_locations,
+                'results': result
+            })
 
-        return all_results1,all_results2
+        # 2. Vary locations, keep distance constant
+        self.DISTANCE_THRESHOLD = base_distance
+        location_counts = range(location_range[0], location_range[1] + 1, 
+                              max(1, (location_range[1] - location_range[0]) // location_steps))
+        
+        for locs in location_counts:
+            self.NUM_LOCATIONS = locs
+            self.preprocess_data()
+            result = self.optimize_locations()
+            location_results.append({
+                'distance': base_distance,
+                'locations': locs,
+                'results': result
+            })
 
-    def plot_results(self, all_results):
-        """Plot the results for all objective functions."""
-        for obj_name in ['population_coverage', 'bus_accessibility', 'metro_accessibility', 'poi_coverage']:
-            distances = []
-            locations = []
-            objective_values = []
+        return distance_results, location_results
 
-            for distance, num_locations, result in all_results:
-                distances.append(distance)
-                locations.append(num_locations)
-                objective_values.append(result[obj_name]['objective_value'])
+    def format_results_tables(self, distance_results, location_results):
+        """Create formatted tables for both analyses"""
+        
+        def create_table(results, varying_param_name):
+            headers = [varying_param_name, 'Population', 'Bus Access', 'Metro Access', 'POI Coverage']
+            rows = []
+            
+            for result in results:
+                param_value = result['distance'] if varying_param_name == 'Distance' else result['locations']
+                row = [
+                    f"{param_value:.2f}" if varying_param_name == 'Distance' else param_value,
+                    f"{result['results']['population_coverage']['objective_value']:.2f}",
+                    f"{result['results']['bus_accessibility']['objective_value']:.2f}",
+                    f"{result['results']['metro_accessibility']['objective_value']:.2f}",
+                    f"{result['results']['poi_coverage']['objective_value']:.2f}"
+                ]
+                rows.append(row)
+            
+            return tabulate(rows, headers=headers, tablefmt='grid')
 
-            plt.figure(figsize=(10, 6))
-            plt.plot(distances, objective_values, label=f"{obj_name} (varying distance)")
-            plt.plot(locations, objective_values, label=f"{obj_name} (varying locations)", linestyle='--')
-            plt.xlabel('Parameter (Distance or Locations)')
+        distance_table = create_table(distance_results, 'Distance')
+        location_table = create_table(location_results, 'Locations')
+        
+        return distance_table, location_table
+
+    def plot_results(self, distance_results, location_results):
+        """Plot the results for all objective functions with separate graphs"""
+        objectives = ['population_coverage', 'bus_accessibility', 
+                     'metro_accessibility', 'poi_coverage']
+        
+        # Plot distance variation results
+        plt.figure(figsize=(15, 10))
+        for i, obj in enumerate(objectives, 1):
+            plt.subplot(2, 2, i)
+            distances = [r['distance'] for r in distance_results]
+            values = [r['results'][obj]['objective_value'] for r in distance_results]
+            plt.plot(distances, values, 'b-', label='Distance variation')
+            plt.xlabel('Distance (km)')
             plt.ylabel('Objective Value')
-            plt.title(f"Objective Function: {obj_name}")
-            plt.legend()
+            plt.title(f'{obj.replace("_", " ").title()}')
             plt.grid(True)
-            plt.show()
+        plt.tight_layout()
+        plt.show()
+
+        # Plot location variation results
+        plt.figure(figsize=(15, 10))
+        for i, obj in enumerate(objectives, 1):
+            plt.subplot(2, 2, i)
+            locations = [r['locations'] for r in location_results]
+            values = [r['results'][obj]['objective_value'] for r in location_results]
+            plt.plot(locations, values, 'r-', label='Location variation')
+            plt.xlabel('Number of Locations')
+            plt.ylabel('Objective Value')
+            plt.title(f'{obj.replace("_", " ").title()}')
+            plt.grid(True)
+        plt.tight_layout()
+        plt.show()
 
 def numericalAnalysisRes(data_file):
     optimizer = EScooterLocationOptimizer(data_file)
-    results1, results2 = optimizer.compute_all_results()
     
-    # Process results for varying distance (results1)
-    for distance, num_locations, result in results1:
-        print(f"Distance: {distance:.2f} km, Number of Locations: {num_locations}")
-        for obj_name, metrics in result.items():
-            print(f"Objective: {obj_name}")
-            print(f"  Objective Value: {metrics['objective_value']:.2f}")
-            print(f"  CPU Time: {metrics['cpu_time']:.2f}s")
-        print("-" * 40)  # Separator line for clarity
-
-    # Process results for varying number of locations (results2)
-    for distance, num_locations, result in results2:
-        print(f"Distance: {distance:.2f} km, Number of Locations: {num_locations}")
-        for obj_name, metrics in result.items():
-            print(f"Objective: {obj_name}")
-            print(f"  Objective Value: {metrics['objective_value']:.2f}")
-            print(f"  CPU Time: {metrics['cpu_time']:.2f}s")
-        print("-" * 40)  # Separator line for clarity
-
-    # Plot the results for varying distance and number of locations
-    optimizer.plot_results(results1)
-    optimizer.plot_results(results2)
-
-
-
+    # Run analysis with custom ranges
+    distance_results, location_results = optimizer.compute_all_results(
+        base_distance=0.01,
+        base_locations=5,
+        distance_range=(0.01, 5.0),
+        distance_steps=500,
+        location_range=(1, 20),
+        location_steps=20
+    )
+    
+    # Generate and print tables
+    distance_table, location_table = optimizer.format_results_tables(
+        distance_results, location_results
+    )
+    
+    print("Results for varying distance (fixed locations = 5):")
+    print(distance_table)
+    print("\nResults for varying locations (fixed distance = 0.01 km):")
+    print(location_table)
+    
+    # Plot results
+    optimizer.plot_results(distance_results, location_results)
