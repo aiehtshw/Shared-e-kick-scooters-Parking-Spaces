@@ -4,7 +4,7 @@ import json
 
 
 class ElitistGAOptimizer:
-    def __init__(self, data_file, distance_threshold=1.0, num_locations=5, pop_size=10, generations=5, mutation_rate=0.1):
+    def __init__(self, data_file, distance_threshold=0.2, num_locations=5, pop_size=10, generations=5, mutation_rate=0.1):
         with open(data_file, 'r', encoding='utf-8') as f:
             self.zones = json.load(f)
 

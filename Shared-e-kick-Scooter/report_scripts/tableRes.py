@@ -205,9 +205,8 @@ def tableResult(path):
     """Execute the optimization for all test configurations."""
     try:
         test_configurations = [
-            (5, 200), (5, 400),
-            (7, 200), (7, 400),
-            (10, 200), (10, 400),
+            
+            (10, 200), (10, 400),(10, 600),
             
         ]
         

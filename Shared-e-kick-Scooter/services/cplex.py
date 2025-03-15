@@ -1,7 +1,7 @@
 import json
 import math
 from docplex.cp.model import CpoModel
-
+import folium
 
 class EScooterLocationOptimizer:
     def __init__(self, data_file, distance_threshold=1.0, num_locations=5):
@@ -157,16 +157,135 @@ class EScooterLocationOptimizer:
                 'Covered Zones Count': len(obj_results['covered_zones'])
             }
         return analysis
-
-
-# Main execution
-def execCplex(path):
     
+    def create_map_visualization(self):
+        """
+        Create a Folium map showing the optimization results with layered markers for overlapping locations
+        """
+        # Calculate map center
+        lats = [zone['latitude'] for zone in self.zones]
+        lons = [zone['longitude'] for zone in self.zones]
+        center_lat = sum(lats) / len(lats)
+        center_lon = sum(lons) / len(lons)
+        
+        # Create base map
+        m = folium.Map(location=[center_lat, center_lon], 
+                    zoom_start=12,
+                    tiles='CartoDB positron')
+        
+        # Colors for different objectives
+        colors = {
+            'population_coverage': 'red',
+            'poi_coverage': 'blue',
+            'bus_accessibility': 'green',
+            'metro_accessibility': 'purple'
+        }
+        
+        # Create a feature group for each objective
+        feature_groups = {}
+        for obj_name in colors.keys():
+            feature_groups[obj_name] = folium.FeatureGroup(name=f"{obj_name.replace('_', ' ').title()}")
+            m.add_child(feature_groups[obj_name])
+        
+        # Create a dictionary to track locations and their objectives
+        location_objectives = {}
+        
+        # First, collect all locations and their corresponding objectives
+        optimization_results = self.optimize_locations()
+        for obj_name, results in optimization_results.items():
+            for location_idx in results['selected_locations']:
+                location_key = (self.zones[location_idx]['latitude'], self.zones[location_idx]['longitude'])
+                if location_key not in location_objectives:
+                    location_objectives[location_key] = []
+                location_objectives[location_key].append({
+                    'objective': obj_name,
+                    'location_idx': location_idx
+                })
+        
+        # Now create markers with different sizes based on overlap
+        for location, objectives in location_objectives.items():
+            lat, lon = location
+            
+            # Sort objectives to ensure consistent ordering
+            objectives.sort(key=lambda x: x['objective'])
+            
+            # Create markers with increasing size for each objective at this location
+            for i, obj_info in enumerate(objectives):
+                obj_name = obj_info['objective']
+                location_idx = obj_info['location_idx']
+                zone = self.zones[location_idx]
+                
+                # Calculate size based on number of overlapping objectives
+                base_radius = 8
+                size_increment = 4
+                current_radius = base_radius + (i * size_increment)
+                
+                # Create popup content
+                popup_content = f"""
+                <b>Objective:</b> {obj_name.replace('_', ' ').title()}<br>
+                <b>Neighbourhood:</b> {zone['neighbourhood']}<br>
+                <b>Population:</b> {self.population[location_idx]}<br>
+                <b>POI Count:</b> {self.poi_count[location_idx]}<br>
+                <b>Bus Stations:</b> {len(zone.get('bus_stations', []))}<br>
+                <b>Metro Stations:</b> {len(zone.get('metro_stations', []))}<br>
+                <b>Shared Location:</b> {len(objectives)} objectives
+                """
+                
+                # Add marker with appropriate size
+                folium.CircleMarker(
+                    location=[lat, lon],
+                    radius=current_radius,
+                    popup=folium.Popup(popup_content, max_width=300),
+                    color=colors[obj_name],
+                    fill=True,
+                    fill_color=colors[obj_name],
+                    fill_opacity=0.7,
+                    weight=2
+                ).add_to(feature_groups[obj_name])
+        
+        # Add layer control
+        folium.LayerControl().add_to(m)
+        
+        # Add legend with information about overlapping markers
+        legend_html = """
+        <div style="position: fixed; bottom: 50px; left: 50px; z-index: 1000; background-color: white; 
+                    padding: 10px; border: 2px solid grey; border-radius: 5px;">
+        <h4>Objective Functions</h4>
+        """
+        
+        for obj_name, color in colors.items():
+            legend_html += f"""
+            <p>
+                <span style="background-color: {color}; 
+                            width: 15px; 
+                            height: 15px; 
+                            display: inline-block;
+                            border-radius: 50%;
+                            margin-right: 5px;"></span>
+                {obj_name.replace('_', ' ').title()}
+            </p>
+            """
+        
+        legend_html += """
+        <hr>
+        <p><small>Note: Larger circles indicate overlapping locations selected by multiple objectives.</small></p>
+        </div>
+        """
+        
+        # Add legend to map
+        m.get_root().html.add_child(folium.Element(legend_html))
+        
+        return m
+
+
+def execCplex(path, save_map=True, map_filename='escooter_locations.html'):
     try:
+        # Initialize optimizer and get results
         optimizer = EScooterLocationOptimizer(path)
         optimization_results = optimizer.optimize_locations()
         detailed_analysis = optimizer.detailed_location_analysis(optimization_results)
 
+        # Print analysis results
         print("E-Scooter Location Optimization Results:\n")
         for obj_name, analysis in detailed_analysis.items():
             print(f"Objective: {obj_name}")
@@ -180,10 +299,16 @@ def execCplex(path):
                 print(f"    Bus Stations: {loc['Bus Stations']}")
                 print(f"    Metro Stations: {loc['Metro Stations']}")
             print(f"Total Covered Zones: {analysis['Covered Zones Count']}\n")
+        
+        if save_map:
+            # Create and save map
+            m = optimizer.create_map_visualization()
+            m.save(map_filename)
+            print(f"\nMap visualization has been saved to: {map_filename}")
+            
     except FileNotFoundError:
         print(f"Error: JSON data file not found at {path}")
     except Exception as e:
         print(f"An error occurred: {e}")
         import traceback
         traceback.print_exc()
-
