@@ -108,7 +108,7 @@ if __name__ == "__main__":
                 ##print("run cplex and elitist ga")
                 
                 execCplex(output_file)
-                execEga(output_file)
+                #execEga(output_file)
             
             # Table of the result of objective functions
             if sys.argv[1] == "-onlyReport":
@@ -139,5 +139,5 @@ if __name__ == "__main__":
     else:
         print("\nInvalid Argument\n"
               "Example: python main.py "
-              "Argument 1: <-updateAll | -updateBusStops | -updatePoiPoints | -updateMetroStops | -onlyCalculations | -onlyReport> \n"
+              "Argument 1: <-updateAll | -updateBusStops | -updatePoiPoints | -updateMetroStops | -onlyCalculations | -onlyReport> | -onlyNumerical | -onlyElitist \n"
               "Argument 2: <-enableMapUpdate>")

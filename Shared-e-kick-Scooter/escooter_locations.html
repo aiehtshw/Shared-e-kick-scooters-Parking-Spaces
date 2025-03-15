@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_50e957d90b40a1dca31d207c5b4399ba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+        <div style="position: fixed; bottom: 50px; left: 50px; z-index: 1000; background-color: white; 
+                    padding: 10px; border: 2px solid grey; border-radius: 5px;">
+        <h4>Objective Functions</h4>
+        
+            <p>
+                <span style="background-color: red; 
+                            width: 15px; 
+                            height: 15px; 
+                            display: inline-block;
+                            border-radius: 50%;
+                            margin-right: 5px;"></span>
+                Population Coverage
+            </p>
+            
+            <p>
+                <span style="background-color: blue; 
+                            width: 15px; 
+                            height: 15px; 
+                            display: inline-block;
+                            border-radius: 50%;
+                            margin-right: 5px;"></span>
+                Poi Coverage
+            </p>
+            
+            <p>
+                <span style="background-color: green; 
+                            width: 15px; 
+                            height: 15px; 
+                            display: inline-block;
+                            border-radius: 50%;
+                            margin-right: 5px;"></span>
+                Bus Accessibility
+            </p>
+            
+            <p>
+                <span style="background-color: purple; 
+                            width: 15px; 
+                            height: 15px; 
+                            display: inline-block;
+                            border-radius: 50%;
+                            margin-right: 5px;"></span>
+                Metro Accessibility
+            </p>
+            
+        <hr>
+        <p><small>Note: Larger circles indicate overlapping locations selected by multiple objectives.</small></p>
+        </div>
+        
+    
+            <div class="folium-map" id="map_50e957d90b40a1dca31d207c5b4399ba" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_50e957d90b40a1dca31d207c5b4399ba = L.map(
+                "map_50e957d90b40a1dca31d207c5b4399ba",
+                {
+                    center: [40.70689339523809, 29.225703914285717],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e23b5b9e4d5284ccdfd2e313ce73a280 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e23b5b9e4d5284ccdfd2e313ce73a280.addTo(map_50e957d90b40a1dca31d207c5b4399ba);
+        
+    
+            var feature_group_5c12b9a03121958873bc298707a7ddb0 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_77bd7755e42ea5693d938c27de3c3275 = L.circleMarker(
+                [40.973511, 29.088955],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5c12b9a03121958873bc298707a7ddb0);
+        
+    
+        var popup_75ab0c54167268a0d7ee882b4bd1bf4b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d4a7d26962f8b441527582b4eb2867d3 = $(`<div id="html_d4a7d26962f8b441527582b4eb2867d3" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Population Coverage<br>                 <b>Neighbourhood:</b> 19 MAYIS MAH.<br>                 <b>Population:</b> 26366.0<br>                 <b>POI Count:</b> 66<br>                 <b>Bus Stations:</b> 15<br>                 <b>Metro Stations:</b> 5<br>                 <b>Shared Location:</b> 2 objectives                 </div>`)[0];
+                popup_75ab0c54167268a0d7ee882b4bd1bf4b.setContent(html_d4a7d26962f8b441527582b4eb2867d3);
+            
+        
+
+        circle_marker_77bd7755e42ea5693d938c27de3c3275.bindPopup(popup_75ab0c54167268a0d7ee882b4bd1bf4b)
+        ;
+
+        
+    
+    
+            var circle_marker_344db31689bddff5fb456887f9652981 = L.circleMarker(
+                [41.001781, 29.038741],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5c12b9a03121958873bc298707a7ddb0);
+        
+    
+        var popup_9acc6e64a36859457c5b7681c2311e6f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e1b821295be848cc1a8b40f7d33ff38a = $(`<div id="html_e1b821295be848cc1a8b40f7d33ff38a" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Population Coverage<br>                 <b>Neighbourhood:</b> ACIBADEM MAH.<br>                 <b>Population:</b> 24429.0<br>                 <b>POI Count:</b> 72<br>                 <b>Bus Stations:</b> 54<br>                 <b>Metro Stations:</b> 17<br>                 <b>Shared Location:</b> 4 objectives                 </div>`)[0];
+                popup_9acc6e64a36859457c5b7681c2311e6f.setContent(html_e1b821295be848cc1a8b40f7d33ff38a);
+            
+        
+
+        circle_marker_344db31689bddff5fb456887f9652981.bindPopup(popup_9acc6e64a36859457c5b7681c2311e6f)
+        ;
+
+        
+    
+    
+            var circle_marker_08a33364333e6ffb5c64f0ba08b3d9d7 = L.circleMarker(
+                [40.99297, 29.05974],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5c12b9a03121958873bc298707a7ddb0);
+        
+    
+        var popup_44eef2a424041864495dffa3b26b5f05 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e5a30e1c6d647bdbe38ef9802db0f2ae = $(`<div id="html_e5a30e1c6d647bdbe38ef9802db0f2ae" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Population Coverage<br>                 <b>Neighbourhood:</b> DUMLUPINAR MAH.<br>                 <b>Population:</b> 7833.0<br>                 <b>POI Count:</b> 6<br>                 <b>Bus Stations:</b> 10<br>                 <b>Metro Stations:</b> 1<br>                 <b>Shared Location:</b> 2 objectives                 </div>`)[0];
+                popup_44eef2a424041864495dffa3b26b5f05.setContent(html_e5a30e1c6d647bdbe38ef9802db0f2ae);
+            
+        
+
+        circle_marker_08a33364333e6ffb5c64f0ba08b3d9d7.bindPopup(popup_44eef2a424041864495dffa3b26b5f05)
+        ;
+
+        
+    
+    
+            var circle_marker_789f660361fb270d93f558d573e0a16f = L.circleMarker(
+                [40.974454, 29.043537],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5c12b9a03121958873bc298707a7ddb0);
+        
+    
+        var popup_e2b3d6af320308c1fe7d140c63bc72eb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_67883cfa6c8e588703e07391adba8cd2 = $(`<div id="html_67883cfa6c8e588703e07391adba8cd2" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Population Coverage<br>                 <b>Neighbourhood:</b> FENERBAHÇE MAH.<br>                 <b>Population:</b> 16946.0<br>                 <b>POI Count:</b> 96<br>                 <b>Bus Stations:</b> 14<br>                 <b>Metro Stations:</b> 0<br>                 <b>Shared Location:</b> 1 objectives                 </div>`)[0];
+                popup_e2b3d6af320308c1fe7d140c63bc72eb.setContent(html_67883cfa6c8e588703e07391adba8cd2);
+            
+        
+
+        circle_marker_789f660361fb270d93f558d573e0a16f.bindPopup(popup_e2b3d6af320308c1fe7d140c63bc72eb)
+        ;
+
+        
+    
+    
+            var circle_marker_39b371840ae8f2c4de00d717ef77f834 = L.circleMarker(
+                [40.977171, 29.06264],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5c12b9a03121958873bc298707a7ddb0);
+        
+    
+        var popup_c29befab8450a2d3f09d4e4af2c1a610 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_25c397b43b1465811bf58dbb7838cbd0 = $(`<div id="html_25c397b43b1465811bf58dbb7838cbd0" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Population Coverage<br>                 <b>Neighbourhood:</b> GÖZTEPE MAH.<br>                 <b>Population:</b> 32660.0<br>                 <b>POI Count:</b> 107<br>                 <b>Bus Stations:</b> 15<br>                 <b>Metro Stations:</b> 12<br>                 <b>Shared Location:</b> 2 objectives                 </div>`)[0];
+                popup_c29befab8450a2d3f09d4e4af2c1a610.setContent(html_25c397b43b1465811bf58dbb7838cbd0);
+            
+        
+
+        circle_marker_39b371840ae8f2c4de00d717ef77f834.bindPopup(popup_c29befab8450a2d3f09d4e4af2c1a610)
+        ;
+
+        
+    
+    
+            feature_group_5c12b9a03121958873bc298707a7ddb0.addTo(map_50e957d90b40a1dca31d207c5b4399ba);
+        
+    
+            var feature_group_fe283367da84ec133f1246e7db331303 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_45ea3a1d90026db3a38ea2c384c87b91 = L.circleMarker(
+                [41.001781, 29.038741],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16, "stroke": true, "weight": 2}
+            ).addTo(feature_group_fe283367da84ec133f1246e7db331303);
+        
+    
+        var popup_dcbadd5f60c69ee50c1378302c3b50a7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_78af59c31bab150732e902d79d231c84 = $(`<div id="html_78af59c31bab150732e902d79d231c84" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Poi Coverage<br>                 <b>Neighbourhood:</b> ACIBADEM MAH.<br>                 <b>Population:</b> 24429.0<br>                 <b>POI Count:</b> 72<br>                 <b>Bus Stations:</b> 54<br>                 <b>Metro Stations:</b> 17<br>                 <b>Shared Location:</b> 4 objectives                 </div>`)[0];
+                popup_dcbadd5f60c69ee50c1378302c3b50a7.setContent(html_78af59c31bab150732e902d79d231c84);
+            
+        
+
+        circle_marker_45ea3a1d90026db3a38ea2c384c87b91.bindPopup(popup_dcbadd5f60c69ee50c1378302c3b50a7)
+        ;
+
+        
+    
+    
+            var circle_marker_3f1535ffb42b98610de4d8088122338c = L.circleMarker(
+                [40.962856, 29.061369],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_fe283367da84ec133f1246e7db331303);
+        
+    
+        var popup_2f9e0fbd3571afbeca202ff5302bfc41 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4e9d53bf05d3c9f3c7aa9e441bf14b35 = $(`<div id="html_4e9d53bf05d3c9f3c7aa9e441bf14b35" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Poi Coverage<br>                 <b>Neighbourhood:</b> CADDEBOSTAN MAH.<br>                 <b>Population:</b> 16477.0<br>                 <b>POI Count:</b> 219<br>                 <b>Bus Stations:</b> 24<br>                 <b>Metro Stations:</b> 0<br>                 <b>Shared Location:</b> 1 objectives                 </div>`)[0];
+                popup_2f9e0fbd3571afbeca202ff5302bfc41.setContent(html_4e9d53bf05d3c9f3c7aa9e441bf14b35);
+            
+        
+
+        circle_marker_3f1535ffb42b98610de4d8088122338c.bindPopup(popup_2f9e0fbd3571afbeca202ff5302bfc41)
+        ;
+
+        
+    
+    
+            var circle_marker_236306223a22b6ff1a5facb924e11290 = L.circleMarker(
+                [40.982013, 29.049548],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_fe283367da84ec133f1246e7db331303);
+        
+    
+        var popup_efc9f0109a414386888a0cb411615ded = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2710ad45cd01a66d262976143c7e7331 = $(`<div id="html_2710ad45cd01a66d262976143c7e7331" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Poi Coverage<br>                 <b>Neighbourhood:</b> FENERYOLU MAH.<br>                 <b>Population:</b> 21700.0<br>                 <b>POI Count:</b> 56<br>                 <b>Bus Stations:</b> 8<br>                 <b>Metro Stations:</b> 5<br>                 <b>Shared Location:</b> 1 objectives                 </div>`)[0];
+                popup_efc9f0109a414386888a0cb411615ded.setContent(html_2710ad45cd01a66d262976143c7e7331);
+            
+        
+
+        circle_marker_236306223a22b6ff1a5facb924e11290.bindPopup(popup_efc9f0109a414386888a0cb411615ded)
+        ;
+
+        
+    
+    
+            var circle_marker_0fb6a9bfc672ad1bf29d235c61c0b2a4 = L.circleMarker(
+                [40.988172, 29.029933],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 2}
+            ).addTo(feature_group_fe283367da84ec133f1246e7db331303);
+        
+    
+        var popup_1ebfbb975655e7a0ec9f2786a77fec28 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f6b5a3cebb5f8555480e519f0501d79 = $(`<div id="html_6f6b5a3cebb5f8555480e519f0501d79" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Poi Coverage<br>                 <b>Neighbourhood:</b> OSMANAĞA MAH.<br>                 <b>Population:</b> 6283.0<br>                 <b>POI Count:</b> 185<br>                 <b>Bus Stations:</b> 10<br>                 <b>Metro Stations:</b> 0<br>                 <b>Shared Location:</b> 2 objectives                 </div>`)[0];
+                popup_1ebfbb975655e7a0ec9f2786a77fec28.setContent(html_6f6b5a3cebb5f8555480e519f0501d79);
+            
+        
+
+        circle_marker_0fb6a9bfc672ad1bf29d235c61c0b2a4.bindPopup(popup_1ebfbb975655e7a0ec9f2786a77fec28)
+        ;
+
+        
+    
+    
+            var circle_marker_b5841b5f3754d8fbbf678daf2762373a = L.circleMarker(
+                [40.961046, 29.081574],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_fe283367da84ec133f1246e7db331303);
+        
+    
+        var popup_9f89c3c27db0ef6edfdbd36109958fc0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9964ba03292674c23b3b30b51b60ad06 = $(`<div id="html_9964ba03292674c23b3b30b51b60ad06" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Poi Coverage<br>                 <b>Neighbourhood:</b> SUADİYE MAH.<br>                 <b>Population:</b> 21934.0<br>                 <b>POI Count:</b> 155<br>                 <b>Bus Stations:</b> 8<br>                 <b>Metro Stations:</b> 5<br>                 <b>Shared Location:</b> 1 objectives                 </div>`)[0];
+                popup_9f89c3c27db0ef6edfdbd36109958fc0.setContent(html_9964ba03292674c23b3b30b51b60ad06);
+            
+        
+
+        circle_marker_b5841b5f3754d8fbbf678daf2762373a.bindPopup(popup_9f89c3c27db0ef6edfdbd36109958fc0)
+        ;
+
+        
+    
+    
+            feature_group_fe283367da84ec133f1246e7db331303.addTo(map_50e957d90b40a1dca31d207c5b4399ba);
+        
+    
+            var feature_group_d4d4a4bdc2c2683d8891d94fe2d1cd7a = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_6a682a3b8fbb62f4c8f7b6248d35083c = L.circleMarker(
+                [40.973511, 29.088955],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_d4d4a4bdc2c2683d8891d94fe2d1cd7a);
+        
+    
+        var popup_90040200f5338bfcc64c7dc13b594ab2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_de148895e170de17f8767b82dd0d189c = $(`<div id="html_de148895e170de17f8767b82dd0d189c" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Bus Accessibility<br>                 <b>Neighbourhood:</b> 19 MAYIS MAH.<br>                 <b>Population:</b> 26366.0<br>                 <b>POI Count:</b> 66<br>                 <b>Bus Stations:</b> 15<br>                 <b>Metro Stations:</b> 5<br>                 <b>Shared Location:</b> 2 objectives                 </div>`)[0];
+                popup_90040200f5338bfcc64c7dc13b594ab2.setContent(html_de148895e170de17f8767b82dd0d189c);
+            
+        
+
+        circle_marker_6a682a3b8fbb62f4c8f7b6248d35083c.bindPopup(popup_90040200f5338bfcc64c7dc13b594ab2)
+        ;
+
+        
+    
+    
+            var circle_marker_3a613f13e2067175ba03e787983ef269 = L.circleMarker(
+                [41.001781, 29.038741],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_d4d4a4bdc2c2683d8891d94fe2d1cd7a);
+        
+    
+        var popup_1c4fe39e5382b98c00a927c8404d0208 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_291e2e0d68040e4a5c86f4529ed25db6 = $(`<div id="html_291e2e0d68040e4a5c86f4529ed25db6" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Bus Accessibility<br>                 <b>Neighbourhood:</b> ACIBADEM MAH.<br>                 <b>Population:</b> 24429.0<br>                 <b>POI Count:</b> 72<br>                 <b>Bus Stations:</b> 54<br>                 <b>Metro Stations:</b> 17<br>                 <b>Shared Location:</b> 4 objectives                 </div>`)[0];
+                popup_1c4fe39e5382b98c00a927c8404d0208.setContent(html_291e2e0d68040e4a5c86f4529ed25db6);
+            
+        
+
+        circle_marker_3a613f13e2067175ba03e787983ef269.bindPopup(popup_1c4fe39e5382b98c00a927c8404d0208)
+        ;
+
+        
+    
+    
+            var circle_marker_00b47ec2ec86c31fcc7baa230b0eea3d = L.circleMarker(
+                [40.99297, 29.05974],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_d4d4a4bdc2c2683d8891d94fe2d1cd7a);
+        
+    
+        var popup_ae6800fc9d9bedb7b22c9c63d769627e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_21e5584f46f4835475b90c8473c799fe = $(`<div id="html_21e5584f46f4835475b90c8473c799fe" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Bus Accessibility<br>                 <b>Neighbourhood:</b> DUMLUPINAR MAH.<br>                 <b>Population:</b> 7833.0<br>                 <b>POI Count:</b> 6<br>                 <b>Bus Stations:</b> 10<br>                 <b>Metro Stations:</b> 1<br>                 <b>Shared Location:</b> 2 objectives                 </div>`)[0];
+                popup_ae6800fc9d9bedb7b22c9c63d769627e.setContent(html_21e5584f46f4835475b90c8473c799fe);
+            
+        
+
+        circle_marker_00b47ec2ec86c31fcc7baa230b0eea3d.bindPopup(popup_ae6800fc9d9bedb7b22c9c63d769627e)
+        ;
+
+        
+    
+    
+            var circle_marker_731b5fb5e9aeb78274be12c6dea90653 = L.circleMarker(
+                [40.957852, 29.095764],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_d4d4a4bdc2c2683d8891d94fe2d1cd7a);
+        
+    
+        var popup_4b805001e2662f39a5168cfa53b1e204 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_22010ae2fa34edb4dcbec1af98db1a7d = $(`<div id="html_22010ae2fa34edb4dcbec1af98db1a7d" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Bus Accessibility<br>                 <b>Neighbourhood:</b> BOSTANCI MAH.<br>                 <b>Population:</b> 27219.0<br>                 <b>POI Count:</b> 124<br>                 <b>Bus Stations:</b> 26<br>                 <b>Metro Stations:</b> 20<br>                 <b>Shared Location:</b> 2 objectives                 </div>`)[0];
+                popup_4b805001e2662f39a5168cfa53b1e204.setContent(html_22010ae2fa34edb4dcbec1af98db1a7d);
+            
+        
+
+        circle_marker_731b5fb5e9aeb78274be12c6dea90653.bindPopup(popup_4b805001e2662f39a5168cfa53b1e204)
+        ;
+
+        
+    
+    
+            var circle_marker_75dce12a740770a50a5c6c681971c193 = L.circleMarker(
+                [40.982849, 29.086509],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_d4d4a4bdc2c2683d8891d94fe2d1cd7a);
+        
+    
+        var popup_00e424bf169be8787d5124e6a37c2ba7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9f0884ad9f9c379d5d2e03e9a3b5a414 = $(`<div id="html_9f0884ad9f9c379d5d2e03e9a3b5a414" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Bus Accessibility<br>                 <b>Neighbourhood:</b> SAHRAYICEDİT MAH.<br>                 <b>Population:</b> 25058.0<br>                 <b>POI Count:</b> 30<br>                 <b>Bus Stations:</b> 25<br>                 <b>Metro Stations:</b> 6<br>                 <b>Shared Location:</b> 1 objectives                 </div>`)[0];
+                popup_00e424bf169be8787d5124e6a37c2ba7.setContent(html_9f0884ad9f9c379d5d2e03e9a3b5a414);
+            
+        
+
+        circle_marker_75dce12a740770a50a5c6c681971c193.bindPopup(popup_00e424bf169be8787d5124e6a37c2ba7)
+        ;
+
+        
+    
+    
+            feature_group_d4d4a4bdc2c2683d8891d94fe2d1cd7a.addTo(map_50e957d90b40a1dca31d207c5b4399ba);
+        
+    
+            var feature_group_5942c8ad2dadf29980a7b6a033c36760 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_b8c9dafb53b74c6ef9eb9e3d75d46aaa = L.circleMarker(
+                [41.001781, 29.038741],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5942c8ad2dadf29980a7b6a033c36760);
+        
+    
+        var popup_c2d2f7a0f58abd43497dc1255babf270 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c5804be301788c1bd209f1087e31dae6 = $(`<div id="html_c5804be301788c1bd209f1087e31dae6" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Metro Accessibility<br>                 <b>Neighbourhood:</b> ACIBADEM MAH.<br>                 <b>Population:</b> 24429.0<br>                 <b>POI Count:</b> 72<br>                 <b>Bus Stations:</b> 54<br>                 <b>Metro Stations:</b> 17<br>                 <b>Shared Location:</b> 4 objectives                 </div>`)[0];
+                popup_c2d2f7a0f58abd43497dc1255babf270.setContent(html_c5804be301788c1bd209f1087e31dae6);
+            
+        
+
+        circle_marker_b8c9dafb53b74c6ef9eb9e3d75d46aaa.bindPopup(popup_c2d2f7a0f58abd43497dc1255babf270)
+        ;
+
+        
+    
+    
+            var circle_marker_ba80c12b98b431314a68807e5dd67cb8 = L.circleMarker(
+                [40.977171, 29.06264],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5942c8ad2dadf29980a7b6a033c36760);
+        
+    
+        var popup_4748f9069578ce2a6384e543a6a72837 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_53b2d87e022e5728d476b14ebd346969 = $(`<div id="html_53b2d87e022e5728d476b14ebd346969" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Metro Accessibility<br>                 <b>Neighbourhood:</b> GÖZTEPE MAH.<br>                 <b>Population:</b> 32660.0<br>                 <b>POI Count:</b> 107<br>                 <b>Bus Stations:</b> 15<br>                 <b>Metro Stations:</b> 12<br>                 <b>Shared Location:</b> 2 objectives                 </div>`)[0];
+                popup_4748f9069578ce2a6384e543a6a72837.setContent(html_53b2d87e022e5728d476b14ebd346969);
+            
+        
+
+        circle_marker_ba80c12b98b431314a68807e5dd67cb8.bindPopup(popup_4748f9069578ce2a6384e543a6a72837)
+        ;
+
+        
+    
+    
+            var circle_marker_320ee4a182c88e8729811faef2a1370e = L.circleMarker(
+                [40.988172, 29.029933],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5942c8ad2dadf29980a7b6a033c36760);
+        
+    
+        var popup_d793bfc7140066785057f6a5e61236c9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_192d304f6f86c378cdf561fb70ff4367 = $(`<div id="html_192d304f6f86c378cdf561fb70ff4367" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Metro Accessibility<br>                 <b>Neighbourhood:</b> OSMANAĞA MAH.<br>                 <b>Population:</b> 6283.0<br>                 <b>POI Count:</b> 185<br>                 <b>Bus Stations:</b> 10<br>                 <b>Metro Stations:</b> 0<br>                 <b>Shared Location:</b> 2 objectives                 </div>`)[0];
+                popup_d793bfc7140066785057f6a5e61236c9.setContent(html_192d304f6f86c378cdf561fb70ff4367);
+            
+        
+
+        circle_marker_320ee4a182c88e8729811faef2a1370e.bindPopup(popup_d793bfc7140066785057f6a5e61236c9)
+        ;
+
+        
+    
+    
+            var circle_marker_aa4c2b02a1795c47f1b66c730425ac7d = L.circleMarker(
+                [40.957852, 29.095764],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5942c8ad2dadf29980a7b6a033c36760);
+        
+    
+        var popup_1ac72cc7cc722fed13e5f394431a1eca = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3ff0aad36b0673be9d13ad76b9a3fcb8 = $(`<div id="html_3ff0aad36b0673be9d13ad76b9a3fcb8" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Metro Accessibility<br>                 <b>Neighbourhood:</b> BOSTANCI MAH.<br>                 <b>Population:</b> 27219.0<br>                 <b>POI Count:</b> 124<br>                 <b>Bus Stations:</b> 26<br>                 <b>Metro Stations:</b> 20<br>                 <b>Shared Location:</b> 2 objectives                 </div>`)[0];
+                popup_1ac72cc7cc722fed13e5f394431a1eca.setContent(html_3ff0aad36b0673be9d13ad76b9a3fcb8);
+            
+        
+
+        circle_marker_aa4c2b02a1795c47f1b66c730425ac7d.bindPopup(popup_1ac72cc7cc722fed13e5f394431a1eca)
+        ;
+
+        
+    
+    
+            var circle_marker_265bf54c5e026d5a6126406e57c76c8c = L.circleMarker(
+                [40.989437, 29.049488],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 2}
+            ).addTo(feature_group_5942c8ad2dadf29980a7b6a033c36760);
+        
+    
+        var popup_184e974ce22da37d668865d7d03aed61 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d9530bea3156e78645ae966a854c18af = $(`<div id="html_d9530bea3156e78645ae966a854c18af" style="width: 100.0%; height: 100.0%;">                 <b>Objective:</b> Metro Accessibility<br>                 <b>Neighbourhood:</b> EĞİTİM MAH.<br>                 <b>Population:</b> 10676.0<br>                 <b>POI Count:</b> 20<br>                 <b>Bus Stations:</b> 5<br>                 <b>Metro Stations:</b> 0<br>                 <b>Shared Location:</b> 1 objectives                 </div>`)[0];
+                popup_184e974ce22da37d668865d7d03aed61.setContent(html_d9530bea3156e78645ae966a854c18af);
+            
+        
+
+        circle_marker_265bf54c5e026d5a6126406e57c76c8c.bindPopup(popup_184e974ce22da37d668865d7d03aed61)
+        ;
+
+        
+    
+    
+            feature_group_5942c8ad2dadf29980a7b6a033c36760.addTo(map_50e957d90b40a1dca31d207c5b4399ba);
+        
+    
+            var layer_control_4377ff83c471e019c7953ce5638c3d23_layers = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_e23b5b9e4d5284ccdfd2e313ce73a280,
+                },
+                overlays :  {
+                    "Population Coverage" : feature_group_5c12b9a03121958873bc298707a7ddb0,
+                    "Poi Coverage" : feature_group_fe283367da84ec133f1246e7db331303,
+                    "Bus Accessibility" : feature_group_d4d4a4bdc2c2683d8891d94fe2d1cd7a,
+                    "Metro Accessibility" : feature_group_5942c8ad2dadf29980a7b6a033c36760,
+                },
+            };
+            let layer_control_4377ff83c471e019c7953ce5638c3d23 = L.control.layers(
+                layer_control_4377ff83c471e019c7953ce5638c3d23_layers.base_layers,
+                layer_control_4377ff83c471e019c7953ce5638c3d23_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_50e957d90b40a1dca31d207c5b4399ba);
+
+        
+</script>
+</html>

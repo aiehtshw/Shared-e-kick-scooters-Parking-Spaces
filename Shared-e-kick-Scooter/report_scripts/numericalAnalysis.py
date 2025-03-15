@@ -186,7 +186,7 @@ class EScooterLocationOptimizer:
     def plot_results(self, distance_results, location_results):
         """Plot the results for all objective functions with separate graphs"""
         objectives = ['population_coverage', 'bus_accessibility', 
-                     'metro_accessibility', 'poi_coverage']
+                    'metro_accessibility', 'poi_coverage']
         
         # Plot distance variation results
         plt.figure(figsize=(15, 10))
@@ -202,17 +202,25 @@ class EScooterLocationOptimizer:
         plt.tight_layout()
         plt.show()
 
-        # Plot location variation results
+        # Plot location variation results with star markers
         plt.figure(figsize=(15, 10))
         for i, obj in enumerate(objectives, 1):
             plt.subplot(2, 2, i)
             locations = [r['locations'] for r in location_results]
             values = [r['results'][obj]['objective_value'] for r in location_results]
+            
+            # Plot line
             plt.plot(locations, values, 'r-', label='Location variation')
+            
+            # Add star markers
+            plt.plot(locations, values, '*', color='black', markersize=8, 
+                    label='Zone centroids')
+            
             plt.xlabel('Number of Locations')
             plt.ylabel('Objective Value')
             plt.title(f'{obj.replace("_", " ").title()}')
             plt.grid(True)
+            plt.legend()
         plt.tight_layout()
         plt.show()
 
